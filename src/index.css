@@ -1,0 +1,48 @@
+*, *:before, *:after {
+  box-sizing:inherit;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+#root {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+body {
+  font-family: "Open Sans"
+}
+
+.container {
+  margin: auto;
+  width: 80%;
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1000px;
+  }
+}
+
+header a svg {
+  height: 16px;
+  margin-right: 4px;
+  position: relative;
+  top: -1px;
+}
+
+aside {
+  display: inline-block;
+}
+
+section {
+  margin-bottom: 80px;
+  margin-top: 24px;
+}
+
+strong {
+  font-weight: 600;
+}
