@@ -12,7 +12,7 @@
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.0",
     "styled-components": "^5.0.1",
-    "turkuaz": "^0.35.4"
+    "turkuaz": "^0.37.0"
   },
   "scripts": {
     "start": "react-scripts start",

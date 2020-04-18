@@ -58,21 +58,21 @@ import TurkuazPage from "./about/Turkuaz"
 import TeamPage from "./about/Team"
 import BrandPage from "./about/Brand"
 
-{/* Ana Sayfa */}
+/* Ana Sayfa */
 export function Home() {
   return (
     <HomePage />
   )
 }
 
-{/* Dokümantasyon */}
+/* Dokümantasyon */
 export function Documentation() {
   return (
     <DocumentationPage />
   )
 }
 
-{/* Dokümantasyon - Genel Bakış */}
+/* Dokümantasyon - Genel Bakış */
 export function Overview() {
   return (
     <OverviewPage />
@@ -115,7 +115,7 @@ export function Migration() {
   )
 }
 
-{/* Dokümantasyon - Farklı Platformlar */}
+/* Dokümantasyon - Farklı Platformlar */
 export function Library() {
   return (
     <LibraryPage />
@@ -146,7 +146,7 @@ export function VueJS() {
   )
 }
 
-{/* Dokümantasyon - Form */}
+/* Dokümantasyon - Form */
 export function Form() {
   return (
     <FormPage />
@@ -189,7 +189,7 @@ export function SwitchCheck() {
   )
 }
 
-{/* Dokümantasyon - Elementler */}
+/* Dokümantasyon - Elementler */
 export function Elements() {
   return (
     <ElementsPage />
@@ -274,7 +274,7 @@ export function Tooltip() {
   )
 }
 
-{/* Dokümantasyon - Bileşenler */}
+/* Dokümantasyon - Bileşenler */
 export function Components() {
   return (
     <ComponentsPage />
@@ -334,14 +334,14 @@ export function Pagination() {
   )
 }
 
-{/* Tema */}
+/* Tema */
 export function Theme() {
   return (
     <ThemePage />
   )
 }
 
-{/* Hakkında */}
+/* Hakkında */
 export function About() {
   return (
     <AboutPage />

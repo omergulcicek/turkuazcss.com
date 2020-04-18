@@ -154,3 +154,21 @@ export const SettingsStyled = styled.div`
     }
   }
 `;
+
+export const Pagination = styled.section`
+  align-item: center;
+  display: flex;
+  justify-content: space-between;
+
+  a:first-child {
+    svg {
+      margin-right: 8px
+    }
+  }
+
+  a:last-child {
+    svg {
+      margin-left: 8px
+    }
+  }
+`;

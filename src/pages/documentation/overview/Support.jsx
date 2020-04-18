@@ -1,26 +1,6 @@
-import React, { Component } from "react"
+import React from "react"
 
-import { SEO, BasePageHeader } from "../../../components"
-
-class App extends Component {
-  render () {
-    const { title, desc, breadcrumb } = obj
-
-    return (
-      <>
-        <SEO title={title} />
-
-        <BasePageHeader
-          title={title}
-          desc={desc}
-          breadcrumb={breadcrumb}
-        />
-      </>
-    )
-  }
-}
-
-export default App
+import { BasePage } from "../../../components"
 
 export const obj = {
   title: "Destek Ol",
@@ -42,5 +22,23 @@ export const obj = {
       text: "Destek Ol",
       link: "/support"
     }
-  ]
+  ],
+  pagination: {
+    prev: {
+      href: "preview",
+      text: "Önizleme"
+    },
+    next: {
+      href: "migration",
+      text: "Versiyon Değişiklikleri"
+    }
+  }
 }
+
+const App = () => {
+  return (
+    <BasePage info={obj} />
+  )
+}
+
+export default App

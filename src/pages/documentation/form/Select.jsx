@@ -1,61 +1,6 @@
-import React, { Component } from "react"
+import React from "react"
 
-import { SEO, BasePageHeader, Settings } from "../../../components"
-
-class App extends Component {
-  constructor(props) {
-    super(props)
-  }
-  
-  render () {
-    const { title, desc, breadcrumb } = obj
-
-    return (
-      <section>
-        <SEO title={title} />
-
-        <BasePageHeader
-          title={title}
-          desc={desc}
-          breadcrumb={breadcrumb}
-        />
-
-        <Settings>
-          <aside>
-            <div class="form-field">
-              <select class="select">
-                <option>Default select</option>
-                <option>Option</option>
-                <option>Option</option>
-                <option>Option</option>
-              </select>
-            </div>
-            <div class="form-field">
-              <select class="select" disabled>
-                <option>Default select</option>
-                <option>Option</option>
-                <option>Option</option>
-                <option>Option</option>
-              </select>
-            </div>
-
-            <pre>
-              
-            <div dangerouslySetInnerHTML={{ __html: `` }} />
-
-            </pre>
-          </aside>
-
-          <aside>
-          </aside>
-        </Settings>
-
-      </section>
-    )
-  }
-}
-
-export default App
+import { BasePage } from "../../../components"
 
 export const obj = {
   title: "Select",
@@ -77,5 +22,23 @@ export const obj = {
       text: "Select",
       link: "/select"
     }
-  ]
+  ],
+  pagination: {
+    prev: {
+      href: "textarea",
+      text: "Textarea"
+    },
+    next: {
+      href: "checkbox",
+      text: "Checkbox"
+    }
+  }
 }
+
+const App = () => {
+  return (
+    <BasePage info={obj} />
+  )
+}
+
+export default App

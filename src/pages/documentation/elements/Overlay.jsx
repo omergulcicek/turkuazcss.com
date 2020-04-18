@@ -1,6 +1,6 @@
 import React from "react"
 
-import { BasePage, Settings } from "../../../components"
+import { BasePage } from "../../../components"
 
 export const obj = {
   title: "Overlay",
@@ -22,28 +22,22 @@ export const obj = {
       text: "Overlay",
       link: "/overlay"
     }
-  ]
+  ],
+  pagination: {
+    prev: {
+      href: "notification",
+      text: "Notification"
+    },
+    next: {
+      href: "progress",
+      text: "Progress"
+    }
+  }
 }
 
 const App = () => {
   return (
-    <>
-    <BasePage content={obj} />
-    
-    <Settings>
-      <aside>
-        
-        <pre>
-          
-        <div dangerouslySetInnerHTML={{ __html: `` }} />
-
-        </pre>
-      </aside>
-
-      <aside>
-      </aside>
-    </Settings>
-    </>
+    <BasePage info={obj} />
   )
 }
 

@@ -1,79 +1,6 @@
-import React, { Component } from "react"
+import React from "react"
 
-import { SEO, BasePageHeader, Settings } from "../../../components"
-
-class App extends Component {
-  constructor(props) {
-    super(props)
-  }
-  
-  render () {
-    const { title, desc, breadcrumb } = obj
-
-    return (
-      <section>
-        <SEO title={title} />
-
-        <BasePageHeader
-          title={title}
-          desc={desc}
-          breadcrumb={breadcrumb}
-        />
-
-        <Settings>
-          <aside>
-            <div class="form-field">
-              <label>Kullanıcı Adı</label>
-              <input type="text" placeholder="omergulcicek" class="input" />
-              <small class="input-text">En az 3 karakter</small>
-            </div>
-            <div class="form-field">
-              <input type="text" placeholder="Lorem ipsum dolor sit amet consectetur, adipisicing elit" class="input" disabled />
-            </div>
-            <div class="form-field">
-              <input type="text" class="input" value="Lorem ipsum dolor sit amet consectetur, adipisicing elit" readonly />
-            </div>
-            <div class="form-field">
-              <input type="text" placeholder="Valid input" class="input is-valid" />
-              <small class="input-text">E-posta kullanılabilir.</small>
-            </div>
-            <div class="form-field">
-              <input type="text" placeholder="Invalid input" class="input is-invalid" />
-              <small class="input-text">E-posta adresi kullanılmaktadır.</small>
-            </div>
-            <div class="form-field has-loading">
-              <input type="text" placeholder="Loading..." class="input" />
-            </div>
-            <div class="form-field has-icon">
-              <input type="mail" placeholder="support@example.com" class="input" />
-              <span class="input-icon">
-                <i class="fa fa-user"></i>
-              </span>
-            </div>
-            <div class="form-field has-icon">
-              <input type="password" placeholder="password" class="input" />
-              <span class="input-icon">
-                <i class="fa fa-key"></i>
-              </span>
-            </div>
-
-            <pre>
-              
-            <div dangerouslySetInnerHTML={{ __html: `` }} />
-
-            </pre>
-          </aside>
-
-          <aside>
-          </aside>
-        </Settings>
-
-      </section>
-    )
-  }
-}
-
-export default App
+import { BasePage } from "../../../components"
 
 export const obj = {
   title: "Input",
@@ -95,5 +22,23 @@ export const obj = {
       text: "Input",
       link: "/input"
     }
-  ]
+  ],
+  pagination: {
+    prev: {
+      href: "/docs/form",
+      text: "Form"
+    },
+    next: {
+      href: "textarea",
+      text: "Textarea"
+    }
+  }
 }
+
+const App = () => {
+  return (
+    <BasePage info={obj} />
+  )
+}
+
+export default App

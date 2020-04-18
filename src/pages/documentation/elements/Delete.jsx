@@ -1,6 +1,6 @@
 import React from "react"
 
-import { BasePage, Settings } from "../../../components"
+import { BasePage } from "../../../components"
 
 export const obj = {
   title: "Delete",
@@ -22,59 +22,22 @@ export const obj = {
       text: "Delete",
       link: "/delete"
     }
-  ]
-}
-
-export const details = {
-  tag: [
-    {
-      attr: "span",
-      value: "span"
-    },
-    {
-      attr: "a",
-      value: "a",
-    },
-    {
-      attr: "div",
-      value: "div"
-    }
   ],
-  size: [
-    {
-      attr: "small",
-      value: "is-small"
+  pagination: {
+    prev: {
+      href: "button",
+      text: "Button"
     },
-    {
-      attr: "",
-      value: ""
-    },
-    {
-      attr: "large",
-      value: "is-large"
+    next: {
+      href: "divider",
+      text: "Divider"
     }
-  ]
+  }
 }
 
 const App = () => {
   return (
-    <>
-    <BasePage content={obj} />
-    
-    <Settings>
-      <aside>
-        
-        <pre>
-          
-        <div dangerouslySetInnerHTML={{ __html: `` }} />
-
-        </pre>
-      </aside>
-
-      <aside>
-      </aside>
-    </Settings>
-    </>
+    <BasePage info={obj} />
   )
 }
 

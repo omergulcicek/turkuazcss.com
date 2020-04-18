@@ -22,28 +22,22 @@ export const obj = {
       text: "Notification",
       link: "/notification"
     }
-  ]
+  ],
+  pagination: {
+    prev: {
+      href: "image",
+      text: "Image"
+    },
+    next: {
+      href: "overlay",
+      text: "Overlay"
+    }
+  }
 }
 
 const App = () => {
   return (
-    <>
-    <BasePage content={obj} />
-    
-    <Settings>
-      <aside>
-        
-        <pre>
-          
-        <div dangerouslySetInnerHTML={{ __html: `` }} />
-
-        </pre>
-      </aside>
-
-      <aside>
-      </aside>
-    </Settings>
-    </>
+    <BasePage info={obj} />
   )
 }
 

@@ -1,85 +1,6 @@
-import React, { Component } from "react"
+import React from "react"
 
-import { SEO, BasePageHeader, Settings } from "../../../components"
-
-class App extends Component {
-  constructor(props) {
-    super(props)
-  }
-  
-  render () {
-    const { title, desc, breadcrumb } = obj
-
-    return (
-      <section>
-        <SEO title={title} />
-
-        <BasePageHeader
-          title={title}
-          desc={desc}
-          breadcrumb={breadcrumb}
-        />
-
-        <Settings>
-          <aside>
-            <div class="form-field">
-              <p>
-                <label>
-                  <input type="checkbox" class="switch" />
-                  <span></span>
-                </label>
-              </p>
-              <p>
-                <label>
-                Kapalı
-                  <input type="checkbox" class="switch" />
-                  <span></span>
-                Açık
-                </label>
-              </p>
-              <p>
-                <label>
-                Kapalı
-                  <input type="checkbox" class="switch" checked />
-                  <span></span>
-                Açık
-                </label>
-              </p>
-              <p>
-                <label>
-                Kapalı
-                  <input type="checkbox" class="switch" disabled />
-                  <span></span>
-                Açık
-                </label>
-              </p>
-              <p>
-                <label>
-                Kapalı
-                  <input type="checkbox" class="switch" checked disabled />
-                  <span></span>
-                Açık
-                </label>
-              </p>
-            </div>
-
-            <pre>
-              
-            <div dangerouslySetInnerHTML={{ __html: `` }} />
-
-            </pre>
-          </aside>
-
-          <aside>
-          </aside>
-        </Settings>
-
-      </section>
-    )
-  }
-}
-
-export default App
+import { BasePage } from "../../../components"
 
 export const obj = {
   title: "Switch",
@@ -101,5 +22,23 @@ export const obj = {
       text: "Switch",
       link: "/switch"
     }
-  ]
+  ],
+  pagination: {
+    prev: {
+      href: "radio",
+      text: "Radio"
+    },
+    next: {
+      href: "/docs/elements",
+      text: "Elementler"
+    }
+  }
 }
+
+const App = () => {
+  return (
+    <BasePage info={obj} />
+  )
+}
+
+export default App

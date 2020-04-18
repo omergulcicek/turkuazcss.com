@@ -1,6 +1,6 @@
 import React from "react"
 
-import { BasePage, Settings } from "../../../components"
+import { BasePage } from "../../../components"
 
 export const obj = {
   title: "Tag",
@@ -22,28 +22,22 @@ export const obj = {
       text: "Tag",
       link: "/tag"
     }
-  ]
+  ],
+  pagination: {
+    prev: {
+      href: "table",
+      text: "Table"
+    },
+    next: {
+      href: "title",
+      text: "Title"
+    }
+  }
 }
 
 const App = () => {
   return (
-    <>
-    <BasePage content={obj} />
-    
-    <Settings>
-      <aside>
-        
-        <pre>
-          
-        <div dangerouslySetInnerHTML={{ __html: `` }} />
-
-        </pre>
-      </aside>
-
-      <aside>
-      </aside>
-    </Settings>
-    </>
+    <BasePage info={obj} />
   )
 }
 

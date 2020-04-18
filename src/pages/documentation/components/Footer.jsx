@@ -22,13 +22,23 @@ export const obj = {
       text: "Footer",
       link: "/footer"
     }
-  ]
+  ],
+  pagination: {
+    prev: {
+      href: "dropdown",
+      text: "Dropdown"
+    },
+    next: {
+      href: "list",
+      text: "List"
+    }
+  }
 }
 
 const App = () => {
   return (
     <>
-    <BasePage content={obj} />
+    <BasePage info={obj} />
     
     <Settings>
       <aside>

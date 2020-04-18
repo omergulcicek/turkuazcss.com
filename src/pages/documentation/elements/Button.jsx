@@ -1,6 +1,6 @@
 import React from "react"
 
-import { BasePage, Settings } from "../../../components"
+import { BasePage } from "../../../components"
 
 export const obj = {
   title: "Button",
@@ -22,97 +22,22 @@ export const obj = {
       text: "Button",
       link: "/button"
     }
-  ]
-}
-
-export const details = {
-  color: [
-    {
-      attr: "",
-      value: ""
-    },
-    {
-      colorHex: "#26a69a",
-      value: "is-primary",
-    },
-    {
-      colorHex: "#f5f5f5",
-      value: "is-secondary"
-    },
-    {
-      colorHex: "#23d160",
-      value: "is-success"
-    },
-    {
-      colorHex: "#ffca28",
-      value: "is-warning"
-    },
-    {
-      colorHex: "#f44336",
-      value: "is-danger"
-    },
-    {
-      colorHex: "#2196f3",
-      value: "is-info"
-    },
-    {
-      colorHex: "transparent",
-      value: "is-link"
-    }
   ],
-  size: [
-    {
-      attr: "small",
-      value: "is-small"
+  pagination: {
+    prev: {
+      href: "box",
+      text: "Box"
     },
-    {
-      attr: "",
-      value: ""
-    },
-    {
-      attr: "large",
-      value: "is-large"
+    next: {
+      href: "delete",
+      text: "Delete"
     }
-  ],
-  style: [
-    {
-      attr: "",
-      value: ""
-    },
-    {
-      attr: "circle",
-      value: "is-circle"
-    },
-    {
-      attr: "square",
-      value: "is-square"
-    },
-    {
-      attr: "block",
-      value: "is-block"
-    }
-  ],
+  }
 }
 
 const App = () => {
   return (
-    <>
-    <BasePage content={obj} />
-    
-    <Settings>
-      <aside>
-        
-        <pre>
-          
-        <div dangerouslySetInnerHTML={{ __html: `` }} />
-
-        </pre>
-      </aside>
-
-      <aside>
-      </aside>
-    </Settings>
-    </>
+    <BasePage info={obj} />
   )
 }
 

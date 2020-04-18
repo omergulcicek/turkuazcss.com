@@ -23,12 +23,6 @@ export const obj = {
       icon: '<svg xmlns="http://www.w3.org/2000/Svg" role="img" viewBox="0 0 109.000000 162.000000" height="40"><g transform="translate(0.000000,162.000000) scale(0.100000,-0.100000)" stroke="none" fill="#03968a"><path d="M20 1083 c0 -570 2 -588 61 -706 65 -128 168 -231 295 -295 110 -55 156 -62 433 -62 l251 0 0 38 c0 104 -61 202 -153 245 -44 21 -72 26 -180 30 -106 5 -136 10 -180 30 -76 35 -122 79 -159 155 l-33 67 -5 410 -5 410 -27 47 c-54 91 -152 148 -254 148 l-44 0 0 -517z"></path><path d="M490 1048 c-91 -63 -93 -204 -3 -264 69 -46 223 -38 302 16 25 18 58 49 73 70 27 37 58 132 58 177 l0 23 -199 0 c-189 0 -200 -1 -231 -22z"></path></g></svg>'
     },
     {
-      text: "Takım",
-      link: "/about/team",
-      desc: "",
-      icon: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="40"><path fill="#ffca28" d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm95.8 32.6L272 480l-32-136 32-56h-96l32 56-32 136-47.8-191.4C56.9 292 0 350.3 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-72.1-56.9-130.4-128.2-133.8z"></path></svg>'
-    },
-    {
       text: "Marka Yönergesi",
       link: "/about/brand",
       desc: "",
@@ -39,7 +33,13 @@ export const obj = {
 
 const App = () => {
   return (
-    <BasePage content={obj} />
+    <BasePage info={obj}>
+      <section>
+        <p>
+        HAKKINDA SAYFASI, adipisicing elit. Eum reprehenderit itaque voluptas, tempora voluptatem sed laborum molestias, neque ipsam adipisci velit quaerat accusantium vel dolore non sint voluptates ad quo.
+        </p>
+      </section>
+    </BasePage>
   )
 }
 

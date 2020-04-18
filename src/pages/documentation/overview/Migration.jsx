@@ -22,12 +22,22 @@ export const obj = {
       text: "Versiyon Değişikliği",
       link: "/migration"
     }
-  ]
+  ],
+  pagination: {
+    prev: {
+      href: "support",
+      text: "Destek Ol"
+    },
+    next: {
+      href: "/docs/form",
+      text: "Form"
+    }
+  }
 }
 
 const App = () => {
   return (
-    <BasePage content={obj} />
+    <BasePage info={obj} />
   )
 }
 

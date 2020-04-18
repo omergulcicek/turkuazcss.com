@@ -19,14 +19,18 @@ export function SEO({ title }) {
   )
 }
 
-export function BasePage({ title, desc, breadcrumb, content }) {
+export function BasePage({ info }) {
+  const { title, desc, breadcrumb, content, pagination } = info
   return (
-    <BasePageTemp
-      title={title}
-      desc={desc}
-      breadcrumb={breadcrumb}
-      content={content}
-    />
+    <>
+      <BasePageTemp
+        title={title}
+        desc={desc}
+        breadcrumb={breadcrumb}
+        content={content}
+        pagination={pagination}
+      />
+    </>
   )
 }
 

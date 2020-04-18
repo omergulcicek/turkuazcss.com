@@ -103,7 +103,7 @@ export const obj = {
 
 const App = () => {
   return (
-    <BasePage content={obj} />
+    <BasePage info={obj} />
   )
 }
 

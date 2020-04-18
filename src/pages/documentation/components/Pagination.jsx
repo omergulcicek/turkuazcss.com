@@ -22,13 +22,19 @@ export const obj = {
       text: "Pagination",
       link: "/pagination"
     }
-  ]
+  ],
+  pagination: {
+    prev: {
+      href: "navbar",
+      text: "Navbar"
+    }
+  }
 }
 
 const App = () => {
   return (
     <>
-    <BasePage content={obj} />
+    <BasePage info={obj} />
     
     <Settings>
       <aside>

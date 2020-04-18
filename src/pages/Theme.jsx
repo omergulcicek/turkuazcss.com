@@ -20,7 +20,7 @@ export const obj = {
 const App = () => {
   return (
     <>
-    <BasePage content={obj} />
+    <BasePage info={obj} />
     <section>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea deleniti enim ipsam, est repudiandae dolorem animi hic, dicta dignissimos, error saepe expedita delectus nemo eligendi nihil rem itaque sint maxime!

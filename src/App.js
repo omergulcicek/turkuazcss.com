@@ -7,13 +7,24 @@ import {
 
 import { Layout } from "./components"
 import {
-  Home, Documentation, Theme, About,
-  Elements,
-  Overview, Turkuaz, Start, Syntax, Support, Migration, Preview,
-  Library, CSS, Sass, ReactJS, VueJS,
+  Home,
+
+  Documentation,
+
+  Overview, Start, Preview, Syntax, Support, Migration, 
+
   Form, Input, Textarea, Select, Checkbox, Radio, SwitchCheck,
-  Components, Button, Breadcrumb, Delete, Divider, Dropdown, Tag, Footer, Card, Box, List, Navbar, Modal, Pagination, Progress, Image, Badge, Table, Tooltip, Notification, Media, Overlay, Title,
-  Brand, Team
+
+  Elements, Badge, Box, Button, Delete, Divider, Image, Notification, Overlay, Progress, Table, Tag, Title, Tooltip,
+
+  Components, Breadcrumb, Card, Dropdown, Footer, List, Media, Modal, Navbar, Pagination,
+
+  Library, CSS, Sass, ReactJS, VueJS,
+  
+  Theme,
+
+  About, Turkuaz, Brand
+  
 } from "./pages"
 
 const App = () => {
@@ -217,10 +228,6 @@ const App = () => {
 
           <Route path="/about/turkuaz">
             <Turkuaz />
-          </Route>
-
-          <Route path="/about/team">
-            <Team />
           </Route>
 
           <Route path="/about/brand">

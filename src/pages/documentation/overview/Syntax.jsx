@@ -22,12 +22,22 @@ export const obj = {
       text: "Kod Yapısı",
       link: "/syntax"
     }
-  ]
+  ],
+  pagination: {
+    prev: {
+      href: "preview",
+      text: "Önizleme"
+    },
+    next: {
+      href: "support",
+      text: "Destek Ol"
+    }
+  }
 }
 
 const App = () => {
   return (
-    <BasePage content={obj} />
+    <BasePage info={obj} />
   )
 }
 

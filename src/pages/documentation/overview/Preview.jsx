@@ -22,12 +22,22 @@ export const obj = {
       text: "Önizleme",
       link: "/preview"
     }
-  ]
+  ],
+  pagination: {
+    prev: {
+      href: "start",
+      text: "Kurulum"
+    },
+    next: {
+      href: "syntax",
+      text: "Kod Yapısı"
+    }
+  }
 }
 
 const App = () => {
   return (
-    <BasePage content={obj} />
+    <BasePage info={obj} />
   )
 }
 

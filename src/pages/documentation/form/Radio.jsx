@@ -1,109 +1,6 @@
-import React, { Component } from "react"
+import React from "react"
 
-import { SEO, BasePageHeader, Settings } from "../../../components"
-
-class App extends Component {
-  constructor(props) {
-    super(props)
-  }
-  
-  render () {
-    const { title, desc, breadcrumb } = obj
-
-    return (
-      <section>
-        <SEO title={title} />
-
-        <BasePageHeader
-          title={title}
-          desc={desc}
-          breadcrumb={breadcrumb}
-        />
-
-        <Settings>
-          <aside>
-            <div class="form-field">
-              <p>
-                <label>
-                  <input type="radio" name="radio" class="radio" />
-                  <span>Normal</span>
-                </label>
-              </p>
-              <p>
-                <label>
-                  <input type="radio" name="radio" class="radio" checked />
-                  <span>Seçili</span>
-                </label>
-              </p>
-              <p>
-                <label>
-                  <input type="radio" name="radio2" class="radio" disabled />
-                  <span>Pasif</span>
-                </label>
-              </p>
-              <p>
-                <label>
-                  <input type="radio" name="radio2" class="radio" checked disabled />
-                  <span>Seçili ve pasif</span>
-                </label>
-              </p>
-
-              <p>
-                <label>
-                  <input type="radio" class="radio color-input is-circle" name="radio3" />
-                  <span style={{backgroundColor: "#6574cd"}}></span>
-                </label>
-                <label>
-                  <input type="radio" class="radio color-input is-circle" name="radio3" />
-                  <span style={{backgroundColor: "#cd201f"}}></span>
-                </label>
-                <label>
-                  <input type="radio" class="radio color-input" name="radio3" />
-                  <span style={{backgroundColor: "#7bd235"}}></span>
-                </label>
-              </p>
-
-              <p>
-                <label>
-                  <input type="radio" class="radio select-input is-circle" name="radio4" />
-                  <span>
-                    <i class="fa fa-ambulance"></i>
-                  </span>
-                </label>
-                <label>
-                  <input type="radio" class="radio select-input is-circle" name="radio4" />
-                  <span>
-                    <i class="fa fa-rocket"></i>
-                    <span class="ml-1">Rokey</span>
-                  </span>
-                </label>
-                <label>
-                  <input type="radio" class="radio select-input" name="radio4" />
-                  <span>
-                    <i class="fa fa-bicycle"></i>
-                    <span class="ml-1">Bisikletle geleceğim</span>
-                  </span>
-                </label>
-              </p>
-            </div>
-
-            <pre>
-              
-            <div dangerouslySetInnerHTML={{ __html: `` }} />
-
-            </pre>
-          </aside>
-
-          <aside>
-          </aside>
-        </Settings>
-
-      </section>
-    )
-  }
-}
-
-export default App
+import { BasePage } from "../../../components"
 
 export const obj = {
   title: "Radio",
@@ -125,5 +22,23 @@ export const obj = {
       text: "Radio",
       link: "/radio"
     }
-  ]
+  ],
+  pagination: {
+    prev: {
+      href: "checkbox",
+      text: "Checkbox"
+    },
+    next: {
+      href: "switch",
+      text: "Switch"
+    }
+  }
 }
+
+const App = () => {
+  return (
+    <BasePage info={obj} />
+  )
+}
+
+export default App

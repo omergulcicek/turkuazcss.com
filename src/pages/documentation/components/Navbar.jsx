@@ -22,13 +22,23 @@ export const obj = {
       text: "Navbar",
       link: "/navbar"
     }
-  ]
+  ],
+  pagination: {
+    prev: {
+      href: "modal",
+      text: "Modal"
+    },
+    next: {
+      href: "pagination",
+      text: "Pagination"
+    }
+  }
 }
 
 const App = () => {
   return (
     <>
-    <BasePage content={obj} />
+    <BasePage info={obj} />
     
     <Settings>
       <aside>

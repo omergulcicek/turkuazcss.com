@@ -22,13 +22,23 @@ export const obj = {
       text: "Kart",
       link: "/card"
     }
-  ]
+  ],
+  pagination: {
+    prev: {
+      href: "breadcrumb",
+      text: "Breadcrumb"
+    },
+    next: {
+      href: "dropdown",
+      text: "Dropdown"
+    }
+  }
 }
 
 const App = () => {
   return (
     <>
-    <BasePage content={obj} />
+    <BasePage info={obj} />
     
     <Settings>
       <aside>
