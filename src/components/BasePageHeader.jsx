@@ -9,7 +9,7 @@ class BaseTempHeader extends Component {
     for (let i = 1; i < j; i++) {
       href += `${b[i].link}`
     }
-    return href;
+    return href
   }
 
   render () {

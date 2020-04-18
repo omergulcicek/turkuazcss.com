@@ -37,7 +37,11 @@ export const obj = {
 
 const App = () => {
   return (
-    <BasePage info={obj} />
+    <BasePage info={obj}>
+      <section>
+        <div className="box"></div>
+      </section>
+    </BasePage>
   )
 }
 

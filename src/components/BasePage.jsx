@@ -6,7 +6,7 @@ import { Pagination } from "./Styled"
 
 class BasePage extends Component {  
   render () {
-    const { title, desc, breadcrumb, content, pagination } = this.props
+    const { title, desc, breadcrumb, content, pagination, children } = this.props
 
     return (
       <>
@@ -17,6 +17,8 @@ class BasePage extends Component {
           desc={desc}
           breadcrumb={breadcrumb}
         />
+
+        { children }
 
         {
           content && 

@@ -55,10 +55,19 @@ export const Brand = styled.div`
 export const MainStyled = styled.main`
   flex: 1;
   margin: 40px auto;
-  width: 80%;
-
-  @media (min-width: 1024px) {
-    max-width: 1000px;
+  width: 100%;
+  
+  @media (min-width: 576px){
+    max-width:540px
+  }
+  @media (min-width: 768px){
+    max-width:720px
+  }
+  @media (min-width: 992px){
+    max-width:960px
+  }
+  @media (min-width: 1200px){
+    max-width:1000px
   }
 `;
 

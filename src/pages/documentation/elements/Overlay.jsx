@@ -4,7 +4,7 @@ import { BasePage } from "../../../components"
 
 export const obj = {
   title: "Overlay",
-  desc: "",
+  desc: "Tüm sayfayı kapsayan saydam bir karartı",
   breadcrumb: [
     {
       text: "Ana Sayfa",

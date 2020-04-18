@@ -1,6 +1,6 @@
 import React from "react"
 
-import { BasePage, Settings } from "../../../components"
+import { BasePage } from "../../../components"
 
 export const obj = {
   title: "Navbar",
@@ -37,23 +37,7 @@ export const obj = {
 
 const App = () => {
   return (
-    <>
     <BasePage info={obj} />
-    
-    <Settings>
-      <aside>
-        
-        <pre>
-          
-        <div dangerouslySetInnerHTML={{ __html: `` }} />
-
-        </pre>
-      </aside>
-
-      <aside>
-      </aside>
-    </Settings>
-    </>
   )
 }
 

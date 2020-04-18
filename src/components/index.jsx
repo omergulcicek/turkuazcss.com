@@ -19,17 +19,14 @@ export function SEO({ title }) {
   )
 }
 
-export function BasePage({ info }) {
-  const { title, desc, breadcrumb, content, pagination } = info
+export function BasePage(props) {
+  const info = props.info
+  
   return (
     <>
-      <BasePageTemp
-        title={title}
-        desc={desc}
-        breadcrumb={breadcrumb}
-        content={content}
-        pagination={pagination}
-      />
+      <BasePageTemp {...info}>
+        { props.children }
+      </BasePageTemp>
     </>
   )
 }

@@ -4,7 +4,7 @@ import { BasePage } from "../../../components"
 
 export const obj = {
   title: "Title",
-  desc: "",
+  desc: "Daha büyük ve şık başlıklar",
   breadcrumb: [
     {
       text: "Ana Sayfa",

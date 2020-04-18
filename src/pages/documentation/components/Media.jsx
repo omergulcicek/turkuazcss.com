@@ -1,10 +1,10 @@
 import React from "react"
 
-import { BasePage, Settings } from "../../../components"
+import { BasePage } from "../../../components"
 
 export const obj = {
   title: "Media",
-  desc: "",
+  desc: "Görsel ve yanında açıklama içeren kapsayıcılar",
   breadcrumb: [
     {
       text: "Ana Sayfa",
@@ -37,23 +37,7 @@ export const obj = {
 
 const App = () => {
   return (
-    <>
     <BasePage info={obj} />
-    
-    <Settings>
-      <aside>
-        
-        <pre>
-          
-        <div dangerouslySetInnerHTML={{ __html: `` }} />
-
-        </pre>
-      </aside>
-
-      <aside>
-      </aside>
-    </Settings>
-    </>
   )
 }
 
