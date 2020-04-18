@@ -30,6 +30,28 @@ export const HeaderFlex = styled.div`
   }
 `;
 
+export const Brand = styled.div`
+  a {
+    &:hover {
+      background-color: transparent
+    }
+
+    &:focus {
+      box-shadow: none
+    }
+    
+    svg {
+      height: 32px;
+      margin-right: 16px !important
+    }
+
+    span {
+      font-size: 18px;
+      font-weight: bold
+    }
+  }
+`;
+
 export const MainStyled = styled.main`
   flex: 1;
   margin: 40px auto;
