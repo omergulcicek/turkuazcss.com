@@ -4,16 +4,28 @@ export const HeaderStyled = styled.header`
   box-shadow: 0 2px 0 0 #f5f5f5;
   padding-bottom: 24px;
   padding-top: 24px;
+`;
+
+export const HeaderFlex = styled.div`
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
 
   a {
     color: inherit;
     border-radius: 4px;
+    margin-bottom: 0;
     margin-right: 4px;
     padding: 8px 12px;
 
-    &:hover {
+    &:hover,
+    &.active {
       background-color: #fafafa;
       text-decoration: none;
+    }
+
+    &:first-child svg {
+      margin-right: 0
     }
   }
 `;
@@ -37,24 +49,67 @@ export const FooterStyled = styled.footer`
   padding-top: 24px;
 `;
 
-export const BaseTempStyled = styled.div`
-  main {
-    a {
-      border-radius: 8px;
-      color: inherit;
-      display: inline-block;
-      max-width: 410px;
-      padding: 24px 24px 24px 88px;
-      position: relative;
-      text-decoration: none;
-      transition: .15s ease;
-      width: 50%;
-      vertical-align: top;
+export const HomeSection = styled.section`
+  text-align: center;
 
-      &:hover {
-        background-color: #f7f7f7;
-        text-decoration: none;
-      }
+  h1 {
+    font-size: 80px;
+    line-height: 1;
+    color: #0a0a0a;
+    font-weight: 400;
+    margin-bottom: 40px;
+    margin-top: 15%;
+    
+    @media (min-width: 1024px) {
+      font-size: 138px;
+    }
+  }
+
+  p {
+    font-size: 20px;
+    line-height: 27px;
+    color: #808291;
+    margin-bottom: 30px;
+  }
+
+  a {
+    vertical-align: top;
+  }
+`;
+
+export const GithubButton = styled.a`
+  background-color: #323131;
+  color: #fff;
+  font-size: 14px !important;
+  font-weight: 600;
+  margin-left: 16px;
+  letter-spacing: 1px;
+
+  svg {
+    margin-right: 8px
+  }
+
+  span {
+    color: #ff9800
+  }
+`;
+
+export const BaseTempStyled = styled.section`
+  a {
+    border-radius: 8px;
+    color: inherit;
+    display: inline-block;
+    max-width: 410px;
+    padding: 24px 24px 24px 88px;
+    position: relative;
+    text-decoration: none;
+    transition: .15s ease;
+    width: 50%;
+    vertical-align: top;
+
+    &:hover {
+      background-color: #f7f7f7;
+      text-decoration: none;
     }
   }
 `;
@@ -99,4 +154,3 @@ export const SettingsStyled = styled.div`
     }
   }
 `;
-

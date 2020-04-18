@@ -1,69 +1,6 @@
-import React, { Component } from "react"
+import React from "react"
 
-import { SEO, BasePage, Settings } from "../../../components"
-
-class App extends Component {
-  constructor(props) {
-    super(props)
-  }
-  
-  render () {
-    const { title, desc, breadcrumb, content } = obj
-
-    return (
-      <section>
-        <SEO title={title} />
-
-        <BasePage
-          title={title}
-          desc={desc}
-          breadcrumb={breadcrumb}
-          content={content}
-        />
-
-        <Settings>
-          <aside>
-            <nav class="breadcrumb is-small">
-              <ul>
-                <li><a href="#!">Home</a></li>
-                <li><a href="#!">Frameworks</a></li>
-                <li>Turkuaz</li>
-              </ul>
-            </nav>
-
-            <nav class="breadcrumb">
-              <ul>
-                <li><a href="#!">Home</a></li>
-                <li><a href="#!">Frameworks</a></li>
-                <li>Turkuaz</li>
-              </ul>
-            </nav>
-            
-            <nav class="breadcrumb is-large">
-              <ul>
-                <li><a href="#!">Home</a></li>
-                <li><a href="#!">Frameworks</a></li>
-                <li>Turkuaz</li>
-              </ul>
-            </nav>
-
-            <pre>
-              
-            <div dangerouslySetInnerHTML={{ __html: `` }} />
-
-            </pre>
-          </aside>
-
-          <aside>
-          </aside>
-        </Settings>
-
-      </section>
-    )
-  }
-}
-
-export default App
+import { BasePage, Settings } from "../../../components"
 
 export const obj = {
   title: "Breadcrumb",
@@ -87,3 +24,27 @@ export const obj = {
     }
   ]
 }
+
+const App = () => {
+  return (
+    <>
+    <BasePage content={obj} />
+    
+    <Settings>
+      <aside>
+        
+        <pre>
+          
+        <div dangerouslySetInnerHTML={{ __html: `` }} />
+
+        </pre>
+      </aside>
+
+      <aside>
+      </aside>
+    </Settings>
+    </>
+  )
+}
+
+export default App

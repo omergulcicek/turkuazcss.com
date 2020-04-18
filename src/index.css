@@ -16,6 +16,10 @@ body {
   font-family: "Open Sans"
 }
 
+strong {
+  font-weight: 600;
+}
+
 .container {
   margin: auto;
   width: 80%;
@@ -43,6 +47,6 @@ section {
   margin-top: 24px;
 }
 
-strong {
-  font-weight: 600;
+.text-grey {
+  color: #bdbdbd;
 }

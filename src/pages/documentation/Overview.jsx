@@ -1,27 +1,6 @@
-import React, { Component } from "react"
+import React from "react"
 
-import { SEO, BasePage } from "./../../components"
-
-class App extends Component {
-  render () {
-    const { title, desc, breadcrumb, content } = obj
-
-    return (
-      <section>
-        <SEO title={title} />
-
-        <BasePage
-          title={title}
-          desc={desc}
-          breadcrumb={breadcrumb}
-          content={content}
-        />
-      </section>
-    )
-  }
-}
-
-export default App
+import { BasePage } from "../../components"
 
 export const obj = {
   title: "Genel Bakış",
@@ -42,16 +21,16 @@ export const obj = {
   ],
   content: [
     {
-      text: "Turkuaz'ın Hikayesi",
-      link: "/docs/overview/turkuaz",
-      desc: "Bir framework olan Turkuaz'ın neyle ilgili olduğuna genel bir bakış",
-      icon: '<svg xmlns="http://www.w3.org/2000/Svg" role="img" viewBox="0 0 109.000000 162.000000" height="40"><g transform="translate(0.000000,162.000000) scale(0.100000,-0.100000)" stroke="none" fill="#03968a"><path d="M20 1083 c0 -570 2 -588 61 -706 65 -128 168 -231 295 -295 110 -55 156 -62 433 -62 l251 0 0 38 c0 104 -61 202 -153 245 -44 21 -72 26 -180 30 -106 5 -136 10 -180 30 -76 35 -122 79 -159 155 l-33 67 -5 410 -5 410 -27 47 c-54 91 -152 148 -254 148 l-44 0 0 -517z"></path><path d="M490 1048 c-91 -63 -93 -204 -3 -264 69 -46 223 -38 302 16 25 18 58 49 73 70 27 37 58 132 58 177 l0 23 -199 0 c-189 0 -200 -1 -231 -22z"></path></g></svg>'
-    },
-    {
       text: "Kurulum",
       link: "/docs/overview/start",
       desc: "Projenize uygun Turkuaz paketini nasıl kullanacağınıza ait bilgiler",
-      icon: '<svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" height="40"><path fill="#ff9800" d="M528 288h-92.1l46.1-46.1c30.1-30.1 8.8-81.9-33.9-81.9h-64V48c0-26.5-21.5-48-48-48h-96c-26.5 0-48 21.5-48 48v112h-64c-42.6 0-64.2 51.7-33.9 81.9l46.1 46.1H48c-26.5 0-48 21.5-48 48v128c0 26.5 21.5 48 48 48h480c26.5 0 48-21.5 48-48V336c0-26.5-21.5-48-48-48zm-400-80h112V48h96v160h112L288 368 128 208zm400 256H48V336h140.1l65.9 65.9c18.8 18.8 49.1 18.7 67.9 0l65.9-65.9H528v128zm-88-64c0-13.3 10.7-24 24-24s24 10.7 24 24-10.7 24-24 24-24-10.7-24-24z" class=""></path></svg>'
+      icon: '<svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" height="40"><path fill="#ff9800" d="M528 288h-92.1l46.1-46.1c30.1-30.1 8.8-81.9-33.9-81.9h-64V48c0-26.5-21.5-48-48-48h-96c-26.5 0-48 21.5-48 48v112h-64c-42.6 0-64.2 51.7-33.9 81.9l46.1 46.1H48c-26.5 0-48 21.5-48 48v128c0 26.5 21.5 48 48 48h480c26.5 0 48-21.5 48-48V336c0-26.5-21.5-48-48-48zm-400-80h112V48h96v160h112L288 368 128 208zm400 256H48V336h140.1l65.9 65.9c18.8 18.8 49.1 18.7 67.9 0l65.9-65.9H528v128zm-88-64c0-13.3 10.7-24 24-24s24 10.7 24 24-10.7 24-24 24-24-10.7-24-24z"></path></svg>'
+    },
+    {
+      text: "Önizleme",
+      link: "/docs/overview/preview",
+      desc: "Tüm Turkuaz öğelerine tek sayfada göz atın",
+      icon: '<svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" height="40"><path fill="currentColor" d="M416 48c0-8.84-7.16-16-16-16h-64c-8.84 0-16 7.16-16 16v48h96V48zM63.91 159.99C61.4 253.84 3.46 274.22 0 404v44c0 17.67 14.33 32 32 32h96c17.67 0 32-14.33 32-32V288h32V128H95.84c-17.63 0-31.45 14.37-31.93 31.99zm384.18 0c-.48-17.62-14.3-31.99-31.93-31.99H320v160h32v160c0 17.67 14.33 32 32 32h96c17.67 0 32-14.33 32-32v-44c-3.46-129.78-61.4-150.16-63.91-244.01zM176 32h-64c-8.84 0-16 7.16-16 16v48h96V48c0-8.84-7.16-16-16-16zm48 256h64V128h-64v160z" class=""></path></path></svg>'
     },
     {
       text: "Kod Yapısı",
@@ -73,3 +52,11 @@ export const obj = {
     }
   ]
 }
+
+const App = () => {
+  return (
+    <BasePage content={obj} />
+  )
+}
+
+export default App

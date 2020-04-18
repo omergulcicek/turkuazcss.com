@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 
-import { SEO, BasePage, Settings } from "../../../components"
+import { SEO, BasePageHeader, Settings } from "../../../components"
 
 class App extends Component {
   constructor(props) {
@@ -8,17 +8,16 @@ class App extends Component {
   }
   
   render () {
-    const { title, desc, breadcrumb, content } = obj
+    const { title, desc, breadcrumb } = obj
 
     return (
       <section>
         <SEO title={title} />
 
-        <BasePage
+        <BasePageHeader
           title={title}
           desc={desc}
           breadcrumb={breadcrumb}
-          content={content}
         />
 
         <Settings>

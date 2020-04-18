@@ -5,8 +5,8 @@ import HomePage from "./Home"
 import DocumentationPage from "./Documentation"
 
 import OverviewPage from "./documentation/Overview"
-import TurkuazPage from "./documentation/overview/Turkuaz"
 import StartPage from "./documentation/overview/Start"
+import PreviewPage from "./documentation/overview/Preview"
 import SyntaxPage from "./documentation/overview/Syntax"
 import SupportPage from "./documentation/overview/Support"
 import MigrationPage from "./documentation/overview/Migration"
@@ -25,29 +25,38 @@ import CheckboxPage from "./documentation/form/Checkbox"
 import RadioPage from "./documentation/form/Radio"
 import SwitchPage from "./documentation/form/SwitchCheck"
 
+import ElementsPage from "./documentation/Elements"
+import BadgePage from "./documentation/elements/Badge"
+import BoxPage from "./documentation/elements/Box"
+import ButtonPage from "./documentation/elements/Button"
+import DeletePage from "./documentation/elements/Delete"
+import DividerPage from "./documentation/elements/Divider"
+import ImagePage from "./documentation/elements/Image"
+import NotificationPage from "./documentation/elements/Notification"
+import OverlayPage from "./documentation/elements/Overlay"
+import ProgressPage from "./documentation/elements/Progress"
+import TablePage from "./documentation/elements/Table"
+import TagPage from "./documentation/elements/Tag"
+import TitlePage from "./documentation/elements/Title"
+import TooltipPage from "./documentation/elements/Tooltip"
+
 import ComponentsPage from "./documentation/Components"
-import ButtonPage from "./documentation/components/Button"
 import BreadcrumbPage from "./documentation/components/Breadcrumb"
-import DeletePage from "./documentation/components/Delete"
-import DividerPage from "./documentation/components/Divider"
-import DropdownPage from "./documentation/components/Dropdown"
-import TagPage from "./documentation/components/Tag"
-import FooterPage from "./documentation/components/Footer"
 import CardPage from "./documentation/components/Card"
-import BoxPage from "./documentation/components/Box"
+import DropdownPage from "./documentation/components/Dropdown"
+import FooterPage from "./documentation/components/Footer"
 import ListPage from "./documentation/components/List"
+import MediaPage from "./documentation/components/Media"
 import NavbarPage from "./documentation/components/Navbar"
 import ModalPage from "./documentation/components/Modal"
 import PaginationPage from "./documentation/components/Pagination"
-import ProgressPage from "./documentation/components/Progress"
-import ImagePage from "./documentation/components/Image"
-import BadgePage from "./documentation/components/Badge"
-import TablePage from "./documentation/components/Table"
-import TooltipPage from "./documentation/components/Tooltip"
-import NotificationPage from "./documentation/components/Notification"
 
 import ThemePage from "./Theme"
+
 import AboutPage from "./About"
+import TurkuazPage from "./about/Turkuaz"
+import TeamPage from "./about/Team"
+import BrandPage from "./about/Brand"
 
 {/* Ana Sayfa */}
 export function Home() {
@@ -67,6 +76,12 @@ export function Documentation() {
 export function Overview() {
   return (
     <OverviewPage />
+  )
+}
+
+export function Preview() {
+  return (
+    <PreviewPage />
   )
 }
 
@@ -174,22 +189,28 @@ export function SwitchCheck() {
   )
 }
 
-{/* Dokümantasyon - Bileşenler */}
-export function Components() {
+{/* Dokümantasyon - Elementler */}
+export function Elements() {
   return (
-    <ComponentsPage />
+    <ElementsPage />
+  )
+}
+
+export function Badge() {
+  return (
+    <BadgePage />
+  )
+}
+
+export function Box() {
+  return (
+    <BoxPage />
   )
 }
 
 export function Button() {
   return (
     <ButtonPage />
-  )
-}
-
-export function Breadcrumb() {
-  return (
-    <BreadcrumbPage />
   )
 }
 
@@ -205,71 +226,27 @@ export function Divider() {
   )
 }
 
-export function Dropdown() {
-  return (
-    <DropdownPage />
-  )
-}
-
-export function Tag() {
-  return (
-    <TagPage />
-  )
-}
-
-export function Footer() {
-  return (
-    <FooterPage />
-  )
-}
-
-export function Card() {
-  return (
-    <CardPage />
-  )
-}
-
-export function Box() {
-  return (
-    <BoxPage />
-  )
-}
-
-export function List() {
-  return (
-    <ListPage />
-  )
-}
-export function Navbar() {
-  return (
-    <NavbarPage />
-  )
-}
-export function Modal() {
-  return (
-    <ModalPage />
-  )
-}
-export function Pagination() {
-  return (
-    <PaginationPage />
-  )
-}
-export function Progress() {
-  return (
-    <ProgressPage />
-  )
-}
-
 export function Image() {
   return (
     <ImagePage />
   )
 }
 
-export function Badge() {
+export function Notification() {
   return (
-    <BadgePage />
+    <NotificationPage />
+  )
+}
+
+export function Overlay() {
+  return (
+    <OverlayPage />
+  )
+}
+
+export function Progress() {
+  return (
+    <ProgressPage />
   )
 }
 
@@ -279,15 +256,81 @@ export function Table() {
   )
 }
 
+export function Tag() {
+  return (
+    <TagPage />
+  )
+}
+
+export function Title() {
+  return (
+    <TitlePage />
+  )
+}
+
 export function Tooltip() {
   return (
     <TooltipPage />
   )
 }
 
-export function Notification() {
+{/* Dokümantasyon - Bileşenler */}
+export function Components() {
   return (
-    <NotificationPage />
+    <ComponentsPage />
+  )
+}
+
+export function Breadcrumb() {
+  return (
+    <BreadcrumbPage />
+  )
+}
+
+export function Card() {
+  return (
+    <CardPage />
+  )
+}
+
+export function Dropdown() {
+  return (
+    <DropdownPage />
+  )
+}
+
+export function Footer() {
+  return (
+    <FooterPage />
+  )
+}
+
+export function List() {
+  return (
+    <ListPage />
+  )
+}
+export function Media() {
+  return (
+    <MediaPage />
+  )
+}
+
+export function Modal() {
+  return (
+    <ModalPage />
+  )
+}
+
+export function Navbar() {
+  return (
+    <NavbarPage />
+  )
+}
+
+export function Pagination() {
+  return (
+    <PaginationPage />
   )
 }
 
@@ -302,5 +345,17 @@ export function Theme() {
 export function About() {
   return (
     <AboutPage />
+  )
+}
+
+export function Team() {
+  return (
+    <TeamPage />
+  )
+}
+
+export function Brand() {
+  return (
+    <BrandPage />
   )
 }

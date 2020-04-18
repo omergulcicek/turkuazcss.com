@@ -3,8 +3,8 @@ import React from "react"
 import { BasePage } from "../../../components"
 
 export const obj = {
-  title: "Kod Yapısı",
-  desc: "Turkuaz'ın kullandığı sınıflandırma hakkında detaylar",
+  title: "Önizleme",
+  desc: "Tüm Turkuaz öğelerine tek sayfada göz atın",
   breadcrumb: [
     {
       text: "Ana Sayfa",
@@ -19,8 +19,8 @@ export const obj = {
       link: "/overview"
     },
     {
-      text: "Kod Yapısı",
-      link: "/syntax"
+      text: "Önizleme",
+      link: "/preview"
     }
   ]
 }

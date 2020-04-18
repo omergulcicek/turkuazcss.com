@@ -1,27 +1,6 @@
-import React, { Component } from "react"
+import React from "react"
 
-import { SEO, BasePage } from "./../../components"
-
-class App extends Component {
-  render () {
-    const { title, desc, breadcrumb, content } = obj
-
-    return (
-      <section>
-        <SEO title={title} />
-
-        <BasePage
-          title={title}
-          desc={desc}
-          breadcrumb={breadcrumb}
-          content={content}
-        />
-      </section>
-    )
-  }
-}
-
-export default App
+import { BasePage } from "../../components"
 
 export const obj = {
   title: "Farklı Platformlar",
@@ -67,3 +46,11 @@ export const obj = {
     }
   ]
 }
+
+const App = () => {
+  return (
+    <BasePage content={obj} />
+  )
+}
+
+export default App

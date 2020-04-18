@@ -3,8 +3,8 @@ import React from "react"
 import { BasePage, Settings } from "../../../components"
 
 export const obj = {
-  title: "Dropdown",
-  desc: "Etkileşimli bir açılır menü",
+  title: "Tag",
+  desc: "Amaca yönelik tasarlanmış minik etiketleri her yerde kullanabilirsiniz",
   breadcrumb: [
     {
       text: "Ana Sayfa",
@@ -19,8 +19,8 @@ export const obj = {
       link: "/components"
     },
     {
-      text: "Dropdown",
-      link: "/dropdown"
+      text: "Tag",
+      link: "/tag"
     }
   ]
 }

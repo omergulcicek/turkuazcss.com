@@ -1,53 +1,6 @@
-import React, { Component } from "react"
+import React from "react"
 
-import { SEO, BasePage, Settings } from "../../../components"
-
-class App extends Component {
-  constructor(props) {
-    super(props)
-  }
-  
-  render () {
-    const { title, desc, breadcrumb, content } = obj
-
-    return (
-      <section>
-        <SEO title={title} />
-
-        <BasePage
-          title={title}
-          desc={desc}
-          breadcrumb={breadcrumb}
-          content={content}
-        />
-
-        <Settings>
-          <aside>
-            <nav class="pagination is-small">
-              <a href="#!">«</a>
-              <a href="#!" class="is-current">1</a>
-              <a href="#!">2</a>
-              <a href="#!" tabindex="-1" disabled>3</a>
-              <a href="#!">»</a>
-            </nav>
-
-            <pre>
-              
-            <div dangerouslySetInnerHTML={{ __html: `` }} />
-
-            </pre>
-          </aside>
-
-          <aside>
-          </aside>
-        </Settings>
-
-      </section>
-    )
-  }
-}
-
-export default App
+import { BasePage, Settings } from "../../../components"
 
 export const obj = {
   title: "Pagination",
@@ -71,3 +24,27 @@ export const obj = {
     }
   ]
 }
+
+const App = () => {
+  return (
+    <>
+    <BasePage content={obj} />
+    
+    <Settings>
+      <aside>
+        
+        <pre>
+          
+        <div dangerouslySetInnerHTML={{ __html: `` }} />
+
+        </pre>
+      </aside>
+
+      <aside>
+      </aside>
+    </Settings>
+    </>
+  )
+}
+
+export default App

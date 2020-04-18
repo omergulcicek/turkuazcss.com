@@ -1,35 +1,6 @@
-import React, { Component } from "react"
+import React from "react"
 
-import { SEO, BasePage } from "./../components"
-
-class App extends Component {
-  render () {
-    const { title, desc, breadcrumb, content } = obj
-
-    return (
-      <>
-        <section>
-          <SEO title={title} />
-
-          <BasePage
-            title={title}
-            desc={desc}
-            breadcrumb={breadcrumb}
-            content={content}
-          />
-        </section>
-
-        <section>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem dolorem unde odit maiores, amet ratione nobis rem! Debitis, dolores rerum. Ea repellendus unde aspernatur! Dolorum tenetur blanditiis molestias minima quod?
-          </p>
-        </section>
-      </>
-    )
-  }
-}
-
-export default App
+import { BasePage } from "./../components"
 
 export const obj = {
   title: "Tema",
@@ -45,3 +16,18 @@ export const obj = {
     }
   ]
 }
+
+const App = () => {
+  return (
+    <>
+    <BasePage content={obj} />
+    <section>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea deleniti enim ipsam, est repudiandae dolorem animi hic, dicta dignissimos, error saepe expedita delectus nemo eligendi nihil rem itaque sint maxime!
+      </p>
+    </section>
+    </>
+  )
+}
+
+export default App

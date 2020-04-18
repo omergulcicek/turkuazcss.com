@@ -8,10 +8,12 @@ import {
 import { Layout } from "./components"
 import {
   Home, Documentation, Theme, About,
-  Overview, Turkuaz, Start, Syntax, Support, Migration,
+  Elements,
+  Overview, Turkuaz, Start, Syntax, Support, Migration, Preview,
   Library, CSS, Sass, ReactJS, VueJS,
   Form, Input, Textarea, Select, Checkbox, Radio, SwitchCheck,
-  Components, Button, Breadcrumb, Delete, Divider, Dropdown, Tag, Footer, Card, Box, List, Navbar, Modal, Pagination, Progress, Image, Badge, Table, Tooltip, Notification
+  Components, Button, Breadcrumb, Delete, Divider, Dropdown, Tag, Footer, Card, Box, List, Navbar, Modal, Pagination, Progress, Image, Badge, Table, Tooltip, Notification, Media, Overlay, Title,
+  Brand, Team
 } from "./pages"
 
 const App = () => {
@@ -25,13 +27,22 @@ const App = () => {
             <Home />
           </Route>
 
+          {/* Dokümantasyon  */}
+          <Route exact path="/docs">
+            <Documentation />
+          </Route>
+
           {/* Dokümantasyon - Genel Bakış */}
-          <Route path="/docs/overview/turkuaz">
-            <Turkuaz />
+          <Route exact path="/docs/overview">
+            <Overview />
           </Route>
 
           <Route path="/docs/overview/start">
             <Start />
+          </Route>
+
+          <Route path="/docs/overview/preview">
+            <Preview />
           </Route>
 
           <Route path="/docs/overview/syntax">
@@ -46,11 +57,11 @@ const App = () => {
             <Migration />
           </Route>
 
-          <Route path="/docs/overview">
-            <Overview />
+          {/* Dokümantasyon - Farklı Platformlar */}
+          <Route exact path="/docs/library">
+            <Library />
           </Route>
 
-          {/* Dokümantasyon - Farklı Platformlar */}
           <Route path="/docs/library/css">
             <CSS />
           </Route>
@@ -67,11 +78,11 @@ const App = () => {
             <VueJS />
           </Route>
 
-          <Route path="/docs/library">
-            <Library />
+          {/* Dokümantasyon - Form */}
+          <Route exact path="/docs/form">
+            <Form />
           </Route>
 
-          {/* Dokümantasyon - Form */}
           <Route path="/docs/form/input">
             <Input />
           </Route>
@@ -96,103 +107,124 @@ const App = () => {
             <SwitchCheck />
           </Route>
 
-          <Route path="/docs/form">
-            <Form />
+          {/* Dokümantasyon - Elementler */}
+          <Route exact path="/docs/elements">
+            <Elements />
+          </Route>
+
+          <Route path="/docs/elements/badge">
+            <Badge />
+          </Route>
+
+          <Route path="/docs/elements/box">
+            <Box />
+          </Route>
+
+          <Route path="/docs/elements/button">
+            <Button />
+          </Route>
+
+          <Route path="/docs/elements/delete">
+            <Delete />
+          </Route>
+
+          <Route path="/docs/elements/divider">
+            <Divider />
+          </Route>
+
+          <Route path="/docs/elements/image">
+            <Image />
+          </Route>
+
+          <Route path="/docs/elements/notification">
+            <Notification />
+          </Route>
+
+          <Route path="/docs/elements/overlay">
+            <Overlay />
+          </Route>
+
+          <Route path="/docs/elements/progress">
+            <Progress />
+          </Route>
+
+          <Route path="/docs/elements/table">
+            <Table />
+          </Route>
+
+          <Route path="/docs/elements/tag">
+            <Tag />
+          </Route>
+        
+          <Route path="/docs/elements/title">
+            <Title />
+          </Route>
+
+          <Route path="/docs/elements/tooltip">
+            <Tooltip />
           </Route>
 
           {/* Dokümantasyon - Bileşenler */}
+          <Route exact path="/docs/components">
+            <Components />
+          </Route>
+
           <Route path="/docs/components/breadcrumb">
             <Breadcrumb />
-          </Route>
-          
-          <Route path="/docs/components/button">
-            <Button />
-          </Route>
-          
-          <Route path="/docs/components/delete">
-            <Delete />
-          </Route>
-          
-          <Route path="/docs/components/divider">
-            <Divider />
-          </Route>
-          
-          <Route path="/docs/components/dropdown">
-            <Dropdown />
-          </Route>
-
-          <Route path="/docs/components/tag">
-            <Tag />
-          </Route>
-
-          <Route path="/docs/components/footer">
-            <Footer />
           </Route>
           
           <Route path="/docs/components/card">
             <Card />
           </Route>
           
-          <Route path="/docs/components/box">
-            <Box />
+          <Route path="/docs/components/dropdown">
+            <Dropdown />
+          </Route>
+          
+          <Route path="/docs/components/footer">
+            <Footer />
           </Route>
           
           <Route path="/docs/components/list">
             <List />
           </Route>
           
-          <Route path="/docs/components/navbar">
-            <Navbar />
+          <Route path="/docs/components/media">
+            <Media />
           </Route>
           
           <Route path="/docs/components/modal">
             <Modal />
           </Route>
+
+          <Route path="/docs/components/navbar">
+            <Navbar />
+          </Route>
           
           <Route path="/docs/components/pagination">
             <Pagination />
           </Route>
-          
-          <Route path="/docs/components/progress">
-            <Progress />
-          </Route>
-          
-          <Route path="/docs/components/image">
-            <Image />
-          </Route>
-          
-          <Route path="/docs/components/badge">
-            <Badge />
-          </Route>
-          
-          <Route path="/docs/components/table">
-            <Table />
-          </Route>
-          
-          <Route path="/docs/components/tooltip">
-            <Tooltip />
-          </Route>
-
-          <Route path="/docs/components/notification">
-            <Notification />
-          </Route>
-
-          <Route path="/docs/components">
-            <Components />
-          </Route>
-
-          <Route path="/docs">
-            <Documentation />
-          </Route>
 
           {/* Tema */}
-          <Route path="/theme">
+          <Route exact path="/theme">
             <Theme />
           </Route>
 
           {/* Hakkında */}
-          <Route path="/about">
+          <Route exact path="/about">
             <About />
+          </Route>
+
+          <Route path="/about/turkuaz">
+            <Turkuaz />
+          </Route>
+
+          <Route path="/about/team">
+            <Team />
+          </Route>
+
+          <Route path="/about/brand">
+            <Brand />
           </Route>
 
         </Switch>

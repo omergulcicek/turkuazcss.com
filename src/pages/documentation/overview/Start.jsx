@@ -1,22 +1,21 @@
 import React, { Component } from "react"
 
-import { SEO, BasePage } from "../../../components"
+import { SEO, BasePageHeader } from "../../../components"
 
 class App extends Component {
   render () {
-    const { title, desc, breadcrumb, content } = obj
+    const { title, desc, breadcrumb } = obj
 
     return (
-      <section>
+      <>
         <SEO title={title} />
 
-        <BasePage
+        <BasePageHeader
           title={title}
           desc={desc}
           breadcrumb={breadcrumb}
-          content={content}
         />
-      </section>
+      </>
     )
   }
 }
