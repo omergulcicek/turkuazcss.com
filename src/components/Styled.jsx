@@ -203,3 +203,7 @@ export const Pagination = styled.section`
     }
   }
 `;
+
+export const Turquoise = styled.span`
+  color: #03968a
+`;

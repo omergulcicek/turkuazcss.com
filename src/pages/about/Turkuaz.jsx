@@ -26,51 +26,72 @@ const App = () => {
   return (
     <>
       <BasePage info={obj} />
+      <section>
+        <h3>Ben kimim?</h3>
+        <p>
+          Adım Ömer. Yazılım Mühendisliği mezunuyum. Kariyerime uzun süredir Frontend Developer olarak devam ediyorum. İlk göz ağrım olan Turkuaz ile birlikte bir çok açık kaynak projem GitHub profilimde bulunmakta. Hakkımda detaylı bilgi için <a href="https://omergulcicek.com/" target="_blank" rel="noopener noreferrer">kişisel sitemi</a> inceleyebilirsiniz.
+        </p>
+      </section>
 
       <section>
+        <h3>Proje fikri nasıl oluştu?</h3>
         <p>
-          Turkuaz, Nisan 2016 tarihinde <a href="https://github.com/omergulcicek" target="_blank" rel="noopener noreferrer">@omergulcicek</a> tarafından GitHub'ta açık kaynak olarak geliştirmeye başlandı.
+          Bir şeyi öğrenmenin en iyi yolunun, bol bol pratik yapmak olduğunun farkına vardığımda <em>"bir CSS kütüphanesi yazarsam, CSS'in tüm detaylarını öğrenirim"</em> fikri oluştu. Geliştiriciler tarafından sıkça kullanılan kütüphanelerin kaynak kodlarını yüzlerce kez baştan inceleyip karşılaştırma yaptım. Sonrasında her detayı farklı kaynaklardan araştırarak <em>"hangisi daha doğru, daha iyi nasıl olabilir, neden bu şekilde yazılmış"</em> gibi soruları kendime sordum. Bu sorular neticesinde yavaştan kendi kütüphanemi yazmaya başladım.
         </p>
         <p>
-           Başlarda geliştirmeye yeni başlayan ve yabancı dil sıkıntısı olanların kolay kavrayabilmesi, geliştirmeye ilk adımı kolay atabilmesi için Türkçe sınıf isimleri kullanarak geliştirmenin doğru olacağını düşünmüştüm. Fakat her şeyin Türkçe karşılığını bulamamak, dilimize İngilizce'siyle yer edinmiş şeyleri Türkçe farklı bir isimle alıştırabilmek, hem de bazı sınıf isimlerinin Türkçe bazılarının İngilizce olmasının kötü duracağını düşünüp tamamen İngilizce'ye geçiş yaptım; fakat proje dokümanı tamamiyle Türkçe'dir.
+          Buradaki asıl amaç CSS'i detaylıca kavramanın yanı sıra, öğrendiğim her bilgiyi uyarlayabileceğim bir projenin var olacak olmasıydı.
         </p>
+      </section>
 
-        <blockquote>
-          "Projenin adı Türkçe ve manalı bir isim olmalıydı."
-        </blockquote>
-        
+      <section>
+        <h3>İsmi neden Turkuaz?</h3>
         <p>
-          İlk olarak projeye bir isim arayışına başladım. Türkçe ve manalı bir isim olmasını istiyordum. Proje, ismini Türk rengi olarak da bilinen <strong>Turkuaz</strong>dan alıyor. Turkuaz kelimesi, Türkiye'nin Akdeniz sahillerinin renginden esinlenilerek, Fransızca Türk kelimesinin söylenişinden türemiştir. Adının içerisinde Türk kelimesini barındırması ve Türk rengini simgelemesi güzel detaylardı.
+          Bir yandan projeyi geliştirebilmek için hummalı bir çalışma sürdürürken, diğer yandan projeye Türkçe ve manalı bir isim arayışındaydım. Açıkçası renklerle aram iyi değildir; hatta itiraf edeyim turkuaz diye bir renk olduğunu bile bilmiyordum. Sevdiğim bir sanatçının röportajında en sevdiğin renk sorusuna verdiği turkuaz yanıtından sonra bu rengi keşfettim.
         </p>
+        <p>
+          Turkuaz rengine iyice merak saldım ve kelime tarihini inceledim. İçerisinde Türk kelimesini barındırması ve renginin hoşluğundan ötürü proje isminin Turkuaz olmasını kararlaştırdım.
+        </p>
+        <blockquote>
+          <p>
+            "Turkuaz kelimesi, Türkiye'nin Akdeniz sahillerinin renginden esinlenilerek türetilmiştir. Fransızca Türk kelimesinin söylenişinden türemiştir."
+          </p>
+          <footer>Wikipedia</footer>
+        </blockquote>
+      </section>
 
-        <blockquote>
-          "Bir CSS kütüphanesi yazarsam, CSS'in tüm detaylarını öğrenirim."
-        </blockquote>
-        
+      <section>
+        <h3>Neden yalnızca CSS içeriyor?</h3>
         <p>
-          Bir yazılımı öğrenmenin en iyi yolunun, bol bol pratik yapmak olduğunun farkına vardığımda <em>"bir CSS kütüphanesi yazarsam, CSS'in tüm detaylarını öğrenirim"</em> fikri oluştu. Geliştiriciler tarafından sıkça kullanılan kütüphanelerin kaynak kodlarını yüzlerce kez baştan inceleyip karşılaştırma yaptım. Sonrasında her detayı farklı kaynaklardan araştırarak <em>"hangisi doğru, daha iyi nasıl olabilir, neden bu şekilde yazılmış"</em> gibi soruları kendime sordum.
+          Projeye ilk başladığımda önyüzde kullanılabilecek bütün bileşenleri geliştirmeyi amaçladım. Bunları CSS ve jQuery kullanarak geliştirmiştim <em>(~2016)</em>. Bunun yeterli seviyeye ulaştığına inandığımda kendime yeni hedefler oluşturarak hem projenin, hemde kişisel gelişimimi devam ettirmeyi amaçladım.
         </p>
-        
-        <blockquote>
-          "CSS → jQuery → JavaScript → SASS → <span className="text-grey">React</span> → <span className="text-grey">Vue</span>"
-        </blockquote>
+        <p>
+          jQuery'den kurtulup hiçbir kütüphane bağlılığı olmaması için, kodları Vanilla JavaScript ile baştan yazma kararı aldım <em>(~2017)</em>.
+        </p>
+        <p>
+          Hızlı biçimde gelişen Frontend dünyası sayesinde, günümüzde her şey küçük npm paketleri ile kullanılabilir durumda geldi. Ardından bende "bir CSS projesi JavaScript'e bağlı kalmalı mı?" sorusu oluştu. Detaylıca araştırıp JavaScript içermeyen kütüphaneler olduğunu  gördüğümde bu fikrimi benimsedim ve JavaScript kodlarını projeden kaldırdım.
+        </p>
+        <p>
+          JavaScript kodlarının kalkmasından sonra CSS'i SASS desteği ile beraber, ayrıca bileşenlerin tasarımlarıylada oynayarak en baştan geliştirdim <em>(~2019)</em>.
+        </p>
+      </section>
 
+      <section>
+        <h3>React / Vue projemde kullanabilecek miyim?</h3>
         <p>
-          İlk başlarda CSS'i detaylı öğrenebilmek adına basitçe küçük bileşenler geliştirdim. Ardından jQuery'i daha iyi kavramak amacıyla projeye yeni bileşenler ekledim. Sonrasında projeyi jQuery bağımlılığından kurtarıp Vanilla JavaScript ile güncelledim. Böylece JavaScript bilgimi geliştirdiğime inanıyorum.
+          Elbette. Projene ister sadece CSS çıktısını projene dahil et, ister Turkuaz'ın React ve Vue projelerini dene. Detaylı bilgiye <Link to="/docs/library">farklı platformlar</Link> sayfasından ulaşabilirsin.
         </p>
         <p>
-          Son olarak ise günümüzde her şeyi küçük npm paketleriyle halledebiliyorken bir CSS kütüphanesinde JavaScript kodlarının olmaması gerektiğine kanaat getirip, sadece CSS ile geliştirmelerime devam ettim. Güncel olarak SASS kullanarak geliştirilmeye devam ediyor.
+          Gelecekte ise gelişen Frontend dünyasına ayak uydurmak, Turkuaz'ı güncel tutmak ve kişisel gelişimimi aktif tutabilmek adına sürekli güncellenecektir. Dün jQuery, bugün React / Vue, yarın ise yine en sık tercih edilen kütüphanelere uyumlu olacaktır.
         </p>
-        
-        <blockquote>
-          Peki React, Vue projelerinde kullanabilecek miyiz?
-        </blockquote>
+      </section>
 
+      <section>
+        <h3>Turkuaz ile ilgili farklı projelerde olacak mı?</h3>
         <p>
-          Aslında projeyi geliştirmemdeki en büyük amaç CSS'te paslanmamak ve sürekli farklı şeyleri araştırmaktı. Birçok şeyi geliştirdiğimde sitesini açıp bir doküman oluşturdum. Şimdilerde ise ilk sürümün hazır olduğunu düşündükten sonra farklı dallara atlayıp kütüphaneyi herkesin kullanabileceği hale getirmek istiyorum.
+          Turkuaz'ın kararlı ilk sürümünü çıkarttıktan hemen sonra, React ve Vue sürümlerini duyuracağım. Sonra bolca örnekler ve ücretsiz hazır şablon temalar oluşturup paylaşacağım.
         </p>
         <p>
-          İlk geliştirilmeye başlandığında sadece CSS iken, şu an SASS desteği bulunmakta. Bundan sonra ise React, Vue bileşenleri hazırlanacak. Detaylı bilgi ve destek olmak için <Link to="/docs/overview/support">destek ol</Link> sayfasını inceleyebilirsiniz.
+          Bunlar dışında ise text editörler için bir snippet geliştirme fikrim var. 
         </p>
       </section>
     </>

@@ -55,7 +55,6 @@ import ThemePage from "./Theme"
 
 import AboutPage from "./About"
 import TurkuazPage from "./about/Turkuaz"
-import TeamPage from "./about/Team"
 import BrandPage from "./about/Brand"
 
 /* Ana Sayfa */
@@ -345,12 +344,6 @@ export function Theme() {
 export function About() {
   return (
     <AboutPage />
-  )
-}
-
-export function Team() {
-  return (
-    <TeamPage />
   )
 }
 
