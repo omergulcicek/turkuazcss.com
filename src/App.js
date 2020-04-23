@@ -23,6 +23,8 @@ import {
   
   Theme,
 
+  Love,
+
   About, Turkuaz, Brand
   
 } from "./pages"
@@ -214,6 +216,11 @@ const App = () => {
           
           <Route path="/docs/components/pagination">
             <Pagination />
+          </Route>
+
+          {/* Sevgi */}
+          <Route exact path="/love">
+            <Love />
           </Route>
 
           {/* Tema */}

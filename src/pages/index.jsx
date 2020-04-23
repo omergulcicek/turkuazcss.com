@@ -51,6 +51,8 @@ import NavbarPage from "./documentation/components/Navbar"
 import ModalPage from "./documentation/components/Modal"
 import PaginationPage from "./documentation/components/Pagination"
 
+import LovePage from "./Love"
+
 import ThemePage from "./Theme"
 
 import AboutPage from "./About"
@@ -330,6 +332,13 @@ export function Navbar() {
 export function Pagination() {
   return (
     <PaginationPage />
+  )
+}
+
+/* Sevgi */
+export function Love() {
+  return (
+    <LovePage />
   )
 }
 

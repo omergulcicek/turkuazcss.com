@@ -46,7 +46,7 @@ const App = () => {
           </p>
 
           <p>
-            Blogunda bizden bahsedebilirsin. Sosyal medya hesabından <strong>#turkuazcss</strong> etiketini kullanarak twit atabilirsin; Turkuaz ile geliştirdiğin bir site varsa <strong>#madewithturkuaz</strong> etiketini kullanmayı unutma! Geliştirdiğiniz siteler, <Link to="/love">aşk sayfası</Link>nda listelenecektir.
+            Blogunda bizden bahsedebilirsin. Sosyal medya hesabından <strong>#turkuazcss</strong> etiketini kullanarak twit atabilirsin; Turkuaz ile geliştirdiğin bir site varsa <strong>#madewithturkuaz</strong> etiketini kullanmayı unutma! Geliştirdiğiniz siteler, <Link to="/love">sevgi sayfası</Link>nda listelenecektir.
           </p>
 
           <p>
