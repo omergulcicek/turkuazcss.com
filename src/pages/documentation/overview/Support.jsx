@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "react-router-dom"
 
 import { BasePage } from "../../../components"
 
@@ -37,7 +38,23 @@ export const obj = {
 
 const App = () => {
   return (
-    <BasePage info={obj} />
+    <>
+      <BasePage info={obj}>
+        <section>
+          <p>
+            Turkuaz, GitHub üzerinden açık kaynak olarak geliştirilmektedir. Gördüğün eksiklikleri, kod hatalarını <a href="https://github.com/omergulcicek/turkuaz/issues" target="_blank" rel="noopener noreferrer">GitHub issue</a>ları ile bize bildirin.
+          </p>
+
+          <p>
+            Blogunda bizden bahsedebilirsin. Sosyal medya hesabından <strong>#turkuazcss</strong> etiketini kullanarak twit atabilirsin; Turkuaz ile geliştirdiğin bir site varsa <strong>#madewithturkuaz</strong> etiketini kullanmayı unutma! Geliştirdiğiniz siteler, <Link to="/love">aşk sayfası</Link>nda listelenecektir.
+          </p>
+
+          <p>
+            İletişime geçmek istiyorsan mail adresimiz <a href="mailto:iletisim@turkuazcss.com?subject=Destek&amp;cc=iletisim@omergulcicek.com">iletisim@turkuazcss.com</a>.
+          </p>
+        </section>
+      </BasePage>
+    </>
   )
 }
 
