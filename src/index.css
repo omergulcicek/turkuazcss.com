@@ -47,12 +47,9 @@ section {
   margin-top: 24px;
 }
 
+section h2,
 section h3 {
   margin-bottom: 16px;
-}
-
-.text-grey {
-  color: #bdbdbd;
 }
 
 p {
