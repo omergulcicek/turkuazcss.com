@@ -209,12 +209,38 @@ export const TurquoiseColor = styled.span`
 `;
 
 export const Library = styled.section`
-
   span {
     color: #aaa;
     display: inline-block;
     font-size: 30px;
     line-height: 30px;
     margin: 0 20px;
+  }
+`;
+
+export const Table = styled.table`
+  th {
+    text-align: left
+  }
+
+  code {
+    background-color: #f5f5f5;
+    color: #ff3860;
+    font-size: .875em;
+    font-weight: 400;
+    padding: .25em .5em .25em;
+    vertical-align: middle;
+    white-space: nowrap;
+  }
+
+  div {
+    border-radius: 2px;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.1), inset 0 0 0 1px rgba(0,0,0,.1);
+    display: inline-block;
+    height: 24px;
+    margin-right: 8px;
+    position: relative;
+    top: 4px;
+    width: 24px
   }
 `;
