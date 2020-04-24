@@ -1,7 +1,7 @@
 import React from "react"
 
 import { BasePage } from "../../components"
-import { Turquoise } from "../../components/Styled"
+import { TurquoiseColor } from "../../components/Styled"
 
 export const obj = {
   title: "Marka Yönergesi",
@@ -60,7 +60,7 @@ const App = () => {
           <h2>Renk</h2>
 
           <p>
-            Turkuaz, <Turquoise>#03968a</Turquoise> renk tonunu kullanır.
+            Turkuaz, <TurquoiseColor>#03968a</TurquoiseColor> renk tonunu kullanır.
           </p>
         </section>
       </BasePage>
