@@ -204,6 +204,17 @@ export const Pagination = styled.section`
   }
 `;
 
-export const Turquoise = styled.span`
+export const TurquoiseColor = styled.span`
   color: #03968a
+`;
+
+export const Library = styled.section`
+
+  span {
+    color: #aaa;
+    display: inline-block;
+    font-size: 30px;
+    line-height: 30px;
+    margin: 0 20px;
+  }
 `;
