@@ -249,6 +249,7 @@ export const Theme = styled.article`
   margin-bottom: 40px;
 
   figure {
+    height: 242px;
     overflow: hidden;
 
     img {
