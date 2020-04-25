@@ -21,7 +21,7 @@ import {
 
   Library, CSS, Sass, ReactJS, VueJS,
   
-  Theme,
+  Theme, ThemeDetails,
 
   Love,
 
@@ -226,6 +226,10 @@ const App = () => {
           {/* Tema */}
           <Route exact path="/theme">
             <Theme />
+          </Route>
+
+          <Route path="/theme/:themeId">
+            <ThemeDetails />
           </Route>
 
           {/* Hakkında */}

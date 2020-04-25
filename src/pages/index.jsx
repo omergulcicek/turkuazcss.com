@@ -54,6 +54,7 @@ import PaginationPage from "./documentation/components/Pagination"
 import LovePage from "./Love"
 
 import ThemePage from "./Theme"
+import ThemeDetailsPage from "./theme/ThemeDetails"
 
 import AboutPage from "./About"
 import TurkuazPage from "./about/Turkuaz"
@@ -346,6 +347,12 @@ export function Love() {
 export function Theme() {
   return (
     <ThemePage />
+  )
+}
+
+export function ThemeDetails() {
+  return (
+    <ThemeDetailsPage />
   )
 }
 

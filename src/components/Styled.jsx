@@ -292,3 +292,48 @@ export const Theme = styled.article`
     }
   }
 `;
+
+
+export const ThemeDetail = styled.section`
+  article {
+    margin-bottom: 40px;
+    position: relative;
+
+    img {
+      border-radius: 4px;
+    }
+
+    div {
+      align-items: center;
+      background-color: rgba(38, 166, 154, 0.8);
+      border-radius: 4px;
+      cursor: pointer;
+      display: flex;
+      height: 100%;
+      justify-content: center;
+      left: 0;
+      opacity: 0;
+      position: absolute;
+      top: 0;
+      transition: 240ms 160ms;
+      visibility: hidden;
+      width: 100%;
+    }
+
+    &:hover div {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+  
+  ol {
+    border-top: 1px solid #e0e0e0;
+
+    li {
+      border-bottom: 1px solid #e0e0e0;
+      display: flex;
+      justify-content: space-between;
+      padding: 12px 0;
+    }
+  }
+`;
