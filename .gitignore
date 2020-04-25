@@ -8,6 +8,7 @@ db.json
 
 # testing
 /coverage
+/turkuaz.css
 
 # production
 /build
