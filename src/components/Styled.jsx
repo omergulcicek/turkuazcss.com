@@ -244,3 +244,51 @@ export const Table = styled.table`
     width: 24px
   }
 `;
+
+export const Theme = styled.article`
+  margin-bottom: 40px;
+
+  figure {
+    overflow: hidden;
+
+    img {
+      border-radius: 4px 4px 0 0;
+      transition: 480ms 160ms;
+    }
+  }
+
+  div {
+    margin-top: 8px;
+  }
+
+  h6 {
+    color: #191919;
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 27px;
+    margin-bottom: 0
+  }
+
+  p {
+    color: #7a7a7a;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 27px;
+  }
+
+  &:hover {
+    cursor: pointer;
+
+    a {
+      text-decoration: none;
+    }
+
+    img {
+      transform: scale(1.05)
+    }
+
+    h6 {
+      color: #2196f3
+    }
+  }
+`;

@@ -1,6 +1,8 @@
 import React from "react"
+import { Link } from "react-router-dom"
 
 import { BasePage } from "./../components"
+import { Theme } from "./../components/Styled"
 
 export const obj = {
   title: "Tema",
@@ -22,9 +24,25 @@ const App = () => {
     <>
     <BasePage info={obj} />
     <section>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea deleniti enim ipsam, est repudiandae dolorem animi hic, dicta dignissimos, error saepe expedita delectus nemo eligendi nihil rem itaque sint maxime!
-      </p>
+      <div className="row">
+        <div className="col-12 col-md-6">
+          <Theme>
+            <Link to="theme/login-page">
+              <figure>
+                <img src="https://picsum.photos/800/400" alt=""/>
+              </figure>
+
+              <div>
+                <h6>Tema Başlığı</h6>
+
+                <p>
+                  Kategori • 25 Nisan 2020
+                </p>
+              </div>
+            </Link>
+          </Theme>
+        </div>
+      </div>
     </section>
     </>
   )
