@@ -40,7 +40,19 @@ const App = () => {
   return (
     <BasePage info={obj}>
       <section>
-        <div className="box"></div>
+        <p>
+          Box elemanı gölgeli, kenarları hafif yuvarlak beyaz bir kapsayıcıdır.
+        </p>
+
+        <div className="row mb-3">
+          <div className="col-12 col-md-6 col-lg-4">
+            <div className="box"></div>
+          </div>
+        </div>
+
+        <SyntaxHighlighter language="html">
+          {`<div class="box"></div>`}
+        </SyntaxHighlighter>
       </section>
     </BasePage>
   )
