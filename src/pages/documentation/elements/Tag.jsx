@@ -38,7 +38,55 @@ export const obj = {
 
 const App = () => {
   return (
-    <BasePage info={obj} />
+    <BasePage info={obj}>
+      <section>
+        <p>
+          Turkuaz tag'ı küçük ama çok yönlü bir elementtir.
+        </p>
+
+        <div className="row mb-3">
+          <div className="col-12 col-md-6 col-lg-4">
+            <span className="tag">Tag</span>
+          </div>
+        </div>
+
+        <p>
+          <SyntaxHighlighter language="html">
+{`<span class="tag">Tag</span>`}
+          </SyntaxHighlighter>
+        </p>
+
+        <p>
+          Sağ yada sol yanına daha koyu bir alan ekleyebilirsin.
+        </p>
+
+        <div className="row mb-3">
+          <div className="col-12 col-md-6 col-lg-4">
+            <span className="tag">
+              <span>versiyon</span>
+              <span className="tag_detail">1.0.0</span>
+            </span>
+            
+            <span className="tag">
+              <span className="tag_detail">1.0.0</span>
+              <span>versiyon</span>
+            </span>
+          </div>
+        </div>
+
+        <SyntaxHighlighter language="html">
+{`<span class="tag">
+  <span>versiyon</span>
+  <span class="tag_detail">1.0.0</span>
+</span>
+
+<span class="tag">
+  <span class="tag_detail">1.0.0</span>
+  <span>versiyon</span>
+</span>`}
+        </SyntaxHighlighter>
+      </section>
+    </BasePage>
   )
 }
 
