@@ -38,7 +38,57 @@ export const obj = {
 
 const App = () => {
   return (
-    <BasePage info={obj} />
+    <BasePage info={obj}>
+      <section>
+        <p>
+          Üzerine gelindiğinde küçük bir açıklama balonu çıkartır.
+        </p>
+
+        <u className="tooltip" data-content="Turkuaz">Buranın üzerine gelin</u>
+
+        <p>
+          <SyntaxHighlighter language="html">
+{`<span class="tooltip" data-content="Turkuaz">Buranın üzerine gelin</span>`}
+          </SyntaxHighlighter>
+        </p>
+      </section>
+
+      <section>
+        <h2>Çeşit</h2>
+
+        <p>
+          Tooltip'in aşağıda açılması için <code>is-bottom</code> sınıfı ekleyebilirsin.
+        </p>
+
+        <u className="tooltip is-bottom" data-content="Turkuaz">Aşağıda açılan tooltip örneği</u>
+
+        <p>
+          <SyntaxHighlighter language="html">
+{`<span class="tooltip is-bottom" data-content="Turkuaz">Aşağıda açılan tooltip örneği</span>`}
+          </SyntaxHighlighter>
+        </p>
+
+        <p className="mt-5">
+          Çok satırlı tooltip özelliği için <code>is-multiline</code> sınıfı ekleyebilirsin.
+        </p>
+
+        <div>
+          <u className="tooltip is-multiline" data-content="Hızlı esnek ve kolay web sayfaları geliştirmek için tasarlanan güçlü bir CSS Framework">Çok satırlı tooltip örneği</u>
+        </div>
+
+        <div>
+          <u className="tooltip is-bottom is-multiline" data-content="Hızlı esnek ve kolay web sayfaları geliştirmek için tasarlanan güçlü bir CSS Framework">Aşağıda açılan çok satırlı tooltip örneği</u>
+        </div>
+
+        <p>
+          <SyntaxHighlighter language="html">
+{`<span class="tooltip is-multiline" data-content="Hızlı esnek ve kolay web sayfaları geliştirmek için tasarlanan güçlü bir CSS Framework">Yazı</span>
+
+<span class="tooltip is-bottom is-multiline" data-content="Hızlı esnek ve kolay web sayfaları geliştirmek için tasarlanan güçlü bir CSS Framework">Yazı</span>`}
+          </SyntaxHighlighter>
+        </p>
+      </section>
+    </BasePage>
   )
 }
 
