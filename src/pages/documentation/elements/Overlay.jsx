@@ -38,7 +38,21 @@ export const obj = {
 
 const App = () => {
   return (
-    <BasePage info={obj} />
+    <BasePage info={obj}>
+      <section>
+        <p>
+          Overlay elementi, sayfanın tamamını kapsayan saydam bir siyahlıktır.
+        </p>
+
+        <template>
+          //TODO: Bir buton koy, basıldığında 3sn overlay önizlemesi yapsın
+        </template>
+
+        <SyntaxHighlighter language="html">
+          {`<div class="overlay"></div>`}
+        </SyntaxHighlighter>
+      </section>
+    </BasePage>
   )
 }
 
