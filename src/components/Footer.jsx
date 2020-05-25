@@ -7,17 +7,17 @@ const Footer = () => {
   return (
     <FooterStyled>
       <div className="container">
+        <span>
+          © {new Date().getFullYear()} Turkuaz
+        </span>
 
         <nav>
           <a href="https://github.com/omergulcicek/turkuaz" target="_blank" rel="noopener noreferrer">GitHub</a>
           <a href="https://twitter.com/turkuazcss" target="_blank" rel="noopener noreferrer">Twitter</a>
-          <Link to="https://twitte.com/turkuazcss">Örnekler</Link>
+          <Link to="/love">Sevgi</Link>
           <Link to="/about">Hakkında</Link>
         </nav>
       
-        <span>
-          © {new Date().getFullYear()} | Turkuaz
-        </span>
         
       </div>
     </FooterStyled>

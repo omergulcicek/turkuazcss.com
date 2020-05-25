@@ -12,8 +12,9 @@ export const HeaderFlex = styled.div`
   justify-content: space-between;
 
   a {
-    color: inherit;
     border-radius: 4px;
+    color: inherit;
+    font-size: 15px;
     margin-bottom: 0;
     margin-right: 4px;
     padding: 8px 12px;
@@ -73,11 +74,23 @@ export const MainStyled = styled.main`
 
 export const FooterStyled = styled.footer`
   background-color: #f0f7f7;
-  border-top: 2px solid rgba(0,0,0,.1);;
-  flex-direction: column-reverse;
-  justify-content: space-between;
+  border-top: 2px solid rgba(0,0,0,.1);
+  font-size: 13px;
   padding-bottom: 24px;
   padding-top: 24px;
+
+  div {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  nav {
+    display: inline-block;
+
+    a {
+      margin-left: 16px
+    }
+  }
 `;
 
 export const HomeSection = styled.section`
