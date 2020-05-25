@@ -116,8 +116,74 @@ export const HomeSection = styled.section`
     margin-bottom: 30px;
   }
 
-  a {
-    vertical-align: top;
+  div {    
+    a {
+      font-size: 20px;
+      line-height: 30px;
+      padding: 12px 32px !important;
+      vertical-align: top;
+    }
+  }
+`;
+
+export const HomeLibrarySection = styled.section`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 120px;
+
+  article {
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+    min-width: 240px;
+    padding: 24px;
+    text-align: center;
+
+    h5 {
+      color: #343434;
+      font-size: 20px;
+      margin: 0 0 8px;
+      transition: .3s;
+    }
+
+    span {
+      color: #b5b5b5;
+      transition: .3s;
+    }
+
+    svg {
+      margin-top: 16px
+    }
+  }
+
+  a:focus {
+    box-shadow: none
+  }
+
+  a:hover {
+    text-decoration: none;
+    
+    article {
+      background-color: rgba(0,0,0,.025);
+
+      &.sass h5 {
+        color: #CD6799;
+      }
+
+      &.react h5 {
+        color: #61dafb;
+      }
+      
+      &.vue h5 {
+        color: #41B883;
+      }
+
+      span {
+        color: #202124;
+      }
+    }
   }
 `;
 
