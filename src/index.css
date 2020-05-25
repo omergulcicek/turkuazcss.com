@@ -57,3 +57,12 @@ p {
   line-height: 27px;
   margin-bottom: 24px;
 }
+
+pre {
+  background-color: #F8F9FA !important
+}
+
+code {
+  font-size: 14px !important;
+  line-height: 21px !important
+}

@@ -73,10 +73,10 @@ const App = () => {
 `<!DOCTYPE html>
 <html lang="tr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Turkuaz</title>
-    <link rel="stylesheet" href="css/turkuaz.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Turkuaz</title>
+  <link rel="stylesheet" href="css/turkuaz.min.css">
 </head>
 <body>
   <section>
@@ -136,7 +136,7 @@ const App = () => {
           <h2>React</h2>
 
           <p>
-            React projende Turkuaz'ı kullanmak istiyorsan, sadece CSS dosyasını sayfana dahil edebilir yada <strong>react-turkuaz</strong> paketini kullanabilirsin. 
+            React projende Turkuaz'ı kullanmak istiyorsan <strong>react-turkuaz</strong> paketini kullanabilirsin. 
           </p>
           <p>
             Ayrıntılı bilgi için <Link to="/docs/library/react">React</Link> sayfasını inceleyin.
@@ -147,7 +147,7 @@ const App = () => {
           <h2>Vue</h2>
 
           <p>
-            Vue projende Turkuaz'ı kullanmak istiyorsan, sadece CSS dosyasını sayfana dahil edebilir yada <strong>vue-turkuaz</strong> paketini kullanabilirsin. 
+            Vue projende Turkuaz'ı kullanmak istiyorsan <strong>vue-turkuaz</strong> paketini kullanabilirsin. 
           </p>
           <p>
             Ayrıntılı bilgi için <Link to="/docs/library/vue">Vue</Link> sayfasını inceleyin.
