@@ -31,7 +31,7 @@ const App = () => {
           <div className="col-12 col-lg-8">
             <article>
               <figure>
-                <img src="https://picsum.photos/1200/600" alt="Tema Başlığı"/>
+                <img src="https://picsum.photos/1200/600" alt="Tema Başlığı" loading="lazy" />
               </figure>
 
               <a href="!#">

@@ -47,7 +47,7 @@ const App = () => {
         <div className="row mb-3">
           <div className="col-auto">
             <figure class="image is-128">
-              <img src="https://via.placeholder.com/128" />
+              <img src="https://via.placeholder.com/128" loading="lazy" />
             </figure>
           </div>
         </div>
@@ -76,7 +76,7 @@ const App = () => {
                 </td>
                 <td>
                   <figure class="image is-16">
-                    <img src="https://via.placeholder.com/16" />
+                    <img src="https://via.placeholder.com/16" loading="lazy" />
                   </figure>
                 </td>
                 <td>
@@ -90,7 +90,7 @@ const App = () => {
                 </td>
                 <td>
                   <figure class="image is-24">
-                    <img src="https://via.placeholder.com/24" />
+                    <img src="https://via.placeholder.com/24" loading="lazy" />
                   </figure>
                 </td>
                 <td>
@@ -104,7 +104,7 @@ const App = () => {
                 </td>
                 <td>
                   <figure class="image is-32">
-                    <img src="https://via.placeholder.com/32" />
+                    <img src="https://via.placeholder.com/32" loading="lazy" />
                   </figure>
                 </td>
                 <td>
@@ -118,7 +118,7 @@ const App = () => {
                 </td>
                 <td>
                   <figure class="image is-48">
-                    <img src="https://via.placeholder.com/48" />
+                    <img src="https://via.placeholder.com/48" loading="lazy" />
                   </figure>
                 </td>
                 <td>
@@ -132,7 +132,7 @@ const App = () => {
                 </td>
                 <td>
                   <figure class="image is-64">
-                    <img src="https://via.placeholder.com/64" />
+                    <img src="https://via.placeholder.com/64" loading="lazy" />
                   </figure>
                 </td>
                 <td>
@@ -146,7 +146,7 @@ const App = () => {
                 </td>
                 <td>
                   <figure class="image is-96">
-                    <img src="https://via.placeholder.com/96" />
+                    <img src="https://via.placeholder.com/96" loading="lazy" />
                   </figure>
                 </td>
                 <td>
@@ -160,7 +160,7 @@ const App = () => {
                 </td>
                 <td>
                   <figure class="image is-128">
-                    <img src="https://via.placeholder.com/128" />
+                    <img src="https://via.placeholder.com/128" loading="lazy" />
                   </figure>
                 </td>
                 <td>
@@ -182,7 +182,7 @@ const App = () => {
         <div className="row mb-3">
           <div className="col-auto">
             <figure class="image is-rounded is-128">
-              <img src="https://via.placeholder.com/128" />
+              <img src="https://via.placeholder.com/128" loading="lazy" />
             </figure>
           </div>
         </div>
