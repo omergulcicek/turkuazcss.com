@@ -38,7 +38,123 @@ export const obj = {
 
 const App = () => {
   return (
-    <BasePage info={obj} />
+    <BasePage info={obj}>
+      <section>
+        <p>
+          Card bileşeni ihtiyacınıza göre özelleştirebileceğiniz yazı, buton yada görsel içerebilen kapsayıcılardır.
+        </p>
+
+        <div className="row mb-3">
+          <div className="col-12 col-md-6 col-lg-4">
+            <div className="card">
+              <figure className="card-image">
+                <img src="https://via.placeholder.com/640x480" alt="Placeholder image" />
+              </figure>
+      
+              <div className="card-content">
+                <h5>Card title</h5>
+    
+                <p>
+                  Some quick example text to build on the card title and make up the bulk of the card's content.
+                </p>
+    
+                <a href="#" className="button is-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <SyntaxHighlighter language="html">
+{`<div class="card">
+  <figure class="card-image">
+    <img src="https://via.placeholder.com/640x480" alt="Placeholder image" />
+  </figure>
+
+  <div class="card-content">
+    <h5>Card title</h5>
+
+    <p>
+      Some quick example text to build on the card title and make up the bulk of the card's content.
+    </p>
+
+    <a href="#" class="button is-primary">Go somewhere</a>
+  </div>
+</div>`}
+        </SyntaxHighlighter>
+      </section>
+
+      <section>
+        <h2>Boyut</h2>
+
+        <p>
+          Card elementi 3 farklı boyuta sahiptir.
+        </p>
+
+        <div className="row mb-3">
+          <div className="col-12 col-md-6 col-lg-4">
+            <div className="card is-small">
+              <figure className="card-image">
+                <img src="https://via.placeholder.com/640x480" alt="Placeholder image" />
+              </figure>
+      
+              <div className="card-content">
+                <h5>Card title</h5>
+    
+                <p>
+                  Some quick example text to build on the card title and make up the bulk of the card's content.
+                </p>
+    
+                <a href="#" className="button is-primary">Go somewhere</a>
+              </div>
+            </div>          
+          </div>
+          
+          <div className="col-12 col-md-6 col-lg-4">
+            <div className="card">
+              <figure className="card-image">
+                <img src="https://via.placeholder.com/640x480" alt="Placeholder image" />
+              </figure>
+      
+              <div className="card-content">
+                <h5>Card title</h5>
+    
+                <p>
+                  Some quick example text to build on the card title and make up the bulk of the card's content.
+                </p>
+    
+                <a href="#" className="button is-primary">Go somewhere</a>
+              </div>
+            </div>          
+          </div>
+          
+          <div className="col-12 col-md-6 col-lg-4">
+            <div className="card is-large">
+              <figure className="card-image">
+                <img src="https://via.placeholder.com/640x480" alt="Placeholder image" />
+              </figure>
+      
+              <div className="card-content">
+                <h5>Card title</h5>
+    
+                <p>
+                  Some quick example text to build on the card title and make up the bulk of the card's content.
+                </p>
+    
+                <a href="#" className="button is-primary">Go somewhere</a>
+              </div>
+            </div>          
+          </div>
+        </div>
+
+        <SyntaxHighlighter language="html">
+{`<div class="card is-small"></div>
+
+<div class="card"></div>
+
+<div class="card is-large"></div>`}
+        </SyntaxHighlighter>
+      </section>
+    </BasePage>
   )
 }
 
