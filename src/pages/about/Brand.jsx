@@ -37,7 +37,9 @@ const App = () => {
               <p>
                 Baskı için <a href="!#"  target="_blank" rel="noopener noreferrer">.EPS</a>, yayıncılık ve web için <a href="!#"  target="_blank" rel="noopener noreferrer">.SVG </a> yada <a href="!#"  target="_blank" rel="noopener noreferrer">.PNG</a> formatında indirilebilirsin.
               </p>
-              <template>TODO: Logonun farklı çözünürlük ve formatlarda hazırlanması için destek alınacak.</template>
+              <template>
+                //TODO: Logonun farklı çözünürlük ve formatlarda hazırlanması için destek alınacak.
+              </template>
             </div>
 
             <div className="col-12 col-md-4">
