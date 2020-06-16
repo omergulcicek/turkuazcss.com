@@ -38,7 +38,63 @@ export const obj = {
 
 const App = () => {
   return (
-    <BasePage info={obj} />
+    <BasePage info={obj}>
+      <section>
+        <p>
+          <code>&lt;textarea&gt;</code> etiketine <code>textarea</code> bir form girişi oluşturabilirsin.
+        </p>
+
+        <div className="row mb-3">
+          <div className="col-12 col-md-6 col-lg-4">
+            <textarea className="textarea"></textarea>
+          </div>
+        </div>
+
+        <SyntaxHighlighter language="html">
+{`<textarea class="textarea"></textarea>`}
+        </SyntaxHighlighter>
+
+        <div className="notification is-info mt-5">
+          Form elemanlarını <strong>form-field</strong> kapsayıcısı içerisine almayı unutmayın.
+        </div>
+      </section>
+      
+      <section>
+        <h2>Çeşit</h2>
+
+        <h6>disabled</h6>
+
+        <div className="row mb-3">
+          <div className="col-12 col-md-6">
+            <div className="form-field">
+              <textarea className="textarea" disabled>disabled textarea</textarea>
+            </div>
+          </div>
+        </div>
+
+        <SyntaxHighlighter language="html">
+{`<div class="form-field">
+  <textarea class="textarea" disabled>disabled textarea</textarea>
+</div>`}
+        </SyntaxHighlighter>
+
+        <h6 className="mt-5">readonly</h6>
+
+        <div className="row mb-3">
+          <div className="col-12 col-md-6">
+            <div className="form-field">
+              <textarea className="textarea" readOnly>readonly textarea</textarea>
+            </div>
+          </div>
+        </div>
+
+        <SyntaxHighlighter language="html">
+{`<div class="form-field">
+  <textarea class="textarea" readonly>readonly textarea</textarea>
+</div>`}
+        </SyntaxHighlighter>
+      </section>
+    </BasePage>
   )
 }
 
