@@ -67,7 +67,6 @@ const App = () => {
             <span className="delete is-small mr-1"></span>
             <span className="delete mr-1"></span>
             <span className="delete is-large"></span>
-            
           </div>
         </div>
 
@@ -94,7 +93,7 @@ const App = () => {
               <a className="delete"></a>
             </div>
 
-            <div className="notification is-info">
+            <div className="notification is-info mt-2">
               <a className="delete"></a>
               <span>
                 Delete elementi, notification elementi içerisinde otomatik olarak sağ üst köşeye yerleşecektir.
