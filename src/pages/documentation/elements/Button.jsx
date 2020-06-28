@@ -38,166 +38,189 @@ export const obj = {
 
 const App = () => {
   return (
-    <BasePage info={obj} />
+    <BasePage info={obj}>
+      <section>
+        <div className="row mb-3">
+          <div className="col-12">
+            <a className="button mb-1">Button</a>
+            <a className="button is-primary mb-1">primary</a>
+            <a className="button is-secondary mb-1">secondary</a>
+            <a className="button is-success mb-1">success</a>
+            <a className="button is-warning mb-1">warning</a>
+            <a className="button is-danger mb-1">danger</a>
+            <a className="button is-info mb-1">info</a>
+            <a className="button is-link mb-1">link</a>
+          </div>
+        </div>
+
+        <SyntaxHighlighter language="html">
+{`<a class="button">Button</a>
+<a class="button is-primary">primary</a>
+<a class="button is-secondary">secondary</a>
+<a class="button is-success">success</a>
+<a class="button is-warning">warning</a>
+<a class="button is-danger">danger</a>
+<a class="button is-info">info</a>
+<a class="button is-link">link</a>`}
+        </SyntaxHighlighter>
+
+        <div className="notification is-info mt-5">
+          <strong>a, button</strong> yada <strong>input[type=button]</strong> hepsi aynı çıktıyı verir.
+        </div>
+      </section>
+
+      <section>
+        <h2>Boyut</h2>
+
+        <p>
+          Button elementi 3 farklı boyuta sahiptir.
+        </p>
+
+        <div className="row mb-3">
+          <div className="col-12 col-md-6 col-lg-4">
+            <a className="button is-small mr-1">Small</a>
+            <a className="button mr-1">Normal</a>
+            <a className="button is-large">Large</a>
+          </div>
+        </div>
+
+        <SyntaxHighlighter language="html">
+{`<a class="button is-small">Small</a>
+<a class="button">Normal</a>
+<a class="button is-large">Large</a>`}
+        </SyntaxHighlighter>
+      </section>
+
+      <section>
+        <h2>Çeşit</h2>
+        
+        <h6 className="mt-5">disabled</h6>
+
+        <div className="row mb-3">
+          <div className="col-12">
+            <p>
+              <a className="button mb-1" disabled>button</a>
+              <a className="button is-primary mb-1" disabled>primary</a>
+              <a className="button is-secondary mb-1" disabled>secondary</a>
+              <a className="button is-success mb-1" disabled>success</a>
+              <a className="button is-warning mb-1" disabled>warning</a>
+              <a className="button is-danger mb-1" disabled>danger</a>
+              <a className="button is-info mb-1" disabled>info</a>
+            </p>
+          </div>
+
+          <div className="col-12 col-md-8">
+            <SyntaxHighlighter language="html">
+{`<a class="button" disabled>disabled</a>`}
+            </SyntaxHighlighter>
+          </div>
+        </div>
+
+        <h6 className="mt-5">outline</h6>
+
+        <div className="row mb-3">
+          <div className="col-12">
+            <a className="button is-outline is-primary mb-1">primary</a>
+            <a className="button is-outline is-secondary mb-1">secondary</a>
+            <a className="button is-outline is-success mb-1">success</a>
+            <a className="button is-outline is-warning mb-1">warning</a>
+            <a className="button is-outline is-danger mb-1">danger</a>
+            <a className="button is-outline is-info mb-1">info</a>
+          </div>
+
+          <div className="col-12 col-md-8">
+            <SyntaxHighlighter language="html">
+{`<a class="button is-outline is-primary">primary</a>
+<a class="button is-outline is-secondary">secondary</a>
+<a class="button is-outline is-success">success</a>
+<a class="button is-outline is-warning">warning</a>
+<a class="button is-outline is-danger">danger</a>
+<a class="button is-outline is-info">info</a>`}
+            </SyntaxHighlighter>
+          </div>
+        </div>
+
+        <h6 className="mt-5">circle</h6>
+
+        <div className="row mb-3">
+          <div className="col-12">
+            <a className="button is-circle is-small">S</a>
+            <a className="button is-circle">N</a>
+            <a className="button is-circle is-large">L</a>
+          </div>
+
+          <div className="col-12 col-md-8">
+            <SyntaxHighlighter language="html">
+{`<a class="button is-circle is-small">S</a>
+<a class="button is-circle">N</a>
+<a class="button is-circle is-large">L</a>`}
+            </SyntaxHighlighter>
+          </div>
+        </div>
+
+        <h6 className="mt-5">square</h6>
+
+        <div className="row mb-3">
+          <div className="col-12">
+            <a className="button is-square is-small">S</a>
+            <a className="button is-square">N</a>
+            <a className="button is-square is-large">L</a>
+          </div>
+
+          <div className="col-12 col-md-8">
+            <SyntaxHighlighter language="html">
+{`<a class="button is-square is-small">S</a>
+<a class="button is-square">N</a>
+<a class="button is-square is-large">L</a>`}
+            </SyntaxHighlighter>
+          </div>
+        </div>
+
+        <h6 className="mt-5">block</h6>
+
+        <div className="row mb-3">
+          <div className="col-12 col-md-6">
+            <a className="button is-block is-small mb-1">Small</a>
+            <a className="button is-block mb-1">Normal</a>
+            <a className="button is-block is-large mb-1">Large</a>
+          </div>
+
+          <div className="col-12 col-md-8">
+            <SyntaxHighlighter language="html">
+{`<a class="button is-block is-small">S</a>
+<a class="button is-block">N</a>
+<a class="button is-block is-large">L</a>`}
+            </SyntaxHighlighter>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Kombinasyon</h2>
+
+        <p>
+          Button elementinin içerisinde icon kullanabilirsiniz.
+        </p>
+
+        <div className="row mb-3">
+          <div className="col-12">
+            <a className="button">
+              <span>Button</span>
+              <span className="ml-2">icon</span>
+            </a>
+          </div>
+        </div>
+
+        {
+          // TODO: Butonlara ikon ekle
+        }
+
+        <SyntaxHighlighter language="html">
+{``}
+        </SyntaxHighlighter>
+      </section>
+    </BasePage>
   )
 }
 
 export default App
-
-/*
-import React, { Component } from "react"
-
-import { SEO, BasePageHeader, Settings } from "../../../components"
-
-class App extends Component {
-  constructor(props) {
-    super(props)
-
-    this.state = {
-      colorValue: "",
-      sizeValue: "",
-      styleValue: "",
-      disabled: false,
-      outline: false,
-      text: "Button"
-    }
-
-    this.changeColor = this.changeColor.bind(this)
-    this.changeSize = this.changeSize.bind(this)
-    this.changeStyle = this.changeStyle.bind(this)
-    this.changeDisabled = this.changeDisabled.bind(this)
-    this.changeOutline = this.changeOutline.bind(this)
-    this.changeText = this.changeText.bind(this)
-  }
-
-  changeColor(value) {
-    value !== "" ? this.setState({ colorValue: ` ${value}` }) :  this.setState({ colorValue: "" })
-  }
-
-  changeSize(value) {
-    value !== "" ? this.setState({ sizeValue: ` ${value}` }) :  this.setState({ sizeValue: "" })
-  }
-
-  changeStyle(value) {
-    value !== "" ? this.setState({ styleValue: ` ${value}` }) :  this.setState({ styleValue: "" })
-  }
-
-  changeDisabled() {
-    this.setState({
-      disabled: !this.state.disabled
-    })
-  }
-
-  changeOutline() {
-    this.setState({
-      outline: !this.state.outline
-    })
-  }
-
-  changeText(e) {
-    this.setState({text: e.target.value});
-  }
-
-  render () {
-    const { title, desc, breadcrumb } = obj
-    const { color, size, style } = details
-    const { colorValue, sizeValue, styleValue, disabled, outline, text } = this.state
-
-    let colors = color.map(({ colorHex, value }, i) =>
-      <label key={i} onClick={this.changeColor.bind(this, value)}>
-        <input type="radio" class="radio color-input" name="colorChange" />
-        <span style={{backgroundColor: colorHex, border: "1px solid rgba(0,0,0,.1)"}}></span>
-      </label>
-    )
-
-    let sizes = size.map(({ attr, value }, i) => 
-      <a href="#!" className={`button is-circle ${value}`} key={i} onClick={this.changeSize.bind(this, value)}>
-        {attr && attr[0].toUpperCase()}
-      </a>
-    )
-
-    let styles = style.map(({ attr, value }, i) => 
-      <a href="#!" className={`button is-small ${value}`} key={i} onClick={this.changeStyle.bind(this, value)}>&nbsp;{attr && attr[0].toUpperCase()}</a>
-    )
-
-    return (
-      <section>
-        <SEO title={title} />
-
-        <BasePageHeader
-          title={title}
-          desc={desc}
-          breadcrumb={breadcrumb}
-        />
-
-        <Settings>
-          <aside>
-            <a className={`button ${colorValue} ${sizeValue} ${styleValue} ${outline? " is-outline" : ""}`} disabled={disabled}>{text}</a>
-
-            <pre>
-              
-            <div dangerouslySetInnerHTML={{ __html: `&lt;a class="button${colorValue}${sizeValue}${styleValue}${outline? " is-outline" : ""}"${disabled ? " disabled" : ""}>${text}&lt;/a>` }} />
-
-            </pre>
-          </aside>
-
-          <aside>
-            <table className="table">
-              <tbody>
-                <tr>
-                  <th>Buton yazısı</th>
-                  <td>
-                    <input className="input" value={text} onChange={this.changeText} />  
-                  </td>
-                </tr>
-
-                <tr>
-                  <th>Renk</th>
-                  <td>{ colors }</td>
-                </tr>
-
-                <tr>
-                  <th>Boyut</th>
-                  <td>
-                    <div style={{display: "flex", alignItems: "center"}}>
-                      { sizes }
-                    </div>
-                  </td>
-                </tr>
-                
-                <tr>
-                  <th>Stil</th>
-                  <td>
-                    { styles }
-                  </td>
-                </tr>
-
-                <tr>
-                  <th>Outline</th>
-                  <td>
-                  <a href="#!" className="button is-small" onClick={this.changeOutline}>
-                    Outline
-                  </a>
-                  </td>
-                </tr>
-
-                <tr>
-                  <th>Disabled</th>
-                  <td>
-                  <a href="#!" className="button is-small" onClick={this.changeDisabled}>
-                    Disable
-                  </a>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </aside>
-        </Settings>
-
-      </section>
-    )
-  }
-}
-
-export default App
-*/
