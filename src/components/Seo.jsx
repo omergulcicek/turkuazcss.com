@@ -5,7 +5,7 @@ const SEO = ({ title }) => {
   return (
     <Helmet
       title={title}
-      titleTemplate={`%s | Turkuaz Css`}
+      titleTemplate={`%s · Turkuaz v1.0`}
     />
   )
 }
