@@ -40,42 +40,37 @@ const App = () => {
   return (
     <BasePage info={obj}>
       <section>
-        <p>
-          Card bileşeni ihtiyacınıza göre özelleştirebileceğiniz yazı, buton yada görsel içerebilen kapsayıcılardır.
-        </p>
-
         <div className="row mb-3">
-
           <template>
             //TODO: Dropdown click olanı eklenecek
           </template>
 
-        <div className="col-12 col-md-6 col-lg-4">
-          <div className="dropdown">
-            <a href="#!" className="button dropdown-trigger">click</a>
-            
-            <div className="dropdown-menu">
-              <a className="dropdown-item" href="#!">Action</a>
-              <a className="dropdown-item" href="#!">Another action</a>
-              <a className="dropdown-item" href="#!">Something else here</a>
-              <div className="divider"></div>
-              <a className="dropdown-item" href="#!">Separated link</a>
+          <div className="col-12 col-md-6 col-lg-4">
+            <div className="dropdown">
+              <a href="#!" className="button dropdown-trigger">click</a>
+              
+              <div className="dropdown-menu">
+                <a className="dropdown-item" href="#!">Action</a>
+                <a className="dropdown-item" href="#!">Another action</a>
+                <a className="dropdown-item" href="#!">Something else here</a>
+                <div className="divider"></div>
+                <a className="dropdown-item" href="#!">Separated link</a>
+              </div>
             </div>
-          </div>
-          
-          <div className="dropdown is-hoverable">
-            <a href="#!" className="button dropdown-trigger">:hover</a>
             
-            <div className="dropdown-menu">
-              <a className="dropdown-item" href="#!">Action</a>
-              <a className="dropdown-item" href="#!">Another action</a>
-              <a className="dropdown-item" href="#!">Something else here</a>
-              <div className="divider"></div>
-              <a className="dropdown-item" href="#!">Separated link</a>
+            <div className="dropdown is-hoverable">
+              <a href="#!" className="button dropdown-trigger">:hover</a>
+              
+              <div className="dropdown-menu">
+                <a className="dropdown-item" href="#!">Action</a>
+                <a className="dropdown-item" href="#!">Another action</a>
+                <a className="dropdown-item" href="#!">Something else here</a>
+                <div className="divider"></div>
+                <a className="dropdown-item" href="#!">Separated link</a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
 
         <SyntaxHighlighter language="html">
 {`<div class="dropdown">

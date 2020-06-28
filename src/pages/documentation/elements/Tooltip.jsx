@@ -40,15 +40,11 @@ const App = () => {
   return (
     <BasePage info={obj}>
       <section>
-        <p>
-          Üzerine gelindiğinde küçük bir açıklama balonu çıkartır.
-        </p>
-
-        <u className="tooltip" data-content="Turkuaz">Buranın üzerine gelin</u>
+        <u className="tooltip" data-content="Turkuaz">Bu yazının üzerine gelin</u>
 
         <p>
           <SyntaxHighlighter language="html">
-{`<span class="tooltip" data-content="Turkuaz">Buranın üzerine gelin</span>`}
+{`<span class="tooltip" data-content="Turkuaz">Bu yazının üzerine gelin</span>`}
           </SyntaxHighlighter>
         </p>
       </section>

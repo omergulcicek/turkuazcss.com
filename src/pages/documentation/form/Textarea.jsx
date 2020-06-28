@@ -40,10 +40,6 @@ const App = () => {
   return (
     <BasePage info={obj}>
       <section>
-        <p>
-          <code>&lt;textarea&gt;</code> etiketine <code>textarea</code> bir form girişi oluşturabilirsin.
-        </p>
-
         <div className="row mb-3">
           <div className="col-12 col-md-6 col-lg-4">
             <textarea className="textarea"></textarea>
@@ -62,7 +58,7 @@ const App = () => {
       <section>
         <h2>Çeşit</h2>
 
-        <h6>disabled</h6>
+        <h6 className="mt-4">disabled</h6>
 
         <div className="row mb-3">
           <div className="col-12 col-md-6">

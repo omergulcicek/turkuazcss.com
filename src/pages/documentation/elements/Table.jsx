@@ -40,10 +40,6 @@ const App = () => {
   return (
     <BasePage info={obj}>
       <section>
-        <p>
-          HTML'in <code>&lt;table></code> etiketine <code>table</code> sınıfı ekleyerek bir Turkuaz tablosu oluşturabilirsin.
-        </p>
-
         <table class="table">
           <thead>
             <tr>

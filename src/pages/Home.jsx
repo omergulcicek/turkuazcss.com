@@ -8,7 +8,7 @@ const App = () => {
   return (
     <>
       <HomeSection>
-        <SEO title="Ana Sayfa" />
+        <SEO title="Turkuaz · Hızlı esnek ve kolay web sayfaları geliştirmek için tasarlanan güçlü bir CSS Framework" />
         
         <h1>Turkuaz</h1>
 

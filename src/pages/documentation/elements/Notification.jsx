@@ -41,10 +41,6 @@ const App = () => {
   return (
     <BasePage info={obj}>
       <section>
-        <p>
-          Notification, kullanıcıya bir şey hakkında dikkat çekmek isteyen basit renkli bir elementtir. <Link to="delete">Delete</Link> elementini destekler.
-        </p>
-
         <div className="row mb-3">
           <div className="col-12 col-md-6 col-lg-4">
             <div className="notification">

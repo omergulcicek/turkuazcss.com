@@ -41,7 +41,7 @@ const App = () => {
     <BasePage info={obj}>
       <section>
         <p>
-          Divider elemanı sayfadaki içeriği dikey yada yatay olarak ikiye ayırır. <code>data-content</code> attribute ile ortasına küçük yazılar ekleyebilirsiniz.
+          <code>data-content</code> attribute ile ortasına küçük yazılar ekleyebilirsiniz.
         </p>
 
         <div className="row mb-3">

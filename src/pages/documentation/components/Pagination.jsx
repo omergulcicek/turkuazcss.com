@@ -37,10 +37,6 @@ const App = () => {
     <BasePage info={obj}>
       <section>
         <p>
-          Pagination bileşeni bulunduğunuz sayfayı gösterir ve sayfalar arası geçiş yapmayı sağlar.
-        </p>
-
-        <p>
           Aktif sayfayı göstermek için <code>is-current</code> sınıfını, pasif linkler için <code>disabled</code> özelliğini kullanabilirsiniz.
         </p>
 

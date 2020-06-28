@@ -40,10 +40,6 @@ const App = () => {
   return (
     <BasePage info={obj}>
       <section>
-        <p>
-          HTML'in <code>&lt;progress></code> etiketine <code>progress</code> sınıfı ekleyerek bir Turkuaz ilerleme çubuğu oluşturabilirsin.
-        </p>
-
         <div className="row mb-3">
           <div className="col-12 col-md-6 col-lg-4">
             <progress class="progress" value="15" max="100"></progress>

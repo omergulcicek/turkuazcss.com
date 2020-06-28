@@ -40,10 +40,6 @@ const App = () => {
   return (
     <BasePage info={obj}>
       <section>
-        <p>
-          Breadcrumb bileşeni geçerli sayfanın gezinme geçmişini gösterir. 
-        </p>
-
         <div className="row mb-3">
           <div className="col-12 col-md-6 col-lg-4">
             <nav className="breadcrumb">

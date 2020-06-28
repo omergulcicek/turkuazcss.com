@@ -94,7 +94,7 @@ const App = () => {
       <section>
         <h2>Çeşit</h2>
         
-        <h6 className="mt-5">disabled</h6>
+        <h6 className="mt-4">disabled</h6>
 
         <div className="row mb-3">
           <div className="col-12">

@@ -40,10 +40,6 @@ const App = () => {
   return (
     <BasePage info={obj}>
       <section>
-        <p>
-          Turkuaz tag'ı küçük ama çok yönlü bir elementtir.
-        </p>
-
         <div className="row mb-3">
           <div className="col-12 col-md-6 col-lg-4">
             <span className="tag">Tag</span>

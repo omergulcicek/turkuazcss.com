@@ -41,10 +41,6 @@ const App = () => {
     <BasePage info={obj}>
       <section>
         <p>
-          List bileşeni alt alta listeleme yapabilmek amacıyla kullanılır.
-        </p>
-
-        <p>
           Bir elemanı daha belirgin göstermek için <code>is-active</code> sınıfını, pasif elemanlar için <code>disabled</code> özelliğini kullanabilirsiniz.
         </p>
 
