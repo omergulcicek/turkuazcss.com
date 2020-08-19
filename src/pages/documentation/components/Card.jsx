@@ -43,12 +43,12 @@ const App = () => {
         <div className="row mb-3">
           <div className="col-12 col-md-6 col-lg-4">
             <div className="card">
-              <figure className="card-image">
+              <figure className="card_image">
                 <img src="https://via.placeholder.com/640x480" alt="Placeholder image" />
               </figure>
       
-              <div className="card-content">
-                <h5>Card title</h5>
+              <div className="card_content">
+                <h5 className="card_title">Card title</h5>
     
                 <p>
                   Some quick example text to build on the card title and make up the bulk of the card's content.
@@ -62,11 +62,11 @@ const App = () => {
 
         <SyntaxHighlighter language="html">
 {`<div class="card">
-  <figure class="card-image">
+  <figure class="card_image">
     <img src="https://via.placeholder.com/640x480" alt="Placeholder image" />
   </figure>
 
-  <div class="card-content">
+  <div class="card_content">
     <h5>Card title</h5>
 
     <p>
@@ -89,12 +89,12 @@ const App = () => {
         <div className="row mb-3">
           <div className="col-12 col-md-6 col-lg-4">
             <div className="card is-small">
-              <figure className="card-image">
+              <figure className="card_image">
                 <img src="https://via.placeholder.com/640x480" alt="Placeholder image" />
               </figure>
       
-              <div className="card-content">
-                <h5>Card title</h5>
+              <div className="card_content">
+                <h5 className="card_title">Card title</h5>
     
                 <p>
                   Some quick example text to build on the card title and make up the bulk of the card's content.
@@ -107,12 +107,12 @@ const App = () => {
           
           <div className="col-12 col-md-6 col-lg-4">
             <div className="card">
-              <figure className="card-image">
+              <figure className="card_image">
                 <img src="https://via.placeholder.com/640x480" alt="Placeholder image" />
               </figure>
       
-              <div className="card-content">
-                <h5>Card title</h5>
+              <div className="card_content">
+                <h5 className="card_title">Card title</h5>
     
                 <p>
                   Some quick example text to build on the card title and make up the bulk of the card's content.
@@ -125,12 +125,12 @@ const App = () => {
           
           <div className="col-12 col-md-6 col-lg-4">
             <div className="card is-large">
-              <figure className="card-image">
+              <figure className="card_image">
                 <img src="https://via.placeholder.com/640x480" alt="Placeholder image" />
               </figure>
       
-              <div className="card-content">
-                <h5>Card title</h5>
+              <div className="card_content">
+                <h5 className="card_title">Card title</h5>
     
                 <p>
                   Some quick example text to build on the card title and make up the bulk of the card's content.

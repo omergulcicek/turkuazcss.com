@@ -14,7 +14,7 @@
     "react-scripts": "3.4.0",
     "react-syntax-highlighter": "^12.2.1",
     "styled-components": "^5.0.1",
-    "turkuaz": "^0.40.0"
+    "turkuaz": "^0.41.0"
   },
   "scripts": {
     "start": "react-scripts start",

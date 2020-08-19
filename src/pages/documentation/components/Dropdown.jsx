@@ -49,24 +49,24 @@ const App = () => {
             <div className="dropdown">
               <a href="#!" className="button dropdown-trigger">click</a>
               
-              <div className="dropdown-menu">
-                <a className="dropdown-item" href="#!">Action</a>
-                <a className="dropdown-item" href="#!">Another action</a>
-                <a className="dropdown-item" href="#!">Something else here</a>
+              <div className="dropdown_menu">
+                <a className="dropdown_item" href="#!">Action</a>
+                <a className="dropdown_item" href="#!">Another action</a>
+                <a className="dropdown_item" href="#!">Something else here</a>
                 <div className="divider"></div>
-                <a className="dropdown-item" href="#!">Separated link</a>
+                <a className="dropdown_item" href="#!">Separated link</a>
               </div>
             </div>
             
             <div className="dropdown is-hoverable">
               <a href="#!" className="button dropdown-trigger">:hover</a>
               
-              <div className="dropdown-menu">
-                <a className="dropdown-item" href="#!">Action</a>
-                <a className="dropdown-item" href="#!">Another action</a>
-                <a className="dropdown-item" href="#!">Something else here</a>
+              <div className="dropdown_menu">
+                <a className="dropdown_item" href="#!">Action</a>
+                <a className="dropdown_item" href="#!">Another action</a>
+                <a className="dropdown_item" href="#!">Something else here</a>
                 <div className="divider"></div>
-                <a className="dropdown-item" href="#!">Separated link</a>
+                <a className="dropdown_item" href="#!">Separated link</a>
               </div>
             </div>
           </div>
@@ -76,24 +76,24 @@ const App = () => {
 {`<div class="dropdown">
   <a href="#!" class="button dropdown-trigger">:hover</a>
   
-  <div class="dropdown-menu">
-    <a class="dropdown-item" href="#!">Action</a>
-    <a class="dropdown-item" href="#!">Another action</a>
-    <a class="dropdown-item" href="#!">Something else here</a>
+  <div class="dropdown_menu">
+    <a class="dropdown_item" href="#!">Action</a>
+    <a class="dropdown_item" href="#!">Another action</a>
+    <a class="dropdown_item" href="#!">Something else here</a>
     <div class="divider"></div>
-    <a class="dropdown-item" href="#!">Separated link</a>
+    <a class="dropdown_item" href="#!">Separated link</a>
   </div>
 </div>
 
 <div class="dropdown is-hoverable">
   <a href="#!" class="button dropdown-trigger">:hover</a>
 
-  <div class="dropdown-menu">
-    <a class="dropdown-item" href="#!">Action</a>
-    <a class="dropdown-item" href="#!">Another action</a>
-    <a class="dropdown-item" href="#!">Something else here</a>
+  <div class="dropdown_menu">
+    <a class="dropdown_item" href="#!">Action</a>
+    <a class="dropdown_item" href="#!">Another action</a>
+    <a class="dropdown_item" href="#!">Something else here</a>
     <div class="divider"></div>
-    <a class="dropdown-item" href="#!">Separated link</a>
+    <a class="dropdown_item" href="#!">Separated link</a>
   </div>
 </div>`}
         </SyntaxHighlighter>

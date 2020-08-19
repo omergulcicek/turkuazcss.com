@@ -99,9 +99,9 @@ const App = () => {
         </div>
 
         <SyntaxHighlighter language="html">
-{`<span class="delete is-small"></span>
-<span class="delete"></span>
-<span class="delete is-large"></span>`}
+{`<span class="breadcrumb is-small"></span>
+<span class="breadcrumb"></span>
+<span class="breadcrumb is-large"></span>`}
         </SyntaxHighlighter>
       </section>
     </BasePage>
