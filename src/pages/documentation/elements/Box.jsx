@@ -26,8 +26,8 @@ export const obj = {
   ],
   pagination: {
     prev: {
-      href: "badge",
-      text: "Badge"
+      href: "/docs/elements",
+      text: "Elementler"
     },
     next: {
       href: "button",

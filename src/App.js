@@ -15,9 +15,9 @@ import {
 
   Form, Input, Textarea, Select, Checkbox, Radio, SwitchCheck,
 
-  Elements, Badge, Box, Button, Delete, Divider, Image, Notification, Overlay, Progress, Table, Tag, Title, Tooltip,
+  Elements, Box, Button, Delete, Divider, Image, Notification, Progress, Table, Tag, Title, Tooltip,
 
-  Components, Breadcrumb, Card, Dropdown, Footer, List, Media, Modal, Navbar, Pagination,
+  Components, Breadcrumb, Card, Dropdown, Footer, List, Media, Modal, Pagination,
 
   Library, CSS, Sass, ReactJS, VueJS,
   
@@ -125,10 +125,6 @@ const App = () => {
             <Elements />
           </Route>
 
-          <Route path="/docs/elements/badge">
-            <Badge />
-          </Route>
-
           <Route path="/docs/elements/box">
             <Box />
           </Route>
@@ -151,10 +147,6 @@ const App = () => {
 
           <Route path="/docs/elements/notification">
             <Notification />
-          </Route>
-
-          <Route path="/docs/elements/overlay">
-            <Overlay />
           </Route>
 
           <Route path="/docs/elements/progress">
@@ -208,10 +200,6 @@ const App = () => {
           
           <Route path="/docs/components/modal">
             <Modal />
-          </Route>
-
-          <Route path="/docs/components/navbar">
-            <Navbar />
           </Route>
           
           <Route path="/docs/components/pagination">

@@ -38,7 +38,57 @@ export const obj = {
 
 const App = () => {
   return (
-    <BasePage info={obj} />
+    <BasePage info={obj}>
+      <section>
+        <div className="row mb-3">
+          <div className="col-12 col-md-6 col-lg-4">
+            <select className="select">
+              <option>Default select</option>
+              <option>Option</option>
+              <option>Option</option>
+              <option>Option</option>
+            </select>
+          </div>
+        </div>
+
+        <SyntaxHighlighter language="html">
+{`<select class="select">
+  <option>Default select</option>
+  <option>Option</option>
+  <option>Option</option>
+  <option>Option</option>
+</select>`}
+        </SyntaxHighlighter>
+
+        <div className="notification is-info mt-5">
+          Form elemanlarını <strong>form-field</strong> kapsayıcısı içerisine almayı unutmayın.
+        </div>
+      </section>
+      
+      <section>
+        <h2>Çeşit</h2>
+
+        <h6 className="mt-4">disabled</h6>
+
+        <div className="row mb-3">
+          <div className="col-12 col-md-6">
+            <div className="form-field">
+              <select className="select" disabled>
+                <option>Default select</option>
+                <option>Option</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <SyntaxHighlighter language="html">
+{`<select class="select" disabled>
+  <option>Default select</option>
+  <option>Option</option>
+</select>`}
+        </SyntaxHighlighter>
+      </section>
+    </BasePage>
   )
 }
 

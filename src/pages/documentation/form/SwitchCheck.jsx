@@ -38,7 +38,37 @@ export const obj = {
 
 const App = () => {
   return (
-    <BasePage info={obj} />
+    <BasePage info={obj}>
+      <section>
+        <div className="row mb-3">
+          <div className="col-12 col-md-6 col-lg-4">
+            <div className="form-field">
+              <p>
+                <label>
+                Kapalı
+                  <input type="checkbox" className="switch" />
+                  <span></span>
+                Açık
+                </label>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <SyntaxHighlighter language="html">
+{`<label>
+  Kapalı
+    <input type="checkbox" class="switch" />
+    <span></span>
+  Açık
+</label>`}
+        </SyntaxHighlighter>
+
+        <div className="notification is-info mt-5">
+          Form elemanlarını <strong>form-field</strong> kapsayıcısı içerisine almayı unutmayın.
+        </div>
+      </section>
+    </BasePage>
   )
 }
 

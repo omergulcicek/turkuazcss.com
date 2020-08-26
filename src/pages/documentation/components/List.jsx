@@ -26,8 +26,8 @@ export const obj = {
   ],
   pagination: {
     prev: {
-      href: "footer",
-      text: "Footer"
+      href: "dropdown",
+      text: "Dropdown"
     },
     next: {
       href: "media",

@@ -31,8 +31,8 @@ export const obj = {
       text: "Image"
     },
     next: {
-      href: "overlay",
-      text: "Overlay"
+      href: "progress",
+      text: "Progress"
     }
   }
 }

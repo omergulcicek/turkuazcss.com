@@ -46,9 +46,8 @@ export const Brand = styled.div`
       margin-right: 16px !important
     }
 
-    span {
-      font-size: 18px;
-      font-weight: bold
+    strong {
+      font-size: 18px
     }
   }
 `;

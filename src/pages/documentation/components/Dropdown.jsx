@@ -30,10 +30,20 @@ export const obj = {
       text: "Card"
     },
     next: {
-      href: "footer",
-      text: "Footer"
+      href: "list",
+      text: "List"
     }
   }
+}
+
+export const dropdownToggle = (e) => {
+  const dropdownWrap =  e.target.parentElement
+  dropdownWrap.classList.add("is-active")
+
+  document.body.addEventListener("click", () => {
+    const dropdowns = document.querySelectorAll(".dropdown.is-active")
+    dropdowns.forEach(e => e.classList.remove("is-active"))
+  })
 }
 
 const App = () => {
@@ -41,25 +51,9 @@ const App = () => {
     <BasePage info={obj}>
       <section>
         <div className="row mb-3">
-          <template>
-            //TODO: Dropdown click olanı eklenecek
-          </template>
-
           <div className="col-12 col-md-6 col-lg-4">
             <div className="dropdown">
-              <a href="#!" className="button dropdown-trigger">click</a>
-              
-              <div className="dropdown_menu">
-                <a className="dropdown_item" href="#!">Action</a>
-                <a className="dropdown_item" href="#!">Another action</a>
-                <a className="dropdown_item" href="#!">Something else here</a>
-                <div className="divider"></div>
-                <a className="dropdown_item" href="#!">Separated link</a>
-              </div>
-            </div>
-            
-            <div className="dropdown is-hoverable">
-              <a href="#!" className="button dropdown-trigger">:hover</a>
+              <a href="#!" className="button dropdown-trigger" onClick={e => dropdownToggle(e)}>click</a>
               
               <div className="dropdown_menu">
                 <a className="dropdown_item" href="#!">Action</a>
@@ -83,9 +77,33 @@ const App = () => {
     <div class="divider"></div>
     <a class="dropdown_item" href="#!">Separated link</a>
   </div>
-</div>
+</div>`}
+        </SyntaxHighlighter>
+      </section>
 
-<div class="dropdown is-hoverable">
+      <section>
+        <h2>Çeşit</h2>
+        
+        <h6 className="mt-4">hoverable</h6>
+
+        <div className="row mb-3">
+          <div className="col-12">
+            <div className="dropdown is-hoverable">
+              <a href="#!" className="button dropdown-trigger">:hover</a>
+              
+              <div className="dropdown_menu">
+                <a className="dropdown_item" href="#!">Action</a>
+                <a className="dropdown_item" href="#!">Another action</a>
+                <a className="dropdown_item" href="#!">Something else here</a>
+                <div className="divider"></div>
+                <a className="dropdown_item" href="#!">Separated link</a>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-12 col-md-8">
+            <SyntaxHighlighter language="html">
+{`<div class="dropdown is-hoverable">
   <a href="#!" class="button dropdown-trigger">:hover</a>
 
   <div class="dropdown_menu">
@@ -96,19 +114,9 @@ const App = () => {
     <a class="dropdown_item" href="#!">Separated link</a>
   </div>
 </div>`}
-        </SyntaxHighlighter>
-      </section>
-
-      <section>
-        <h2>Kombinasyon</h2>
-
-        <p>
-          Dropdown bileşenini ihtiyacınız olan herhangi bir yere ekleyebilirsiniz.
-        </p>
-
-        <template>
-          //TODO: Menü yada card içerisinde birer örnek yapılabilir.
-        </template>
+            </SyntaxHighlighter>
+          </div>
+        </div>
       </section>
     </BasePage>
   )

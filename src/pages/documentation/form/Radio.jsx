@@ -5,7 +5,7 @@ import { BasePage } from "../../../components"
 
 export const obj = {
   title: "Radio",
-  desc: "Kullanıcının seçeneklerden yalnızca birini seçtirin",
+  desc: "Kullanıcıya seçeneklerden yalnızca birini seçtirin",
   breadcrumb: [
     {
       text: "Ana Sayfa",
@@ -38,7 +38,51 @@ export const obj = {
 
 const App = () => {
   return (
-    <BasePage info={obj} />
+    <BasePage info={obj}>
+      <section>
+        <div className="row mb-3">
+          <div className="col-12 col-md-6 col-lg-4">
+            <div className="form-field">
+              <p>
+                <label>
+                  <input type="radio" className="radio" name="color" />
+                  <span>Siyah</span>
+                </label>
+              </p>
+              <p>
+                <label>
+                  <input type="radio" className="radio" name="color" checked />
+                  <span>Beyaz</span>
+                </label>
+              </p>
+              <p>
+                <label>
+                <input type="radio" className="radio" disabled />
+                  <span>Pasif</span>
+                </label>
+              </p>
+              <p>
+                <label>
+                  <input type="radio" className="radio" checked disabled />
+                  <span>Seçili ve pasif</span>
+                </label>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <SyntaxHighlighter language="html">
+{`<label>
+    <input type="radio" name="radio" class="radio">
+    <span>Radio Button</span>
+  </label>`}
+        </SyntaxHighlighter>
+
+        <div className="notification is-info mt-5">
+          Form elemanlarını <strong>form-field</strong> kapsayıcısı içerisine almayı unutmayın.
+        </div>
+      </section>
+    </BasePage>
   )
 }
 

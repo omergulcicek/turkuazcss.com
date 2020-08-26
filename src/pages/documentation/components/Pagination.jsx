@@ -26,8 +26,8 @@ export const obj = {
   ],
   pagination: {
     prev: {
-      href: "navbar",
-      text: "Navbar"
+      href: "modal",
+      text: "Modal"
     }
   }
 }

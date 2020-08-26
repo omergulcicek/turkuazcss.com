@@ -26,14 +26,12 @@ import RadioPage from "./documentation/form/Radio"
 import SwitchPage from "./documentation/form/SwitchCheck"
 
 import ElementsPage from "./documentation/Elements"
-import BadgePage from "./documentation/elements/Badge"
 import BoxPage from "./documentation/elements/Box"
 import ButtonPage from "./documentation/elements/Button"
 import DeletePage from "./documentation/elements/Delete"
 import DividerPage from "./documentation/elements/Divider"
 import ImagePage from "./documentation/elements/Image"
 import NotificationPage from "./documentation/elements/Notification"
-import OverlayPage from "./documentation/elements/Overlay"
 import ProgressPage from "./documentation/elements/Progress"
 import TablePage from "./documentation/elements/Table"
 import TagPage from "./documentation/elements/Tag"
@@ -47,7 +45,6 @@ import DropdownPage from "./documentation/components/Dropdown"
 import FooterPage from "./documentation/components/Footer"
 import ListPage from "./documentation/components/List"
 import MediaPage from "./documentation/components/Media"
-import NavbarPage from "./documentation/components/Navbar"
 import ModalPage from "./documentation/components/Modal"
 import PaginationPage from "./documentation/components/Pagination"
 
@@ -198,12 +195,6 @@ export function Elements() {
   )
 }
 
-export function Badge() {
-  return (
-    <BadgePage />
-  )
-}
-
 export function Box() {
   return (
     <BoxPage />
@@ -237,12 +228,6 @@ export function Image() {
 export function Notification() {
   return (
     <NotificationPage />
-  )
-}
-
-export function Overlay() {
-  return (
-    <OverlayPage />
   )
 }
 
@@ -321,12 +306,6 @@ export function Media() {
 export function Modal() {
   return (
     <ModalPage />
-  )
-}
-
-export function Navbar() {
-  return (
-    <NavbarPage />
   )
 }
 

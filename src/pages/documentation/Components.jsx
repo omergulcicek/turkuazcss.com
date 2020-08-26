@@ -37,13 +37,13 @@ export const obj = {
       link: "/docs/components/dropdown",
       desc: "Etkileşimli bir açılır menü",
       icon: '<svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" height="40"><path fill="#03a9f4" d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z"></path></svg>'
-    },
+    },/*
     {
       text: "Footer",
       link: "/docs/components/footer",
       desc: "Herhangi bir şey içerebilen basit tasarlanmış footer örnekleri",
       icon: '<svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 640 512" height="40" fill="#fbc02d"><path d="M192 160h32V32h-32c-35.35 0-64 28.65-64 64s28.65 64 64 64zM0 416c0 35.35 28.65 64 64 64h32V352H64c-35.35 0-64 28.65-64 64zm337.46-128c-34.91 0-76.16 13.12-104.73 32-24.79 16.38-44.52 32-104.73 32v128l57.53 15.97c26.21 7.28 53.01 13.12 80.31 15.05 32.69 2.31 65.6.67 97.58-6.2C472.9 481.3 512 429.22 512 384c0-64-84.18-96-174.54-96zM491.42 7.19C459.44.32 426.53-1.33 393.84.99c-27.3 1.93-54.1 7.77-80.31 15.04L256 32v128c60.2 0 79.94 15.62 104.73 32 28.57 18.88 69.82 32 104.73 32C555.82 224 640 192 640 128c0-45.22-39.1-97.3-148.58-120.81z"></path></svg>'
-    },
+    },*/
     {
       text: "List",
       link: "/docs/components/list",
@@ -61,12 +61,6 @@ export const obj = {
       link: "/docs/components/modal",
       desc: "Sitenize kullanıcı bildirimleri veya tamamen özel içerik için iletişim kutuları",
       icon: '<svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" height="40"><path fill="#22bd22" d="M464 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h416c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm0 394c0 3.3-2.7 6-6 6H54c-3.3 0-6-2.7-6-6V192h416v234z"></path></svg>'
-    },
-    {
-      text: "Navbar",
-      link: "/docs/components/navbar",
-      desc: "Resim, link, buton ve dropdown destekleyebilen duyarlı menü",
-      icon: '<svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 448 512" height="40" fill="#01579b"><path d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path></svg>'
     },
     {
       text: "Pagination",

@@ -26,8 +26,8 @@ export const obj = {
   ],
   pagination: {
     prev: {
-      href: "overlay",
-      text: "Overlay"
+      href: "notification",
+      text: "Notification"
     },
     next: {
       href: "table",
