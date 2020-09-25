@@ -105,13 +105,39 @@ export const FooterStyled = styled.footer`
 `;
 
 export const FooterFlex = styled.div`
-  align-items: center;
+  align-items: flex-start;
   display: flex;
   flex-direction: column;
+
+  div {
+    margin-bottom: 64px;
+  }
+
+  nav {
+    li{
+      margin-bottom: 4px;
+
+      a {
+        color: #26a69a;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
 
   @media (min-width: 768px){
     flex-direction: row;
     justify-content: space-between;
+
+    div {
+      margin-bottom: 0;
+    }
+
+    nav {
+      text-align: right;
+    }
   }
 `;
 
@@ -395,7 +421,6 @@ export const Theme = styled.article`
   }
 `;
 
-
 export const ThemeDetail = styled.section`
   article {
     margin-bottom: 40px;
@@ -439,3 +464,11 @@ export const ThemeDetail = styled.section`
     }
   }
 `;
+
+export const MigrationArticle = styled.article`
+  border-bottom: 2px dashed rgba(0,0,0,0.1);
+  margin-bottom: 16px;
+  padding-bottom: 32px;
+  padding-top: 32px;
+`;
+

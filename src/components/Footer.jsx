@@ -24,6 +24,28 @@ const Footer = () => {
               Proje açık kaynak ve kodları <a href="https://github.com/omergulcicek/turkuaz" target="_blank" rel="noopener noreferrer">GitHub</a>'tadır.
             </p>
           </div>
+
+          <nav>
+            <h5>Linkler</h5>
+
+            <ul>
+              <li>
+                <Link to="/">Ana Sayfa</Link>
+              </li>
+              <li>
+                <Link to="/about/turkuaz">Turkuaz'ın Hikayesi</Link>
+              </li>
+              <li>
+                <Link to="/docs/library">Farklı Platformlar</Link>
+              </li>
+              <li>
+                <Link to="/docs/overview/support">Destek Ol</Link>
+              </li>
+              <li>
+                <Link to="/about">Hakkında</Link>
+              </li>
+            </ul>
+          </nav>
         </FooterFlex>
       </div>
     </FooterStyled>
