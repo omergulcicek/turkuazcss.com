@@ -73,9 +73,9 @@ const App = () => {
 
         <SyntaxHighlighter language="html">
 {`<label>
-    <input type="radio" name="radio" class="radio">
-    <span>Radio Button</span>
-  </label>`}
+  <input type="radio" name="radio" class="radio" name="type">
+  <span>Radio Button</span>
+</label>`}
         </SyntaxHighlighter>
 
         <div className="notification is-info mt-5">

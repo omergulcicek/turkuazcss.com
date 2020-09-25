@@ -1,6 +1,7 @@
 import React from "react"
 
 import { BasePage } from "../../../components"
+import { MigrationArticle } from "./../../../components/Styled"
 
 export const obj = {
   title: "Versiyon Değişikliği",
@@ -37,7 +38,21 @@ export const obj = {
 
 const App = () => {
   return (
-    <BasePage info={obj} />
+    <BasePage info={obj}>
+      <section>
+        {
+        /*
+        <MigrationArticle>
+          <h2>v1.0.0</h2>
+
+          <ol>
+            <li>Turkuaz ilk versiyonu yayınlandı.</li>
+          </ol>
+        </MigrationArticle>
+        */
+        }
+      </section>
+    </BasePage>
   )
 }
 

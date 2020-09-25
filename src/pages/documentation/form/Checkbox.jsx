@@ -78,9 +78,9 @@ const App = () => {
 
         <SyntaxHighlighter language="html">
 {`<label>
-    <input type="checkbox" class="checkbox">
-    <span>Normal</span>
-  </label>`}
+  <input type="checkbox" class="checkbox" name="type">
+  <span>Normal</span>
+</label>`}
         </SyntaxHighlighter>
 
         <div className="notification is-info mt-5">
