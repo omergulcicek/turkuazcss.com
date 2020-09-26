@@ -40,6 +40,9 @@ const App = () => {
   return (
     <BasePage info={obj}>
       <section>
+        <p>
+          Henüz bir versiyon var :)
+        </p>
         {
         /*
         <MigrationArticle>

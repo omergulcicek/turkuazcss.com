@@ -73,7 +73,7 @@ const App = () => {
 
         <SyntaxHighlighter language="html">
 {`<label>
-  <input type="radio" name="radio" class="radio" name="type">
+  <input type="radio" name="radio" class="radio" name="type" />
   <span>Radio Button</span>
 </label>`}
         </SyntaxHighlighter>

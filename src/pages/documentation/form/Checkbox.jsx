@@ -78,7 +78,7 @@ const App = () => {
 
         <SyntaxHighlighter language="html">
 {`<label>
-  <input type="checkbox" class="checkbox" name="type">
+  <input type="checkbox" class="checkbox" name="type" />
   <span>Normal</span>
 </label>`}
         </SyntaxHighlighter>

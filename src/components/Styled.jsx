@@ -250,6 +250,11 @@ export const GithubButton = styled.a`
   span {
     color: #ff9800
   }
+
+  &:hover {
+    background-color: #252525;
+    color: #fff;
+  }
 `;
 
 export const BaseTempStyled = styled.section`
@@ -470,5 +475,58 @@ export const MigrationArticle = styled.article`
   margin-bottom: 16px;
   padding-bottom: 32px;
   padding-top: 32px;
+`;
+
+export const PreviewStyles = styled.section`
+
+  .text-center {
+    text-align: center;
+  }
+
+  article {
+    margin-bottom: 196px;
+  }
+
+  .preview-color-style {
+    div span {
+      border: 1px solid rgba(0 0 0 / 0.1);
+      border-radius: 100%;
+      cursor: pointer;
+      display: inline-block;
+      height: 40px;
+      position: relative;
+      width: 40px;
+
+      &:nth-child(1) {
+        background-color: #26a69a;
+        transform: translateX(24px);
+      }
+
+      &:nth-child(2) {
+        background-color: #2196f3;
+        transform: translateX(16px);
+      }
+
+      &:nth-child(3) {
+        background-color: #f44336;
+        transform: translateX(5px);
+      }
+
+      &:nth-child(4) {
+        background-color: #ffca28;
+        transform: translateX(0);
+      }
+
+      &:nth-child(5) {
+        background-color: #ffee58;
+        transform: translateX(-8px);
+      }
+
+      &:nth-child(6) {
+        background-color: #23d160;
+        transform: translateX(-16px);
+      }
+    }
+  }
 `;
 
