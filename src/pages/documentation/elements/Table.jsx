@@ -24,7 +24,7 @@ export const obj = {
       link: "/table"
     }
   ],
-  editlink: "https://github.com/omergulcicek/turkuazcss.com/blob/master/src/pages/documentation/elements/Table.jsx",
+  editlink: "documentation/elements/Table",
   pagination: {
     prev: {
       href: "progress",

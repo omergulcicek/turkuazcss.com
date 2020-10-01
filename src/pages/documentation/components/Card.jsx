@@ -24,7 +24,7 @@ export const obj = {
       link: "/card"
     }
   ],
-  editlink: "https://github.com/omergulcicek/turkuazcss.com/blob/master/src/pages/documentation/components/Card.jsx",
+  editlink: "documentation/components/Card",
   pagination: {
     prev: {
       href: "breadcrumb",

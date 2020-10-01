@@ -24,7 +24,7 @@ export const obj = {
       link: "/footer"
     }
   ],
-  editlink: "https://github.com/omergulcicek/turkuazcss.com/blob/master/src/pages/documentation/components/Footer.jsx",
+  editlink: "documentation/components/Footer",
   pagination: {
     prev: {
       href: "dropdown",

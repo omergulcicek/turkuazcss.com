@@ -24,7 +24,7 @@ export const obj = {
       link: "/breadcrumb"
     }
   ],
-  editlink: "https://github.com/omergulcicek/turkuazcss.com/blob/master/src/pages/documentation/components/Breadcrumb.jsx",
+  editlink: "documentation/components/Breadcrumb",
   pagination: {
     prev: {
       href: "/docs/components",

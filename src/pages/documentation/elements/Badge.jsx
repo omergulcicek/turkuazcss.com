@@ -24,7 +24,7 @@ export const obj = {
       link: "/badge"
     }
   ],
-  editlink: "https://github.com/omergulcicek/turkuazcss.com/blob/master/src/pages/documentation/elements/Badge.jsx",
+  editlink: "documentation/elements/Badge",
   pagination: {
     prev: {
       href: "/docs/elements",

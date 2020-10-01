@@ -24,7 +24,7 @@ export const obj = {
       link: "/image"
     }
   ],
-  editlink: "https://github.com/omergulcicek/turkuazcss.com/blob/master/src/pages/documentation/elements/Image.jsx",
+  editlink: "documentation/elements/Image",
   pagination: {
     prev: {
       href: "divider",

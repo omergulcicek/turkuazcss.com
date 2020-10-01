@@ -24,7 +24,7 @@ export const obj = {
       link: "/pagination"
     }
   ],
-  editlink: "https://github.com/omergulcicek/turkuazcss.com/blob/master/src/pages/documentation/components/Pagination.jsx",
+  editlink: "documentation/components/Pagination",
   pagination: {
     prev: {
       href: "modal",

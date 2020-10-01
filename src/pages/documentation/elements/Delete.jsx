@@ -24,7 +24,7 @@ export const obj = {
       link: "/delete"
     }
   ],
-  editlink: "https://github.com/omergulcicek/turkuazcss.com/blob/master/src/pages/documentation/elements/Delete.jsx",
+  editlink: "documentation/elements/Delete",
   pagination: {
     prev: {
       href: "button",

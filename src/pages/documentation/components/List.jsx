@@ -24,7 +24,7 @@ export const obj = {
       link: "/list"
     }
   ],
-  editlink: "https://github.com/omergulcicek/turkuazcss.com/blob/master/src/pages/documentation/components/List.jsx",
+  editlink: "documentation/components/List",
   pagination: {
     prev: {
       href: "dropdown",

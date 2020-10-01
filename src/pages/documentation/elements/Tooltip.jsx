@@ -24,7 +24,7 @@ export const obj = {
       link: "/tooltip"
     }
   ],
-  editlink: "https://github.com/omergulcicek/turkuazcss.com/blob/master/src/pages/documentation/elements/Tooltip.jsx",
+  editlink: "documentation/elements/Tooltip",
   pagination: {
     prev: {
       href: "title",
