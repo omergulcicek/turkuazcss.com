@@ -30,7 +30,7 @@ const Footer = () => {
 
             <ul>
               <li>
-                <Link to="/">Ana Sayfa</Link>
+                <Link to="/" id="links">Ana Sayfa</Link>
               </li>
               <li>
                 <Link to="/about/turkuaz">Turkuaz'ın Hikayesi</Link>

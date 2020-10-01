@@ -18,8 +18,10 @@ export const HeaderFlex = styled.div`
     margin-bottom: 0;
     margin-right: 4px;
     padding: 8px 12px;
+    scroll-margin-top: 80px;
 
     &:hover,
+    &:focus,
     &.active {
       background-color: #fafafa;
       text-decoration: none;
@@ -48,7 +50,8 @@ export const Brand = styled.span`
     color: inherit;
     font-size: inherit;
 
-    &:hover {
+    &:hover,
+    &:focus {
       background-color: transparent
     }
   }
@@ -58,6 +61,10 @@ export const MainStyled = styled.main`
   flex: 1;
   margin: 40px auto;
   width: 90%;
+
+  & > section:first-of-type .breadcrumb a {
+    scroll-margin-top: 160px;
+  }
   
   @media (min-width: 576px){
     max-width:540px
@@ -97,7 +104,8 @@ export const FooterStyled = styled.footer`
     a {
       color: inherit;
 
-      &:hover {
+      &:hover,
+      &:focus {
         text-decoration: underline;
       }
     }
@@ -120,7 +128,8 @@ export const FooterFlex = styled.div`
       a {
         color: #26a69a;
 
-        &:hover {
+        &:hover,
+        &:focus {
           text-decoration: underline;
         }
       }
@@ -251,7 +260,8 @@ export const GithubButton = styled.a`
     color: #ff9800
   }
 
-  &:hover {
+  &:hover,
+  &:focus {
     background-color: #252525;
     color: #fff;
   }
@@ -270,7 +280,8 @@ export const BaseTempStyled = styled.section`
     width: 50%;
     vertical-align: top;
 
-    &:hover {
+    &:hover,
+    &:focus {
       background-color: #f7f7f7;
       text-decoration: none;
     }
@@ -409,7 +420,8 @@ export const Theme = styled.article`
     line-height: 27px;
   }
 
-  &:hover {
+  &:hover,
+  &:focus-within {
     cursor: pointer;
 
     a {
@@ -452,7 +464,8 @@ export const ThemeDetail = styled.section`
       width: 100%;
     }
 
-    &:hover div {
+    &:hover div,
+    &:focus-within div {
       opacity: 1;
       visibility: visible;
     }
@@ -530,3 +543,22 @@ export const PreviewStyles = styled.section`
   }
 `;
 
+export const FocusStyled = styled.div`
+
+  a {
+    border-radius: 2px;
+    color: #2228af;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    text-decoration: underline;
+    left: 8px;
+    position: absolute;
+    top: 27px;
+
+    &:not(:focus) {
+      clip: rect(1px,1px,1px,1px);
+  }
+  }
+`;

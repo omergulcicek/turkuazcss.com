@@ -6,6 +6,7 @@ import BasePageTemp from "./BasePage"
 import BasePageHeaderTemp from "./BasePageHeader"
 import BasePageContentTemp from "./BasePageContent"
 import SettingsTemp from "./Settings"
+import FocusTemp from "./Focus"
 
 export function Layout({ children }) {
   return (
@@ -16,6 +17,12 @@ export function Layout({ children }) {
 export function SEO({ title }) {
   return (
     <SEOTemp title={title} />
+  )
+}
+
+export function Focus() {
+  return (
+    <FocusTemp />
   )
 }
 

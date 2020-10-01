@@ -7,7 +7,12 @@ import { HeaderStyled, HeaderFlex } from "./Styled"
 class Header extends Component {
   render() {
     let nav = links.map(({ link, text }, i) =>
-      <NavLink to={link} key={i} dangerouslySetInnerHTML={{ __html: text }} />
+      <NavLink
+        to={link}
+        key={i}
+        dangerouslySetInnerHTML={{ __html: text }}
+        id={i === 0 && "menu"}
+      />
     )
 
     return (
