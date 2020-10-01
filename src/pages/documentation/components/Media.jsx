@@ -24,6 +24,7 @@ export const obj = {
       link: "/media"
     }
   ],
+  editlink: "https://github.com/omergulcicek/turkuazcss.com/blob/master/src/pages/documentation/components/Media.jsx",
   pagination: {
     prev: {
       href: "list",

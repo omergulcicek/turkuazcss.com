@@ -57,7 +57,7 @@ export const Brand = styled.span`
 export const MainStyled = styled.main`
   flex: 1;
   margin: 40px auto;
-  width: 100%;
+  width: 90%;
   
   @media (min-width: 576px){
     max-width:540px

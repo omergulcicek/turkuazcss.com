@@ -25,6 +25,7 @@ export const obj = {
       link: "/notification"
     }
   ],
+  editlink: "https://github.com/omergulcicek/turkuazcss.com/blob/master/src/pages/documentation/elements/Notification.jsx",
   pagination: {
     prev: {
       href: "image",

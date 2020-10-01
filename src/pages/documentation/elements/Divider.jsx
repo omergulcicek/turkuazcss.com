@@ -24,6 +24,7 @@ export const obj = {
       link: "/divider"
     }
   ],
+  editlink: "https://github.com/omergulcicek/turkuazcss.com/blob/master/src/pages/documentation/elements/Divider.jsx",
   pagination: {
     prev: {
       href: "delete",

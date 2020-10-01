@@ -24,6 +24,7 @@ export const obj = {
       link: "/tag"
     }
   ],
+  editlink: "https://github.com/omergulcicek/turkuazcss.com/blob/master/src/pages/documentation/elements/Tag.jsx",
   pagination: {
     prev: {
       href: "table",

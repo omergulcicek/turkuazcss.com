@@ -24,6 +24,7 @@ export const obj = {
       link: "/progress"
     }
   ],
+  editlink: "https://github.com/omergulcicek/turkuazcss.com/blob/master/src/pages/documentation/elements/Progress.jsx",
   pagination: {
     prev: {
       href: "notification",

@@ -24,6 +24,7 @@ export const obj = {
       link: "/button"
     }
   ],
+  editlink: "https://github.com/omergulcicek/turkuazcss.com/blob/master/src/pages/documentation/elements/Button.jsx",
   pagination: {
     prev: {
       href: "box",

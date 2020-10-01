@@ -24,6 +24,7 @@ export const obj = {
       link: "/dropdown"
     }
   ],
+  editlink: "https://github.com/omergulcicek/turkuazcss.com/blob/master/src/pages/documentation/components/Dropdown.jsx",
   pagination: {
     prev: {
       href: "card",

@@ -24,6 +24,7 @@ export const obj = {
       link: "/navbar"
     }
   ],
+  editlink: "https://github.com/omergulcicek/turkuazcss.com/blob/master/src/pages/documentation/components/Navbar.jsx",
   pagination: {
     prev: {
       href: "modal",
