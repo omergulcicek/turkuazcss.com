@@ -17,7 +17,7 @@ const App = () => {
         </p>
 
         <div>
-          <Link to="/docs/overview/start" className="button is-primary mr-3">
+          <Link to="/docs/overview/start" className="button is-primary mr-3" id="content">
             Başlarken
           </Link>
 

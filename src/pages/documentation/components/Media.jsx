@@ -44,7 +44,7 @@ const App = () => {
         <div className="row mb-3">
           <div className="col-12 col-md-8">
             <div class="media">
-            <figure>
+            <figure class="image is-64">
               <img src="https://via.placeholder.com/64" alt="" />
             </figure>
 
@@ -56,7 +56,9 @@ const App = () => {
               </p>
               
               <div className="media">
-                <img src="https://via.placeholder.com/64" alt="" />
+                <figure class="image is-64">
+                  <img src="https://via.placeholder.com/64" alt="" />
+                </figure>
 
                 <div className="media_content">
                   <h5 className="media_title">Alt başlık</h5>
@@ -73,7 +75,9 @@ const App = () => {
 
         <SyntaxHighlighter language="html">
 {`<div class="media">
-  <img src="https://via.placeholder.com/64" alt="" />
+  <figure class="image is-64">
+    <img src="https://via.placeholder.com/64" alt="" />
+  </figure>
 
   <div class="media_content">
     <h5 class="media_title">Başlık</h5>

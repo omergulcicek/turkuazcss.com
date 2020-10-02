@@ -100,9 +100,9 @@ const App = () => {
         </div>
 
         <SyntaxHighlighter language="html">
-{`<span class="breadcrumb is-small"></span>
-<span class="breadcrumb"></span>
-<span class="breadcrumb is-large"></span>`}
+{`<nav class="breadcrumb is-small"></nav>
+<nav class="breadcrumb"></nav>
+<nav class="breadcrumb is-large"></nav>`}
         </SyntaxHighlighter>
       </section>
     </BasePage>

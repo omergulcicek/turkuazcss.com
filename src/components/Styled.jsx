@@ -178,6 +178,7 @@ export const HomeSection = styled.section`
       font-size: 20px;
       line-height: 30px;
       padding: 12px 32px !important;
+      scroll-margin-top: 640px;
       vertical-align: top;
     }
   }
