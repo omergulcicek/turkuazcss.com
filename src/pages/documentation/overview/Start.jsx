@@ -42,7 +42,7 @@ const App = () => {
     <>
       <BasePage info={obj}>
         <section>
-          <h2>CSS</h2>
+          <h3>CSS</h3>
 
           <p>
             CSS dosyasımızı diğer tüm stil dosyalarından önce <code>{`<head>`}</code>'e ekleyin.
@@ -61,7 +61,7 @@ const App = () => {
         </section>
         
         <section>
-          <h2>Başlangıç Şablonu</h2>
+          <h3>Başlangıç Şablonu</h3>
 
           <p>
             HTML5 standartlarına göre hazırlanmış kodları kullanarak sayfanı hızlıca geliştirmeye başlayabilirsin.
@@ -97,7 +97,7 @@ const App = () => {
         </section>
         
         <section>
-          <h2>CDN</h2>
+          <h3>CDN</h3>
 
           <p>
             <SyntaxHighlighter>
@@ -107,7 +107,7 @@ const App = () => {
         </section>
         
         <section>
-          <h2>npm</h2>
+          <h3>npm</h3>
 
           <p>
             Turkuaz'ı, <a href="https://www.npmjs.com/package/turkuaz" target="_blank" rel="noopener noreferrer">npm paketi</a> ile yükleyebilirsin.
@@ -119,7 +119,7 @@ const App = () => {
         </section>
 
         <section>
-          <h2>yarn</h2>
+          <h3>yarn</h3>
 
           <p>
             Turkuaz'ı, <a href="https://yarnpkg.com/tr/package/turkuaz" target="_blank" rel="noopener noreferrer">yarn paketi</a> ile yükleyebilirsin.
@@ -133,7 +133,7 @@ const App = () => {
         </section>
 
         <section>
-          <h2>React</h2>
+          <h3>React</h3>
 
           <p>
             React projende Turkuaz'ı kullanmak istiyorsan <strong>react-turkuaz</strong> paketini kullanabilirsin. 
@@ -144,7 +144,7 @@ const App = () => {
         </section>
 
         <section>
-          <h2>Vue</h2>
+          <h3>Vue</h3>
 
           <p>
             Vue projende Turkuaz'ı kullanmak istiyorsan <strong>vue-turkuaz</strong> paketini kullanabilirsin. 

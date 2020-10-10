@@ -105,7 +105,7 @@ const App = () => {
       </section>
 
       <section>
-        <h2>Boyut</h2>
+        <h3>Boyut</h3>
 
         <p>
           Table elementi 3 farklı boyuta sahiptir.
@@ -238,7 +238,7 @@ const App = () => {
       </section>
 
       <section>
-        <h2>Çeşit</h2>
+        <h3>Çeşit</h3>
 
         <div className="row">
           <div className="col-12 col-md-8">

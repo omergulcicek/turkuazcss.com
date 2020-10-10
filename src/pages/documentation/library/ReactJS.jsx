@@ -60,7 +60,7 @@ const App = () => {
         </template>
 
         <section hidden>
-          <h2>Kurulum</h2>
+          <h3>Kurulum</h3>
           <p>
             Turkuaz'ın React paketini kurmak için <code>npm</code> yada <code>yarn</code> kullanabilirsin.
           </p>
@@ -79,7 +79,7 @@ const App = () => {
         </section>
 
         <section hidden>
-          <h2>Kullanım</h2>
+          <h3>Kullanım</h3>
 
           <p>
             <SyntaxHighlighter language="jsx">

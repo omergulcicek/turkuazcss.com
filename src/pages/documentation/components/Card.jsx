@@ -81,7 +81,7 @@ const App = () => {
       </section>
 
       <section>
-        <h2>Boyut</h2>
+        <h3>Boyut</h3>
 
         <p>
           Card elementi 3 farklı boyuta sahiptir.

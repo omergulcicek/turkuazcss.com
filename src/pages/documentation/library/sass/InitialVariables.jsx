@@ -6,7 +6,7 @@ const InitialVariables = () => {
   return (
     <>
       <section>
-        <h2>Başlangıç Değişkenleri</h2>
+        <h3>Başlangıç Değişkenleri</h3>
 
         <Table className="table is-bordered">
           <tbody>

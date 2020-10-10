@@ -53,7 +53,7 @@ const App = () => {
       </section>
 
       <section>
-        <h2>Boyut</h2>
+        <h3>Boyut</h3>
 
         <p>
           Delete elementi 3 farklı boyuta sahiptir.
@@ -75,7 +75,7 @@ const App = () => {
       </section>
 
       <section>
-        <h2>Kombinasyon</h2>
+        <h3>Kombinasyon</h3>
 
         <p>
           Delete elementini ihtiyacınız olan herhangi bir yere ekleyebilirsiniz.

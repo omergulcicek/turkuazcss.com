@@ -71,7 +71,7 @@ const App = () => {
       </section>
 
       <section>
-        <h2>Boyut</h2>
+        <h3>Boyut</h3>
 
         <p>
           Button elementi 3 farklı boyuta sahiptir.
@@ -93,7 +93,7 @@ const App = () => {
       </section>
 
       <section>
-        <h2>Çeşit</h2>
+        <h3>Çeşit</h3>
         
         <h6 className="mt-4">disabled</h6>
 
@@ -197,7 +197,7 @@ const App = () => {
       </section>
 
       <section>
-        <h2>Kombinasyon</h2>
+        <h3>Kombinasyon</h3>
 
         <p>
           Button elementinin içerisinde icon kullanabilirsiniz.

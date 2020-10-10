@@ -60,7 +60,7 @@ const App = () => {
       </section>
 
       <section>
-        <h2>Renk</h2>
+        <h3>Renk</h3>
 
         <p>
           Notification elementi 6 farklı renge sahiptir.

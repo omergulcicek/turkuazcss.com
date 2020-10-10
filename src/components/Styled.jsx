@@ -289,9 +289,10 @@ export const BaseTempStyled = styled.section`
   }
 `;
 
-export const BaseTempDescStyled = styled.p`
+export const BaseTempDescStyled = styled.h2`
   color: #7a7a7a;
   font-size: 24px;
+  font-weight: 100;
 `;
 
 export const ItemId = styled.span`

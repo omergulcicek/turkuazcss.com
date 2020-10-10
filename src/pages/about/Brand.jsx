@@ -27,7 +27,7 @@ const App = () => {
     <>
       <BasePage info={obj}>
         <section>
-          <h2>Logo</h2>
+          <h3>Logo</h3>
 
           <div className="row">
             <div className="col-12 col-md-8">
@@ -35,7 +35,7 @@ const App = () => {
                 Turkuaz <a href="https://www.dafont.com/danube.font"  target="_blank" rel="noopener noreferrer">Danube yazı tipi</a>nin küçük ve kalın <strong>t</strong> harfini logo olarak kullanır.
               </p>
               <p>
-                Baskı için <a href="!#"  target="_blank" rel="noopener noreferrer">.EPS</a>, yayıncılık ve web için <a href="!#"  target="_blank" rel="noopener noreferrer">.SVG </a> yada <a href="!#"  target="_blank" rel="noopener noreferrer">.PNG</a> formatında indirilebilirsin.
+                Baskı için <a href="javascript:;"  target="_blank" rel="noopener noreferrer">.EPS</a>, yayıncılık ve web için <a href="!#"  target="_blank" rel="noopener noreferrer">.SVG </a> yada <a href="!#"  target="_blank" rel="noopener noreferrer">.PNG</a> formatında indirilebilirsin.
               </p>
               <template>
                 //TODO: Logonun farklı çözünürlük ve formatlarda hazırlanması için destek alınacak.
@@ -51,7 +51,7 @@ const App = () => {
         </section>
 
         <section>
-          <h2>İsim</h2>
+          <h3>İsim</h3>
 
           <p>
             Projenin <strong>Turkuaz</strong> adıyla fakat sosyal medya etiketlerinde farkedilebilmesi için <strong>#turkuazcss</strong> olarak adlandırılmasını tercih ediyoruz.
@@ -59,7 +59,7 @@ const App = () => {
         </section>
 
         <section>
-          <h2>Renk</h2>
+          <h3>Renk</h3>
 
           <p>
             Turkuaz, <TurquoiseColor>#03968a</TurquoiseColor> renk tonunu kullanır.

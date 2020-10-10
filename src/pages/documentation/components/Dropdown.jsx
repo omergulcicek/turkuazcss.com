@@ -83,7 +83,7 @@ const App = () => {
       </section>
 
       <section>
-        <h2>Çeşit</h2>
+        <h3>Çeşit</h3>
         
         <h6 className="mt-4">hoverable</h6>
 

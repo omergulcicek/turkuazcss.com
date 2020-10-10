@@ -51,7 +51,7 @@ const App = () => {
       </section>
 
       <section>
-        <h2>Çeşit</h2>
+        <h3>Çeşit</h3>
 
         <p>
           Tooltip'in aşağıda açılması için <code>is-bottom</code> sınıfı ekleyebilirsin.

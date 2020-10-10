@@ -53,7 +53,7 @@ const App = () => {
       </section>
 
       <section>
-        <h2>Boyut</h2>
+        <h3>Boyut</h3>
 
         <p>
           Progress elementi 3 farklı boyuta sahiptir.
@@ -77,7 +77,7 @@ const App = () => {
       </section>
 
       <section>
-        <h2>Renk</h2>
+        <h3>Renk</h3>
 
         <p>
           Progress elementi 5 farklı renge sahiptir.

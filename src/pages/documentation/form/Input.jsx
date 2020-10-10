@@ -56,7 +56,7 @@ const App = () => {
       </section>
       
       <section>
-        <h2>Kombinasyon</h2>
+        <h3>Kombinasyon</h3>
 
         <p>
           Input elemanını <code>label</code> ve altına küçük bir yazı için <code>small</code> etiketini kullanabilirsin.
@@ -82,7 +82,7 @@ const App = () => {
       </section>
 
       <section>
-        <h2>Çeşit</h2>
+        <h3>Çeşit</h3>
 
         <h6 className="mt-4">disabled</h6>
 

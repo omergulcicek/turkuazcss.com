@@ -6,7 +6,7 @@ const DerivedVariables = () => {
   return (
     <>
       <section>
-        <h2>Türetilmiş Değişkenler</h2>
+        <h3>Türetilmiş Değişkenler</h3>
 
         <Table className="table is-bordered">
           <tbody>

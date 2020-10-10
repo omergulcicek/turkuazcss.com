@@ -71,7 +71,7 @@ const App = () => {
         <DerivedVariables />
 
         <section>
-          <h2>Kullanım</h2>
+          <h3>Kullanım</h3>
 
           <p>
             Aşağıdaki adımları takip ederek Turkuaz'ı özelleştirebilirsin.

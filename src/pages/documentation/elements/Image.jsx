@@ -62,7 +62,7 @@ const App = () => {
       </section>
 
       <section>
-        <h2>Boyut</h2>
+        <h3>Boyut</h3>
 
         <p>
           7 farklı boyutta resim kapsayıcısı vardır.
@@ -174,7 +174,7 @@ const App = () => {
       </section>
 
       <section>
-        <h2>Yuvarlak Resim</h2>
+        <h3>Yuvarlak Resim</h3>
 
         <p>
           Image etiketini yuvarlak yapmak için <code>is-rounded</code> sınıfını eklemek yeterlidir.

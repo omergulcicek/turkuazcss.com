@@ -46,7 +46,7 @@ const App = () => {
         {
         /*
         <MigrationArticle>
-          <h2>v1.0.0</h2>
+          <h3>v1.0.0</h3>
 
           <ol>
             <li>Turkuaz ilk versiyonu yayınlandı.</li>
