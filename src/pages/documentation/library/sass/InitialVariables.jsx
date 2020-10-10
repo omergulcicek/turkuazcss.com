@@ -17,55 +17,31 @@ const InitialVariables = () => {
             </tr>
             <tr>
               <td>
-                <code>$black</code>
+                <code>$white</code>
               </td>
               <td>
                 <code>color</code>
               </td>
               <td>
-                <div style={{"background-color": "#191919"}}></div>
-                <code>#191919</code>
+                <div style={{"background-color": "#fff"}}></div>
+                <code>#fff</code>
               </td>
             </tr>
             <tr>
               <td>
-                <code>$grey-dark</code>
+                <code>$grey-100</code>
               </td>
               <td>
                 <code>color</code>
               </td>
               <td>
-                <div style={{"background-color": "#757575"}}></div>
-                <code>#757575</code>
+                <div style={{"background-color": "#fafafa"}}></div>
+                <code>#fafafa</code>
               </td>
             </tr>
             <tr>
               <td>
-                <code>$grey</code>
-              </td>
-              <td>
-                <code>color</code>
-              </td>
-              <td>
-                <div style={{"background-color": "#bdbdbd"}}></div>
-                <code>#bdbdbd</code>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <code>$grey-light</code>
-              </td>
-              <td>
-                <code>color</code>
-              </td>
-              <td>
-                <div style={{"background-color": "#dbdbdb"}}></div>
-                <code>#dbdbdb</code>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <code>$grey-lighter</code>
+                <code>$grey-200</code>
               </td>
               <td>
                 <code>color</code>
@@ -77,14 +53,98 @@ const InitialVariables = () => {
             </tr>
             <tr>
               <td>
-                <code>$white</code>
+                <code>$grey-300</code>
               </td>
               <td>
                 <code>color</code>
               </td>
               <td>
-                <div style={{"background-color": "#fff"}}></div>
-                <code>#fff</code>
+                <div style={{"background-color": "#eee"}}></div>
+                <code>#eee</code>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <code>$grey-400</code>
+              </td>
+              <td>
+                <code>color</code>
+              </td>
+              <td>
+                <div style={{"background-color": "#e0e0e0"}}></div>
+                <code>#e0e0e0</code>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <code>$grey-500</code>
+              </td>
+              <td>
+                <code>color</code>
+              </td>
+              <td>
+                <div style={{"background-color": "#bdbdbd"}}></div>
+                <code>#bdbdbd</code>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <code>$grey-600</code>
+              </td>
+              <td>
+                <code>color</code>
+              </td>
+              <td>
+                <div style={{"background-color": "#9e9e9e"}}></div>
+                <code>#9e9e9e</code>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <code>$grey-700</code>
+              </td>
+              <td>
+                <code>color</code>
+              </td>
+              <td>
+                <div style={{"background-color": "#757575"}}></div>
+                <code>#757575</code>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <code>$grey-800</code>
+              </td>
+              <td>
+                <code>color</code>
+              </td>
+              <td>
+                <div style={{"background-color": "#616161"}}></div>
+                <code>#616161</code>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <code>$grey-900</code>
+              </td>
+              <td>
+                <code>color</code>
+              </td>
+              <td>
+                <div style={{"background-color": "#424242"}}></div>
+                <code>#424242</code>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <code>$black</code>
+              </td>
+              <td>
+                <code>color</code>
+              </td>
+              <td>
+                <div style={{"background-color": "#191919"}}></div>
+                <code>#191919</code>
               </td>
             </tr>
             <tr>
@@ -293,7 +353,7 @@ const InitialVariables = () => {
             </tr>
             <tr>
               <td>
-                <code>$weight-light</code>
+                <code>$font-light</code>
               </td>
               <td>
                 <code>font-weight</code>
@@ -304,7 +364,7 @@ const InitialVariables = () => {
             </tr>
             <tr>
               <td>
-                <code>$weight-normal</code>
+                <code>$font-normal</code>
               </td>
               <td>
                 <code>font-weight</code>
@@ -315,7 +375,7 @@ const InitialVariables = () => {
             </tr>
             <tr>
               <td>
-                <code>$weight-medium</code>
+                <code>$font-medium</code>
               </td>
               <td>
                 <code>font-weight</code>
@@ -326,7 +386,7 @@ const InitialVariables = () => {
             </tr>
             <tr>
               <td>
-                <code>$weight-semibold</code>
+                <code>$font-semibold</code>
               </td>
               <td>
                 <code>font-weight</code>
@@ -337,7 +397,7 @@ const InitialVariables = () => {
             </tr>
             <tr>
               <td>
-                <code>$weight-bold</code>
+                <code>$font-bold</code>
               </td>
               <td>
                 <code>font-weight</code>

@@ -89,7 +89,7 @@ const DerivedVariables = () => {
                 <code>color</code>
               </td>
               <td>
-                <code>$grey-lighter</code>
+                <code>$grey-200</code>
               </td>
               <td>
                 <div style={{"background-color": "#f5f5f5"}}></div>
@@ -163,6 +163,22 @@ const DerivedVariables = () => {
 
             <tr>
               <td>
+                <code>$border-color</code>
+              </td>
+              <td>
+                <code>color</code>
+              </td>
+              <td>
+                <code>$grey-400</code>
+              </td>
+              <td>
+                <div style={{"background-color": "#e0e0e0"}}></div>
+                <code>#e0e0e0</code>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
                 <code>$body-background-color</code>
               </td>
               <td>
@@ -180,9 +196,6 @@ const DerivedVariables = () => {
             <tr>
               <td>
                 <code>$body-text-color</code>
-                <template>
-                  //TODO : body-color'ı body-text-color olarak değiştir
-                </template>
               </td>
               <td>
                 <code>color</code>
@@ -198,7 +211,7 @@ const DerivedVariables = () => {
 
             <tr>
               <td>
-                <code>$body-family</code>
+                <code>$body-font-family</code>
               </td>
               <td>
                 <code>font-family</code>
@@ -213,7 +226,7 @@ const DerivedVariables = () => {
 
             <tr>
               <td>
-                <code>$body-size</code>
+                <code>$body-font-size</code>
               </td>
               <td>
                 <code>size</code>
@@ -228,20 +241,16 @@ const DerivedVariables = () => {
 
             <tr>
               <td>
-                <code>$border-color</code>
-                <template>
-                  //TODO : border'ı border-color olarak ek değişkenle tanımla
-                </template>
+                <code>$border</code>
               </td>
               <td>
-                <code>color</code>
+                <code>generic</code>
               </td>
               <td>
-                <code>$grey-light</code>
+                <code>1px solid $border-color</code>
               </td>
               <td>
-                <div style={{"background-color": "#dbdbdd"}}></div>
-                <code>#dbdbdd</code>
+                <code>1px solid #e0e0e0</code>
               </td>
             </tr>
           </tbody>

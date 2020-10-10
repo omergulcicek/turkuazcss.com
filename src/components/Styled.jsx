@@ -52,7 +52,8 @@ export const Brand = styled.span`
 
     &:hover,
     &:focus {
-      background-color: transparent
+      background-color: transparent;
+      text-decoration: none
     }
   }
 `;
