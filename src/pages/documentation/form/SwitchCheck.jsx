@@ -43,25 +43,17 @@ const App = () => {
         <div className="row mb-3">
           <div className="col-12 col-md-6 col-lg-4">
             <div className="form-field">
-              <p>
-                <label>
-                Kapalı
-                  <input type="checkbox" className="switch" />
-                  <span></span>
-                Açık
-                </label>
-              </p>
+              <input type="checkbox" className="switch" id="switch" />
+              <label for="switch"></label>
             </div>
           </div>
         </div>
 
         <SyntaxHighlighter language="html">
-{`<label>
-  Kapalı
-    <input type="checkbox" class="switch" />
-    <span></span>
-  Açık
-</label>`}
+{`<div class="form-field">
+  <input type="checkbox" class="switch" id="switch" />
+  <label for="switch"></label>
+</div>`}
         </SyntaxHighlighter>
 
         <div className="notification is-info mt-5">
