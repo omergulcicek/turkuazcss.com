@@ -48,6 +48,14 @@ import MediaPage from "./documentation/components/Media"
 import ModalPage from "./documentation/components/Modal"
 import PaginationPage from "./documentation/components/Pagination"
 
+import HelpersPage from "./documentation/Helpers"
+import FlexPage from "./documentation/helpers/Flex"
+import BorderPage from "./documentation/helpers/Border"
+import DisplayPage from "./documentation/helpers/Display"
+import EmbedPage from "./documentation/helpers/Embed"
+import SpacingPage from "./documentation/helpers/Spacing"
+import TextPage from "./documentation/helpers/Text"
+
 import LovePage from "./Love"
 
 import ThemesPage from "./Themes"
@@ -315,6 +323,49 @@ export function Modal() {
 export function Pagination() {
   return (
     <PaginationPage />
+  )
+}
+
+/* Dokümantasyon - Yardımcı Kodlar */
+export function Helpers() {
+  return (
+    <HelpersPage />
+  )
+}
+
+export function Flex() {
+  return (
+    <FlexPage />
+  )
+}
+
+export function Border() {
+  return (
+    <BorderPage />
+  )
+}
+
+export function Display() {
+  return (
+    <DisplayPage />
+  )
+}
+
+export function Embed() {
+  return (
+    <EmbedPage />
+  )
+}
+
+export function Spacing() {
+  return (
+    <SpacingPage />
+  )
+}
+
+export function Text() {
+  return (
+    <TextPage />
   )
 }
 

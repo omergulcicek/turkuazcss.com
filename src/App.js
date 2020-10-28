@@ -19,6 +19,8 @@ import {
 
   Components, Breadcrumb, Card, Dropdown, Footer, List, Media, Modal, Pagination,
 
+  Helpers, Flex, Border, Display, Embed, Spacing, Text,
+
   Library, CSS, Sass, ReactJS, VueJS,
   
   Love,
@@ -125,6 +127,21 @@ const App = () => {
           <Route path="/docs/components/modal" component={Modal} />
           
           <Route path="/docs/components/pagination" component={Pagination} />
+
+          {/* Dokümantasyon - Yardımcı Kodlar */}
+          <Route exact path="/docs/helpers" component={Helpers} />
+
+          <Route exact path="/docs/helpers/flex" component={Flex} />
+
+          <Route exact path="/docs/helpers/border" component={Border} />
+
+          <Route exact path="/docs/helpers/display" component={Display} />
+
+          <Route exact path="/docs/helpers/embed" component={Embed} />
+
+          <Route exact path="/docs/helpers/spacing" component={Spacing} />
+
+          <Route exact path="/docs/helpers/text" component={Text} />
 
           {/* Sevgi */}
           <Route exact path="/love" component={Love} />
