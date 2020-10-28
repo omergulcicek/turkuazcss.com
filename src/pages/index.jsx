@@ -50,8 +50,11 @@ import PaginationPage from "./documentation/components/Pagination"
 
 import LovePage from "./Love"
 
-import ThemePage from "./Theme"
-import ThemeDetailsPage from "./theme/ThemeDetails"
+import ThemesPage from "./Themes"
+import ThemeDetailsPage from "./themes/ThemeDetails"
+
+import ExamplesPage from "./Examples"
+import ExampleDetailsPage from "./examples/ExampleDetails"
 
 import AboutPage from "./About"
 import TurkuazPage from "./about/Turkuaz"
@@ -323,15 +326,28 @@ export function Love() {
 }
 
 /* Tema */
-export function Theme() {
+export function Themes() {
   return (
-    <ThemePage />
+    <ThemesPage />
   )
 }
 
 export function ThemeDetails() {
   return (
     <ThemeDetailsPage />
+  )
+}
+
+/* Örnekler */
+export function Examples() {
+  return (
+    <ExamplesPage />
+  )
+}
+
+export function ExampleDetails() {
+  return (
+    <ExampleDetailsPage />
   )
 }
 

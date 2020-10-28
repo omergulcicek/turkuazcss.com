@@ -5,7 +5,7 @@ import { BasePage } from "./../../components"
 import { ThemeDetail } from "./../../components/Styled"
 
 export const obj = {
-  title: "Tema",
+  title: "Temalar",
   desc: "Turkuaz'ın geliştiricileri tarafından oluşturulan <strong>ücretsiz</strong> temalar",
   breadcrumb: [
     {
@@ -13,8 +13,8 @@ export const obj = {
       link: "/"
     },
     {
-      text: "Tema",
-      link: "/theme"
+      text: "Temalar",
+      link: "/themes"
     },
     {
       text: "Tema Adı",
@@ -34,9 +34,9 @@ const App = () => {
                 <img src="https://picsum.photos/1200/600" alt="Tema Başlığı" loading="lazy" />
               </figure>
 
-              <a href="!#">
+              <a href="javascript:;">
                 <div>
-                  <span className="button">Siteyi Aç</span>
+                  <span className="button">Temayı Önizle</span>
                 </div>
               </a>
             </article>
@@ -67,10 +67,10 @@ const App = () => {
               </li>
 
               <li>
-                <a href="" className="button is-small is-info">
-                  Siteyi Aç
+                <a href="javascript:;" className="button is-small is-info">
+                  Temayı Önizle
                 </a>
-                <a href="" className="button is-small is-primary is-outline">
+                <a href="javascript:;" className="button is-small is-primary is-outline">
                   Ücretsiz İndir
                 </a>
               </li>

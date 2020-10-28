@@ -2,6 +2,7 @@ import React from "react"
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter"
 
 import { BasePage } from "../../../components"
+import { ModalExample } from "../../../components/Styled"
 
 export const obj = {
   title: "Modal",
@@ -61,24 +62,22 @@ const App = () => {
           <div className="col-12">
             <a className="button" data-href="modal1" onClick={e => modelOpen(e)}>Modal aç</a>
 
-            <dialog className="modal" data-target="modal1">
-              <div className="modal_content">
-                <div className="modal_icon">
-                  <svg className="h-6 w-6 text-red-600" fill="none" viewBox="0 0 24 24" stroke="#e02424">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path>
-                  </svg>
+            <dialog class="modal is-danger" data-target="modal1">
+              <div class="modal_content">
+                <div class="modal_icon">
+                  <svg role="img" viewBox="0 0 352 512"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"></path></svg>
                 </div>
                 <div>
-                  <h3 className="modal_title">Hesabı Sil</h3>
+                  <h3 class="modal_title">Hesabı Sil</h3>
                   <p>
                     Hesabınızı devre dışı bırakmak istediğinizden emin misiniz? Tüm verileriniz <strong>kalıcı olarak</strong> silinecektir. Bu eylem geri alınamaz.
                   </p>
                 </div>
               </div>
-              <footer className="modal_footer">
-                <a className="button is-outline" id="closeModal">İptal</a>
-                <a className="button is-danger" id="closeModal">Kalıcı olarak sil</a>
-              </footer>
+              <div class="modal_footer">
+                <a class="button is-outline">İptal</a>
+                <a class="button is-danger">Üyeliğimi kalıcı olarak sil</a>
+              </div>
             </dialog>
           </div>
           
@@ -92,12 +91,10 @@ const App = () => {
         <SyntaxHighlighter language="html">
 {`<a class="button" data-href="modal1">Modal aç</a>
 
-<dialog class="modal" data-target="modal1">
+<dialog class="modal is-danger" data-target="modal1" open>
   <div class="modal_content">
     <div class="modal_icon">
-      <svg class="h-6 w-6 text-red-600" fill="none" viewBox="0 0 24 24" stroke="#e02424">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path>
-      </svg>
+      <svg role="img" viewBox="0 0 352 512"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"></path></svg>
     </div>
     <div>
       <h3 class="modal_title">Hesabı Sil</h3>
@@ -106,12 +103,133 @@ const App = () => {
       </p>
     </div>
   </div>
-  <footer class="modal_footer">
-    <a class="button is-outline" id="closeModal">İptal</a>
-    <a class="button is-danger" id="closeModal">Kalıcı olarak sil</a>
-  </footer>
+  <div class="modal_footer">
+    <a class="button is-outline">İptal</a>
+    <a class="button is-danger">Üyeliğimi kalıcı olarak sil</a>
+  </div>
 </dialog>`}
         </SyntaxHighlighter>
+      </section>
+      
+      <section>
+        <h3>Renk</h3>
+        
+        <p>
+          Modal elementi 5 farklı renge sahiptir.
+        </p>
+          
+        <div className="notification is-info">
+          Modal'a eklenen class'lar yalnızca ikonun ve arka plan rengini değiştirir; butonlara müdahale etmez.
+        </div>
+
+        <div className="row mb-3">
+          <div className="col-12">
+            <ModalExample>
+
+              <dialog class="modal" data-target="modal1" open>
+                <div class="modal_content">
+                  <div class="modal_icon">
+                    <svg role="img" viewBox="0 0 109.000000 162.000000"><g transform="translate(0.000000,162.000000) scale(0.100000,-0.100000)" stroke="none" fill="currentColor"><path d="M20 1083 c0 -570 2 -588 61 -706 65 -128 168 -231 295 -295 110 -55 156 -62 433 -62 l251 0 0 38 c0 104 -61 202 -153 245 -44 21 -72 26 -180 30 -106 5 -136 10 -180 30 -76 35 -122 79 -159 155 l-33 67 -5 410 -5 410 -27 47 c-54 91 -152 148 -254 148 l-44 0 0 -517z"></path><path d="M490 1048 c-91 -63 -93 -204 -3 -264 69 -46 223 -38 302 16 25 18 58 49 73 70 27 37 58 132 58 177 l0 23 -199 0 c-189 0 -200 -1 -231 -22z"></path></g></svg>
+                  </div>
+                  <div>
+                    <h3 class="modal_title">Varsayılan</h3>
+                    <p>
+                      Açıklama yazısı.
+                    </p>
+                  </div>
+                </div>
+                <div class="modal_footer">
+                  <a class="button">Buton 1</a>
+                  <a class="button is-primary">Buton 2</a>
+                </div>
+              </dialog>
+              
+              <dialog class="modal is-success" data-target="modal1" open>
+                <div class="modal_content">
+                  <div class="modal_icon">
+                    <svg role="img" viewBox="0 0 512 512"><path fill="currentColor" d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"></path></svg>
+                  </div>
+                  <div>
+                    <h3 class="modal_title">is-success</h3>
+                    <p>
+                      Açıklama yazısı.
+                    </p>
+                  </div>
+                </div>
+                <div class="modal_footer">
+                  <a class="button">Buton 1</a>
+                  <a class="button is-success">Buton 2</a>
+                </div>
+              </dialog>
+              
+              <dialog class="modal is-warning" data-target="modal1" open>
+                <div class="modal_content">
+                  <div class="modal_icon">
+                  <svg role="img" viewBox="0 0 192 512"><path fill="currentColor" d="M176 432c0 44.112-35.888 80-80 80s-80-35.888-80-80 35.888-80 80-80 80 35.888 80 80zM25.26 25.199l13.6 272C39.499 309.972 50.041 320 62.83 320h66.34c12.789 0 23.331-10.028 23.97-22.801l13.6-272C167.425 11.49 156.496 0 142.77 0H49.23C35.504 0 24.575 11.49 25.26 25.199z"></path></svg>
+                  </div>
+                  <div>
+                    <h3 class="modal_title">is-warning</h3>
+                    <p>
+                      Açıklama yazısı.
+                    </p>
+                  </div>
+                </div>
+                <div class="modal_footer">
+                  <a class="button">Buton 1</a>
+                  <a class="button is-warning">Buton 2</a>
+                </div>
+              </dialog>
+              
+              <dialog class="modal is-danger" data-target="modal1" open>
+                <div class="modal_content">
+                  <div class="modal_icon">
+                    <svg role="img" viewBox="0 0 352 512"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"></path></svg>
+                  </div>
+                  <div>
+                    <h3 class="modal_title">is-danger</h3>
+                    <p>
+                      Açıklama yazısı.
+                    </p>
+                  </div>
+                </div>
+                <div class="modal_footer">
+                  <a class="button">Buton 1</a>
+                  <a class="button is-danger">Buton 2</a>
+                </div>
+              </dialog>
+              
+              <dialog class="modal is-info" data-target="modal1" open>
+                <div class="modal_content">
+                  <div class="modal_icon">
+                    <svg role="img" viewBox="0 0 192 512"><path fill="currentColor" d="M20 424.229h20V279.771H20c-11.046 0-20-8.954-20-20V212c0-11.046 8.954-20 20-20h112c11.046 0 20 8.954 20 20v212.229h20c11.046 0 20 8.954 20 20V492c0 11.046-8.954 20-20 20H20c-11.046 0-20-8.954-20-20v-47.771c0-11.046 8.954-20 20-20zM96 0C56.235 0 24 32.235 24 72s32.235 72 72 72 72-32.235 72-72S135.764 0 96 0z"></path></svg>
+                  </div>
+                  <div>
+                    <h3 class="modal_title">is-info</h3>
+                    <p>
+                      Açıklama yazısı.
+                    </p>
+                  </div>
+                </div>
+                <div class="modal_footer">
+                  <a class="button">Buton 1</a>
+                  <a class="button is-info">Buton 2</a>
+                </div>
+              </dialog>
+            </ModalExample>
+          </div>
+
+          <div className="col-12 col-md-8">
+            <SyntaxHighlighter language="html">
+{`<dialog class="modal" data-target=""></dialog>
+<dialog class="modal is-success" data-target=""></dialog>
+<dialog class="modal is-warning" data-target=""></dialog>
+<dialog class="modal is-danger" data-target=""></dialog>
+<dialog class="modal is-info" data-target=""></dialog>`}
+            </SyntaxHighlighter>
+          </div>
+        </div>
+
+        <h6 className="mt-5">outline</h6>
       </section>
     </BasePage>
   )

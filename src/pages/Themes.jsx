@@ -5,7 +5,7 @@ import { BasePage } from "./../components"
 import { Theme } from "./../components/Styled"
 
 export const obj = {
-  title: "Tema",
+  title: "Temalar",
   desc: "Turkuaz'ın geliştiricileri tarafından oluşturulan <strong>ücretsiz</strong> temalar",
   breadcrumb: [
     {
@@ -13,8 +13,8 @@ export const obj = {
       link: "/"
     },
     {
-      text: "Tema",
-      link: "/theme"
+      text: "Temalar",
+      link: "/themes"
     }
   ]
 }
@@ -27,7 +27,7 @@ const App = () => {
       <div className="row">
         <div className="col-12 col-md-6">
           <Theme>
-            <Link to="theme/login-page">
+            <Link to="themes/login-page">
               <figure>
                 <img src="https://picsum.photos/800/400" alt="" loading="lazy" />
               </figure>

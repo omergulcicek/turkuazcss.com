@@ -55,7 +55,7 @@ const App = () => {
           </p>
 
           <p>
-            <a href="" className="button is-primary">İndir (v1.0.0)</a>
+            <a href="javascript:;" className="button is-primary">İndir (v1.0.0)</a>
             <a href="https://github.com/omergulcicek/turkuaz/releases" target="_blank" rel="noopener noreferrer" className="button is-secondary">Eski sürümler</a>
           </p>
         </section>
@@ -92,7 +92,7 @@ const App = () => {
           </p>
 
           <p>
-            <a href="" className="button is-primary is-outline">Başlangıç şablonunu indir</a>
+            <a href="javascript:;" className="button is-primary is-outline">Başlangıç şablonunu indir</a>
           </p>
         </section>
         

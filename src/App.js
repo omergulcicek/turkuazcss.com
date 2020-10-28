@@ -21,9 +21,11 @@ import {
 
   Library, CSS, Sass, ReactJS, VueJS,
   
-  Theme, ThemeDetails,
-
   Love,
+
+  Themes, ThemeDetails,
+
+  Examples, ExampleDetails,
 
   About, Turkuaz, Brand
   
@@ -128,9 +130,14 @@ const App = () => {
           <Route exact path="/love" component={Love} />
 
           {/* Tema */}
-          <Route exact path="/theme" component={Theme} />
+          <Route exact path="/themes" component={Themes} />
 
-          <Route path="/theme/:themeId" component={ThemeDetails} />
+          <Route path="/themes/:themeId" component={ThemeDetails} />
+          
+          {/* Örnekler */}
+          <Route exact path="/examples" component={Examples} />
+          
+          <Route exact path="/examples/:exampleId" component={ExampleDetails} />
 
           {/* Hakkında */}
           <Route exact path="/about" component={About} />

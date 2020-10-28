@@ -547,7 +547,6 @@ export const PreviewStyles = styled.section`
 `;
 
 export const FocusStyled = styled.div`
-
   a {
     border-radius: 2px;
     color: #2228af;
@@ -562,6 +561,27 @@ export const FocusStyled = styled.div`
 
     &:not(:focus) {
       clip: rect(1px,1px,1px,1px);
+    }
   }
+`;
+
+export const ModalExample = styled.div`
+  background-color: rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 40px 32px;
+  position: relative;
+
+  .modal {
+    margin: 0 0 40px 0;
+    left: revert;
+    position: relative;
+    transform: inherit;
+    width: 90%;
+    
+    @media (min-width: 1024px) {
+      width: 40%;
+    }
   }
 `;

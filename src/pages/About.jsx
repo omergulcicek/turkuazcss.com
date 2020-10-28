@@ -41,7 +41,7 @@ const App = () => {
           Turkuaz, web sitesi oluşturmak için geliştirilen bir CSS kütüphanesidir. Nisan 2016'da <a href="https://github.com/omergulcicek" target="_blank" rel="noopener noreferrer">@omergulcicek</a> tarafından <a href="https://github.com/omergulcicek/turkuaz" target="_blank" rel="noopener noreferrer">GitHub</a>'ta açık kaynak olarak geliştirilmeye başlanmıştır. İsmini Türk rengi olarakta bilinen <strong><TurquoiseColor>Turkuaz</TurquoiseColor></strong> renginden alır.
         </p>
         <p>
-          Kolayca özelleştirilebilen şık bileşenlerinin yanı sıra, Türkçe dokümantasyonu sayesinde hızlıca geliştirmeye odaklanabileceksiniz. Yüzlerce kod örneği ve her zaman ücretsiz kalacak <Link to="/theme">tema</Link> seçenekleri bulunmaktadır.
+          Kolayca özelleştirilebilen şık bileşenlerinin yanı sıra, Türkçe dokümantasyonu sayesinde hızlıca geliştirmeye odaklanabileceksiniz. Yüzlerce kod örneği ve her zaman ücretsiz kalacak <Link to="/themes">tema</Link> seçenekleri bulunmaktadır.
         </p>
         <p>
           Turkuaz, yalnızca CSS içerir. CSS kütüphanesi olmasının yanı sıra React ve Vue desteği vardır. Tüm bu projeler GitHub'ta açık kaynak olarak geliştirilmekte olup, destek olmak isteyen tüm yazılımcıların katkısına açıktır (<em><Link to="/docs/overview/support">detaylı bilgi</Link></em>).
