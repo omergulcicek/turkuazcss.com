@@ -569,11 +569,12 @@ export const ModalExample = styled.div`
   background-color: rgba(0, 0, 0, 0.1);
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-  padding: 40px 32px;
+  justify-content: space-around;
+  padding: 24px 8px;
   position: relative;
 
   .modal {
+    animation: none;
     margin: 0 0 40px 0;
     left: revert;
     position: relative;
@@ -581,7 +582,7 @@ export const ModalExample = styled.div`
     width: 90%;
     
     @media (min-width: 1024px) {
-      width: 40%;
+      width: 47%;
     }
   }
 `;
