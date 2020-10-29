@@ -43,7 +43,19 @@ const App = () => {
     <>
       <BasePage info={obj}>
         <section>
-          
+          <p>
+            Sayfa içerisine farklı bir kaynaktan video yerleştirmek için kullanacağınız yardımcı koddur.
+          </p>
+
+          <div className="embed mb-4">
+          <iframe src="https://www.youtube.com/embed/Rel-VqospQc" allowfullscreen></iframe>
+          </div>
+
+<SyntaxHighlighter language="html">
+{`<div class="embed">
+  <iframe src="..." allowfullscreen></iframe>
+</div>`}
+</SyntaxHighlighter>
         </section>
       </BasePage>
     </>

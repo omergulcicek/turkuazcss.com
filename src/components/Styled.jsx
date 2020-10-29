@@ -625,3 +625,20 @@ export const BorderExample = styled.div`
     width: 100px;
   }
 `;
+
+export const SpacingExample = styled.div`
+  & > div {
+    display: flex;
+    margin-bottom: 8px;
+
+    div {
+      align-items: center;
+      background-color: #f5f5f5;
+      border-radius: 4px;
+      display: flex;
+      justify-content: center;
+      height: 64px;
+      width: 64px;
+    }
+  }
+`;
