@@ -1,6 +1,4 @@
 import React from "react"
-import { Link } from "react-router-dom"
-import { Prism as SyntaxHighlighter } from "react-syntax-highlighter"
 
 import { BasePage } from "../../../components"
 import { SpacingExample } from "../../../components/Styled"
@@ -50,9 +48,9 @@ const App = () => {
           </p>
 
           <ul>
-            <li><code>m-</code>: <code>margin</code> için</li>
+            <li><code>m</code>: <code>margin</code> için</li>
 
-            <li><code>p-</code>: <code>padding</code> için</li>
+            <li><code>p</code>: <code>padding</code> için</li>
           </ul>
 
           <p className="mb-1">
@@ -60,12 +58,12 @@ const App = () => {
           </p>
 
           <ul>
-            <li><code>t-</code>: top (üst) için</li>
-            <li><code>b-</code>: bottom (alt) için</li>
-            <li><code>r-</code>: right (sağ) için</li>
-            <li><code>l-</code>: left (sol) için</li>
-            <li><code>x-</code>: sağ ve sol için</li>
-            <li><code>y-</code>: üst ve alt için</li>
+            <li><code>t</code>: top (üst) için</li>
+            <li><code>b</code>: bottom (alt) için</li>
+            <li><code>r</code>: right (sağ) için</li>
+            <li><code>l</code>: left (sol) için</li>
+            <li><code>x</code>: sağ ve sol için</li>
+            <li><code>y</code>: üst ve alt için</li>
           </ul>
 
           <p className="mb-1">
@@ -73,12 +71,12 @@ const App = () => {
           </p>
 
           <ul>
-            <li><code>0-</code>: 0px</li>
-            <li><code>1-</code>: 4px</li>
-            <li><code>2-</code>: 8px</li>
-            <li><code>3-</code>: 16px</li>
-            <li><code>4-</code>: 24px</li>
-            <li><code>5-</code>: 48px</li>
+            <li><code>-0</code>: 0px</li>
+            <li><code>-1</code>: 4px</li>
+            <li><code>-2</code>: 8px</li>
+            <li><code>-3</code>: 16px</li>
+            <li><code>-4</code>: 24px</li>
+            <li><code>-5</code>: 48px</li>
           </ul>
 
           <h4 className="mt-5">Örnek Kullanım</h4>

@@ -19,7 +19,7 @@ import {
 
   Components, Breadcrumb, Card, Dropdown, Footer, List, Media, Modal, Pagination,
 
-  Helpers, Flex, Border, Display, Embed, Spacing, Text,
+  Helpers, Grid, Flex, Border, Display, Embed, Spacing, Text,
 
   Library, CSS, Sass, ReactJS, VueJS,
   
@@ -130,6 +130,8 @@ const App = () => {
 
           {/* Dokümantasyon - Yardımcı Kodlar */}
           <Route exact path="/docs/helpers" component={Helpers} />
+
+          <Route exact path="/docs/helpers/grid" component={Grid} />
 
           <Route exact path="/docs/helpers/flex" component={Flex} />
 

@@ -29,8 +29,8 @@ export const obj = {
   editlink: "documentation/helpers/Flex",
   pagination: {
     prev: {
-      href: "/docs/helpers",
-      text: "Yardımcı Kodlar"
+      href: "grid",
+      text: "Grid"
     },
     next: {
       href: "border",
@@ -51,37 +51,37 @@ const App = () => {
           </p>
 
           <FlexExample>
-            <div className="is-flex is-justify-start mb-3">
+            <div className="d-flex is-justify-start mb-3">
               <span>is-justify-start</span>
               <span>is-justify-start</span>
               <span>is-justify-start</span>
             </div>
 
-            <div className="is-flex is-justify-end mb-3">
+            <div className="d-flex is-justify-end mb-3">
               <span>is-justify-end</span>
               <span>is-justify-end</span>
               <span>is-justify-end</span>
             </div>
 
-            <div className="is-flex is-justify-center mb-3">
+            <div className="d-flex is-justify-center mb-3">
               <span>is-justify-center</span>
               <span>is-justify-center</span>
               <span>is-justify-center</span>
             </div>
 
-            <div className="is-flex is-justify-between mb-3">
+            <div className="d-flex is-justify-between mb-3">
               <span>is-justify-between</span>
               <span>is-justify-between</span>
               <span>is-justify-between</span>
             </div>
 
-            <div className="is-flex is-justify-around mb-3">
+            <div className="d-flex is-justify-around mb-3">
               <span>is-justify-around</span>
               <span>is-justify-around</span>
               <span>is-justify-around</span>
             </div>
 
-            <div className="is-flex is-justify-evenly mb-3">
+            <div className="d-flex is-justify-evenly mb-3">
               <span>is-justify-evenly</span>
               <span>is-justify-evenly</span>
               <span>is-justify-evenly</span>
@@ -89,12 +89,12 @@ const App = () => {
           </FlexExample>
 
           <SyntaxHighlighter language="html">
-{`<div class="is-flex is-justify-start">...</div>
-<div class="is-flex is-justify-end">...</div>
-<div class="is-flex is-justify-center">...</div>
-<div class="is-flex is-justify-between">...</div>
-<div class="is-flex is-justify-around">...</div>
-<div class="is-flex is-justify-evenly">...</div>`}
+{`<div class="d-flex is-justify-start">...</div>
+<div class="d-flex is-justify-end">...</div>
+<div class="d-flex is-justify-center">...</div>
+<div class="d-flex is-justify-between">...</div>
+<div class="d-flex is-justify-around">...</div>
+<div class="d-flex is-justify-evenly">...</div>`}
           </SyntaxHighlighter>
 
           <div className="notification is-info mt-3">
@@ -159,31 +159,31 @@ const App = () => {
           </p>
 
           <FlexExample2>
-            <div className="is-flex is-align-start mb-3">
+            <div className="d-flex is-align-start mb-3">
               <span>is-align-start</span>
               <span>is-align-start</span>
               <span>is-align-start</span>
             </div>
 
-            <div className="is-flex is-align-end mb-3">
+            <div className="d-flex is-align-end mb-3">
               <span>is-align-end</span>
               <span>is-align-end</span>
               <span>is-align-end</span>
             </div>
 
-            <div className="is-flex is-align-center mb-3">
+            <div className="d-flex is-align-center mb-3">
               <span>is-align-center</span>
               <span>is-align-center</span>
               <span>is-align-center</span>
             </div>
 
-            <div className="is-flex is-align-baseline mb-3">
+            <div className="d-flex is-align-baseline mb-3">
               <span> is-align-baseline</span>
               <span> is-align-baseline</span>
               <span> is-align-baseline</span>
             </div>
 
-            <div className="is-flex is-align-stretch mb-3">
+            <div className="d-flex is-align-stretch mb-3">
               <span>is-align-stretch</span>
               <span>is-align-stretch</span>
               <span>is-align-stretch</span>
@@ -191,11 +191,11 @@ const App = () => {
           </FlexExample2>
 
           <SyntaxHighlighter language="html">
-{`<div class="is-flex is-align-start">...</div>
-<div class="is-flex is-align-end">...</div>
-<div class="is-flex is-align-center">...</div>
-<div class="is-flex is-align-baseline">...</div>
-<div class="is-flex is-align-stretch">...</div>`}
+{`<div class="d-flex is-align-start">...</div>
+<div class="d-flex is-align-end">...</div>
+<div class="d-flex is-align-center">...</div>
+<div class="d-flex is-align-baseline">...</div>
+<div class="d-flex is-align-stretch">...</div>`}
           </SyntaxHighlighter>
 
           <div className="notification is-info mt-3">
@@ -255,31 +255,31 @@ const App = () => {
           </p>
 
           <FlexExample2>
-            <div className="is-flex mb-3">
+            <div className="d-flex mb-3">
               <span>Flex item</span>
               <span className="is-align-self-start">is-align-self-start</span>
               <span>Flex item</span>
             </div>
 
-            <div className="is-flex mb-3">
+            <div className="d-flex mb-3">
               <span>Flex item</span>
               <span className="is-align-self-end">is-align-self-end</span>
               <span>Flex item</span>
             </div>
 
-            <div className="is-flex  mb-3">
+            <div className="d-flex  mb-3">
               <span>Flex item</span>
               <span className="is-align-self-center">is-align-self-center</span>
               <span>Flex item</span>
             </div>
 
-            <div className="is-flex mb-3">
+            <div className="d-flex mb-3">
               <span>Flex item</span>
               <span className="is-align-self-baseline">is-align-self-baseline</span>
               <span>Flex item</span>
             </div>
 
-            <div className="is-flex is-align-end mb-3">
+            <div className="d-flex is-align-end mb-3">
               <span>Flex item</span>
               <span className="is-align-self-stretch">is-align-self-stretch</span>
               <span>Flex item</span>
@@ -287,11 +287,11 @@ const App = () => {
           </FlexExample2>
 
           <SyntaxHighlighter language="html">
-{`<div class="is-flex is-align-self-start">...</div>
-<div class="is-flex is-align-self-end">...</div>
-<div class="is-flex is-align-self-center">...</div>
-<div class="is-flex is-align-self-baseline">...</div>
-<div class="is-flex is-align-self-stretch">...</div>`}
+{`<div class="d-flex is-align-self-start">...</div>
+<div class="d-flex is-align-self-end">...</div>
+<div class="d-flex is-align-self-center">...</div>
+<div class="d-flex is-align-self-baseline">...</div>
+<div class="d-flex is-align-self-stretch">...</div>`}
           </SyntaxHighlighter>
 
           <div className="notification is-info mt-3">
@@ -347,11 +347,11 @@ const App = () => {
           <h3>Wrap</h3>
 
           <p>
-            İçeriğin nasıl sarıldığını değiştirin. <code>is-flex-wrap</code> içeriği sararken, <code>is-flex-nowrap</code> ise serbest bırakır.
+            İçeriğin nasıl sarıldığını değiştirin. <code>is-flex-wrap</code> içeriği sararken, <code>d-flex-nowrap</code> ise serbest bırakır.
           </p>
 
           <FlexExample3>
-            <div className="is-flex is-flex-nowrap mb-3">
+            <div className="d-flex is-flex-nowrap mb-3">
               <span>is-flex-nowrap</span>
               <span>is-flex-nowrap</span>
               <span>is-flex-nowrap</span>
@@ -359,7 +359,7 @@ const App = () => {
               <span>is-flex-nowrap</span>
             </div>
 
-            <div className="is-flex is-flex-wrap mb-3">
+            <div className="d-flex is-flex-wrap mb-3">
               <span>is-flex-wrap</span>
               <span>is-flex-wrap</span>
               <span>is-flex-wrap</span>
@@ -369,8 +369,8 @@ const App = () => {
           </FlexExample3>
 
           <SyntaxHighlighter language="html">
-{`<div class="is-flex is-flex-nowrap">...</div>
-<div class="is-flex is-flex-wrap">...</div>`}
+{`<div class="d-flex is-flex-nowrap">...</div>
+<div class="d-flex is-flex-wrap">...</div>`}
           </SyntaxHighlighter>
 
           <div className="notification is-info mt-3">

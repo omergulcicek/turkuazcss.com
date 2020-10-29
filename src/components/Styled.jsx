@@ -642,3 +642,17 @@ export const SpacingExample = styled.div`
     }
   }
 `;
+
+export const MutedText = styled.span`
+  color: #bdbdbd       
+`;
+
+export const GridExample = styled.div`
+  .row>[class^=col] {
+    background-color: #88ebab;
+    border: 1px solid #11642e;
+    color: #11642e;
+    padding: 8px;
+    text-align: center;
+  }
+`;

@@ -49,6 +49,7 @@ import ModalPage from "./documentation/components/Modal"
 import PaginationPage from "./documentation/components/Pagination"
 
 import HelpersPage from "./documentation/Helpers"
+import GridPage from "./documentation/helpers/Grid"
 import FlexPage from "./documentation/helpers/Flex"
 import BorderPage from "./documentation/helpers/Border"
 import DisplayPage from "./documentation/helpers/Display"
@@ -330,6 +331,12 @@ export function Pagination() {
 export function Helpers() {
   return (
     <HelpersPage />
+  )
+}
+
+export function Grid() {
+  return (
+    <GridPage />
   )
 }
 
