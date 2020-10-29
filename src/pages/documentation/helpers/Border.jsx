@@ -80,6 +80,18 @@ const App = () => {
 <SyntaxHighlighter language="html">
 {`<div class="has-border is-circle">...</div>`}
 </SyntaxHighlighter>
+
+          <h6 className="mt-4">No Border</h6>
+
+          <BorderExample>
+            <div className="border"></div>
+            <span className="mx-3">-></span>
+            <div className="border no-border"></div>
+          </BorderExample>
+
+<SyntaxHighlighter language="html">
+{`<div class="no-border">...</div>`}
+</SyntaxHighlighter>
         </section>
       </BasePage>
     </>
