@@ -586,3 +586,42 @@ export const ModalExample = styled.div`
     }
   }
 `;
+
+export const FlexExample = styled.div`
+  div {
+    background-color: #e0e0e0;
+  }
+
+  span {
+    background-color: #03968a;
+    border: 1px solid #e0e0e0;
+    color: #fff;
+    padding: 8px;
+    white-space: nowrap;
+  }
+`;
+
+export const FlexExample2 = styled(FlexExample)`
+  div {
+    height: 100px;
+  }
+`;
+
+export const FlexExample3 = styled(FlexExample)`
+  div {
+    padding-bottom: 16px;
+    padding-top: 16px;
+    width: 360px;
+  }
+`;
+
+export const BorderExample = styled.div`
+  align-items: center;
+  display: flex;
+
+  div {
+    background-color: #f5f5f5;
+    height: 100px;
+    width: 100px;
+  }
+`;

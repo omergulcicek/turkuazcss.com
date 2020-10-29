@@ -3,6 +3,7 @@ import { Link } from "react-router-dom"
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter"
 
 import { BasePage } from "../../../components"
+import { BorderExample } from "../../../components/Styled"
 
 export const obj = {
   title: "Border",
@@ -41,9 +42,44 @@ export const obj = {
 const App = () => {
   return (
     <>
-      <BasePage info={obj}>
+      <BasePage info={obj}>        
         <section>
-          
+          <BorderExample>
+            <div></div>
+            <span className="mx-3">-></span>
+            <div className="border"></div>
+          </BorderExample>
+
+          <SyntaxHighlighter language="html">
+{`<div class="has-border">...</div>`}
+          </SyntaxHighlighter>
+        </section>
+
+        <section>
+          <h3>Çeşit</h3>
+          <h6 className="mt-4">Rounded</h6>
+
+          <BorderExample>
+            <div className="border"></div>
+            <span className="mx-3">-></span>
+            <div className="border is-rounded"></div>
+          </BorderExample>
+
+<SyntaxHighlighter language="html">
+{`<div class="has-border is-rounded">...</div>`}
+</SyntaxHighlighter>
+
+          <h6 className="mt-4">Circle</h6>
+
+          <BorderExample>
+            <div className="border"></div>
+            <span className="mx-3">-></span>
+            <div className="border is-circle"></div>
+          </BorderExample>
+
+<SyntaxHighlighter language="html">
+{`<div class="has-border is-circle">...</div>`}
+</SyntaxHighlighter>
         </section>
       </BasePage>
     </>
