@@ -18,7 +18,7 @@ const App = () => {
 
         <div>
           <Link to="/docs/overview/start" className="button is-primary is-large mr-3" id="content">
-            İncele
+            İndir - v1.0.0
           </Link>
           
           <a href="https://github.com/omergulcicek/turkuaz" target="_blank" rel="noopener noreferrer" className="button is-secondary is-large">
@@ -28,137 +28,6 @@ const App = () => {
       </HomeSection>
 
       <HomeLibrarySection>
-        <article style={{"--color": "#4caf50", "--bg": "#4caf5026"}}>
-          <div>
-            <h2>Form</h2>
-
-            <nav>
-              <span>Input</span>
-              <span>Textarea</span>
-              <span>Select</span>
-              <span>Checkbox</span>
-              <span>Radio Button</span>
-              <span>Switch</span>
-            </nav>
-          </div>
-
-          <div>
-            <span>9 Form Elemanı</span>
-            <svg xmlns="http://www.w3.org/2000/svg" width="39" height="10" viewBox="0 0 39 10" fill="none">
-              <path d="M31 5H1" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="square"/>
-              <path d="M31 8.19575C31 8.98119 31.864 9.46003 32.53 9.04375L37.6432 5.848C38.2699 5.45633 38.2699 4.54367 37.6432 4.152L32.53 0.956249C31.864 0.539969 31 1.01881 31 1.80425V8.19575Z" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"/>
-            </svg>
-
-            <Link to="/docs/form" />
-          </div>
-        </article>
-        
-        <article style={{"--color": "#4a148c", "--bg": "#4a148c26"}}>
-          <div>
-            <h2>Element</h2>
-
-            <nav>
-              <span>Box</span>
-              <span>Button</span>
-              <span>Delete</span>
-              <span>Divider</span>
-              <span>Image</span>
-              <span>Notification</span>
-              <span>Progress Bar</span>
-              <span>Table</span>
-              <span>Tag</span>
-              <span>Title</span>
-              <span>Tooltip</span>
-            </nav>
-          </div>
-
-          <div>
-            <span>11 Element</span>
-            <svg xmlns="http://www.w3.org/2000/svg" width="39" height="10" viewBox="0 0 39 10" fill="none">
-              <path d="M31 5H1" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="square"/>
-              <path d="M31 8.19575C31 8.98119 31.864 9.46003 32.53 9.04375L37.6432 5.848C38.2699 5.45633 38.2699 4.54367 37.6432 4.152L32.53 0.956249C31.864 0.539969 31 1.01881 31 1.80425V8.19575Z" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"/>
-            </svg>
-
-            <Link to="/docs/elements" />
-          </div>
-        </article>
-        
-        <article style={{"--color": "#ab47bc", "--bg": "#ab47bc26"}}>
-          <div>
-            <h2>Bileşen</h2>
-
-            <nav>
-              <span>Breadcrumb</span>
-              <span>Card</span>
-              <span>Dropdown</span>
-              <span>List</span>
-              <span>Media</span>
-              <span>Modal</span>
-              <span>Pagination</span>
-            </nav>
-          </div>
-
-          <div>
-            <span>7 Bileşen</span>
-            <svg xmlns="http://www.w3.org/2000/svg" width="39" height="10" viewBox="0 0 39 10" fill="none">
-              <path d="M31 5H1" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="square"/>
-              <path d="M31 8.19575C31 8.98119 31.864 9.46003 32.53 9.04375L37.6432 5.848C38.2699 5.45633 38.2699 4.54367 37.6432 4.152L32.53 0.956249C31.864 0.539969 31 1.01881 31 1.80425V8.19575Z" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"/>
-            </svg>
-
-            <Link to="/docs/components" />
-          </div>
-        </article>
-        
-        <article style={{"--color": "#C66395", "--bg": "#C6639526"}}>
-          <div>
-            <h2>SASS</h2>
-          </div>
-
-          <div>
-            <span>Farklı Plaftormlar</span>
-            <svg xmlns="http://www.w3.org/2000/svg" width="39" height="10" viewBox="0 0 39 10" fill="none">
-              <path d="M31 5H1" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="square"/>
-              <path d="M31 8.19575C31 8.98119 31.864 9.46003 32.53 9.04375L37.6432 5.848C38.2699 5.45633 38.2699 4.54367 37.6432 4.152L32.53 0.956249C31.864 0.539969 31 1.01881 31 1.80425V8.19575Z" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"/>
-            </svg>
-
-            <Link to="/docs/library/sass" />
-          </div>
-        </article>
-        
-        <article style={{"--color": "#61dafb", "--bg": "#61dafb26"}}>
-          <div>
-            <h2>React</h2>
-          </div>
-
-          <div>
-            <span>react.turkuazcss.com</span>
-            <svg xmlns="http://www.w3.org/2000/svg" width="39" height="10" viewBox="0 0 39 10" fill="none">
-              <path d="M31 5H1" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="square"/>
-              <path d="M31 8.19575C31 8.98119 31.864 9.46003 32.53 9.04375L37.6432 5.848C38.2699 5.45633 38.2699 4.54367 37.6432 4.152L32.53 0.956249C31.864 0.539969 31 1.01881 31 1.80425V8.19575Z" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"/>
-            </svg>
-
-            <Link to="/docs/library/react" />
-          </div>
-        </article>
-        
-        <article style={{"--color": "#4dba87", "--bg": "#4dba8726"}}>
-          <div>
-            <h2>Vue</h2>
-          </div>
-
-          <div>
-            <span>vue.turkuazcss.com</span>
-            <svg xmlns="http://www.w3.org/2000/svg" width="39" height="10" viewBox="0 0 39 10" fill="none">
-              <path d="M31 5H1" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="square"/>
-              <path d="M31 8.19575C31 8.98119 31.864 9.46003 32.53 9.04375L37.6432 5.848C38.2699 5.45633 38.2699 4.54367 37.6432 4.152L32.53 0.956249C31.864 0.539969 31 1.01881 31 1.80425V8.19575Z" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"/>
-            </svg>
-
-            <Link to="/docs/library/vue" />
-          </div>
-        </article>
-      </HomeLibrarySection>
-
-      <HomeLibrarySection hidden>
         <Link to="/docs/library/react">
           <article class="react">
             <h5>React</h5>
