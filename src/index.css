@@ -20,17 +20,6 @@ strong {
   font-weight: 600;
 }
 
-.container {
-  margin: auto;
-  width: 80%;
-}
-
-@media (min-width: 1024px) {
-  .container {
-    max-width: 1000px;
-  }
-}
-
 header a svg {
   height: 16px;
   margin-right: 4px;
@@ -43,8 +32,15 @@ aside {
 }
 
 section {
-  margin-bottom: 80px;
-  margin-top: 24px;
+  margin-bottom: 40px;
+  margin-top: 0;
+}
+
+@media (min-width: 768px) {
+  section {
+    margin-bottom: 80px;
+    margin-top: 24px;
+  }
 }
 
 section h2,
@@ -53,9 +49,17 @@ section h3 {
 }
 
 p {
-  font-size: 18px;
-  line-height: 27px;
-  margin-bottom: 24px;
+  font-size: 15px;
+  line-height: 24px;
+  margin-bottom: 16px;
+}
+
+@media (min-width: 768px) {
+  p {
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 24px;
+  }
 }
 
 pre {

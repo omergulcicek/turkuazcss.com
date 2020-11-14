@@ -9,26 +9,45 @@ export const HeaderStyled = styled.header`
 export const HeaderFlex = styled.div`
   align-items: center;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
 
-  nav a {
-    border-radius: 4px;
-    color: inherit;
-    font-size: 15px;
-    margin-bottom: 0;
-    margin-right: 4px;
-    padding: 8px 12px;
-    scroll-margin-top: 80px;
+  @media (min-width: 768px){
+    flex-direction: row;
+  }
 
-    &:hover,
-    &:focus,
-    &.active {
-      background-color: #fafafa;
-      text-decoration: none;
+  nav {
+    display: flex;
+    margin: 24px -4px 0;
+    padding: 4px;
+    overflow: auto;
+    width: 100%;
+
+    @media (min-width: 768px) {
+      margin-top: 0;
+      width: auto;
     }
 
-    &:first-child svg {
-      margin-right: 0
+    a {
+      border-radius: 4px;
+      color: inherit;
+      font-size: 15px;
+      margin-bottom: 0;
+      margin-right: 4px;
+      padding: 8px 12px;
+      scroll-margin-top: 80px;
+      white-space: nowrap;
+  
+      &:hover,
+      &:focus,
+      &.active {
+        background-color: #fafafa;
+        text-decoration: none;
+      }
+  
+      &:first-child svg {
+        margin-right: 0
+      }
     }
   }
 `;
@@ -44,6 +63,8 @@ export const Brand = styled.span`
 
   span {
     color: #191919;
+    font-size: 12px;
+    margin-left: 8px;
   }
 
   a {
@@ -60,24 +81,11 @@ export const Brand = styled.span`
 
 export const MainStyled = styled.main`
   flex: 1;
-  margin: 40px auto;
-  width: 90%;
+  margin-bottom: 40px;
+  margin-top: 40px;
 
   & > section:first-of-type .breadcrumb a {
     scroll-margin-top: 160px;
-  }
-  
-  @media (min-width: 576px){
-    max-width:540px
-  }
-  @media (min-width: 768px){
-    max-width:720px
-  }
-  @media (min-width: 992px){
-    max-width:960px
-  }
-  @media (min-width: 1200px){
-    max-width:1000px
   }
 `;
 
@@ -159,7 +167,7 @@ export const HomeSection = styled.section`
     left: -3px;
     line-height: 1;
     margin-bottom: 24px;
-    margin-top: 15%;
+    margin-top: 6%;
     position: relative;
     
     @media (min-width: 1024px) {
@@ -246,7 +254,7 @@ export const BaseTempStyled = styled.section`
     position: relative;
     text-decoration: none;
     transition: .15s ease;
-    width: 50%;
+    width: 100%;
     vertical-align: top;
 
     &:hover,
@@ -254,13 +262,32 @@ export const BaseTempStyled = styled.section`
       background-color: #f7f7f7;
       text-decoration: none;
     }
+    
+    @media (min-width: 768px){
+      width: 50%;
+    }
+  }
+`;
+
+export const BaseTempTitleStyled = styled.h1`
+  font-size: 24px;
+  line-height: 1.5;
+  margin-bottom: 0px;
+
+  @media (min-width: 768px){
+    font-size: 40px;
   }
 `;
 
 export const BaseTempDescStyled = styled.h2`
   color: #7a7a7a;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 100;
+  line-height: 1.5;
+
+  @media (min-width: 768px){
+    font-size: 24px;
+  }
 `;
 
 export const ItemId = styled.span`
@@ -322,12 +349,26 @@ export const TurquoiseColor = styled.span`
 `;
 
 export const Library = styled.section`
+  svg {
+    height: 64px;
+  }
+
   span {
     color: #aaa;
     display: inline-block;
     font-size: 30px;
     line-height: 30px;
-    margin: 0 20px;
+    margin: 0 8px;
+  }
+
+  @media (min-width: 768px) {
+    svg {
+      height: auto;
+    }
+
+    span {
+      margin: 0 20px;
+    }
   }
 `;
 
@@ -362,7 +403,7 @@ export const Theme = styled.article`
   margin-bottom: 40px;
 
   figure {
-    height: 242px;
+    max-height: 242px;
     overflow: hidden;
 
     img {

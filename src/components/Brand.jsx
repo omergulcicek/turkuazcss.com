@@ -6,7 +6,7 @@ import { Brand } from "./Styled"
 function App() {
   return (
     <>
-      <Brand><Link to="/">turkuaz<span>css</span></Link></Brand>
+      <Brand><Link to="/">turkuaz <span>v1.0.0</span></Link></Brand>
     </>
   );
 }

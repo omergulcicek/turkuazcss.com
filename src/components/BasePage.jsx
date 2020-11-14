@@ -12,50 +12,59 @@ class BasePage extends Component {
       <>
         <SEO title={title} />
 
-        <BasePageHeader
-          title={title}
-          desc={desc}
-          breadcrumb={breadcrumb}
-        />
+        <div className="container">
+          <BasePageHeader
+            title={title}
+            desc={desc}
+            breadcrumb={breadcrumb}
+          />
+        </div>
 
-        { children }
+        <div className="container">
+          { children }
+        </div>
 
         {
           content && 
-          <BasePageContent content={content} />
+
+          <div className="container">
+            <BasePageContent content={content} />
+          </div>
         }
 
-        {
-          pagination &&
-          
-          <Pagination>
-            <Link to={pagination.prev.href} className="button is-link is-small">
-              <svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512" height="16"><path fill="currentColor" d="M192 127.338v257.324c0 17.818-21.543 26.741-34.142 14.142L29.196 270.142c-7.81-7.81-7.81-20.474 0-28.284l128.662-128.662c12.599-12.6 34.142-3.676 34.142 14.142z"></path></svg>
-              {pagination.prev.text}
-            </Link>
-
-            {
-              editlink &&
-              
-              <a href={`https://github.com/omergulcicek/turkuazcss.com/blob/master/src/pages/${editlink}.jsx`} class="tooltip" data-content="Bu sayfayı düzenle" target="_blank" rel="noopener noreferrer">
-              <svg aria-hidden="true" role="img" viewBox="0 0 576 512" height="16"><path fill="#191919" d="M402.3 344.9l32-32c5-5 13.7-1.5 13.7 5.7V464c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V112c0-26.5 21.5-48 48-48h273.5c7.1 0 10.7 8.6 5.7 13.7l-32 32c-1.5 1.5-3.5 2.3-5.7 2.3H48v352h352V350.5c0-2.1.8-4.1 2.3-5.6zm156.6-201.8L296.3 405.7l-90.4 10c-26.2 2.9-48.5-19.2-45.6-45.6l10-90.4L432.9 17.1c22.9-22.9 59.9-22.9 82.7 0l43.2 43.2c22.9 22.9 22.9 60 .1 82.8zM460.1 174L402 115.9 216.2 301.8l-7.3 65.3 65.3-7.3L460.1 174zm64.8-79.7l-43.2-43.2c-4.1-4.1-10.8-4.1-14.8 0L436 82l58.1 58.1 30.9-30.9c4-4.2 4-10.8-.1-14.9z"></path></svg>
-            </a>
-            }
+        <div className="container">
+          {
+            pagination &&
             
-            {
-              pagination.next ?
-            
-              <Link to={pagination.next.href} className="button is-link is-small">
-                {pagination.next.text}
-                <svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512" height="16"><path fill="currentColor" d="M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z"></path></svg>
+            <Pagination>
+              <Link to={pagination.prev.href} className="button is-link is-small">
+                <svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512" height="16"><path fill="currentColor" d="M192 127.338v257.324c0 17.818-21.543 26.741-34.142 14.142L29.196 270.142c-7.81-7.81-7.81-20.474 0-28.284l128.662-128.662c12.599-12.6 34.142-3.676 34.142 14.142z"></path></svg>
+                {pagination.prev.text}
               </Link>
 
-              :
+              {
+                editlink &&
+                
+                <a href={`https://github.com/omergulcicek/turkuazcss.com/blob/master/src/pages/${editlink}.jsx`} class="tooltip" data-content="Bu sayfayı düzenle" target="_blank" rel="noopener noreferrer">
+                <svg aria-hidden="true" role="img" viewBox="0 0 576 512" height="16"><path fill="#191919" d="M402.3 344.9l32-32c5-5 13.7-1.5 13.7 5.7V464c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V112c0-26.5 21.5-48 48-48h273.5c7.1 0 10.7 8.6 5.7 13.7l-32 32c-1.5 1.5-3.5 2.3-5.7 2.3H48v352h352V350.5c0-2.1.8-4.1 2.3-5.6zm156.6-201.8L296.3 405.7l-90.4 10c-26.2 2.9-48.5-19.2-45.6-45.6l10-90.4L432.9 17.1c22.9-22.9 59.9-22.9 82.7 0l43.2 43.2c22.9 22.9 22.9 60 .1 82.8zM460.1 174L402 115.9 216.2 301.8l-7.3 65.3 65.3-7.3L460.1 174zm64.8-79.7l-43.2-43.2c-4.1-4.1-10.8-4.1-14.8 0L436 82l58.1 58.1 30.9-30.9c4-4.2 4-10.8-.1-14.9z"></path></svg>
+              </a>
+              }
+              
+              {
+                pagination.next ?
+              
+                <Link to={pagination.next.href} className="button is-link is-small">
+                  {pagination.next.text}
+                  <svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512" height="16"><path fill="currentColor" d="M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z"></path></svg>
+                </Link>
 
-              <span></span>
-            }
-          </Pagination>
-        }
+                :
+
+                <span></span>
+              }
+            </Pagination>
+          }
+        </div>
       </>
     )
   }

@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import { Link } from "react-router-dom"
 
-import { BaseTempDescStyled } from "./Styled"
+import { BaseTempTitleStyled, BaseTempDescStyled } from "./Styled"
 
 class BaseTempHeader extends Component {
   getHref = (b, j) => {
@@ -33,11 +33,11 @@ class BaseTempHeader extends Component {
             </ul>
           </nav>
           
-          <h1>{ title }</h1>
+          <BaseTempTitleStyled>{ title }</BaseTempTitleStyled>
 
           <BaseTempDescStyled dangerouslySetInnerHTML={{ __html: desc }} />
 
-          <hr className="my-5" />
+          <hr className="my-4" />
         </section>
       </>
     )

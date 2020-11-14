@@ -59,7 +59,7 @@ const App = () => {
                     <input type="password" className="input" />
                   </div>
 
-                  <div className="form-field d-flex justify-between">
+                  <div className="form-field d-flex is-justify-between">
                     <label>
                       <input type="checkbox" className="checkbox" id="remember-me" name="remember-me" />
                       <span>Beni hatırla</span>
@@ -74,7 +74,7 @@ const App = () => {
 
                   <div class="divider my-4" data-content="yada"></div>
 
-                  <div class="d-flex justify-between">
+                  <div class="d-flex">
                     <a className="button is-block" style={{color: "#3b5998"}}>
                       Facebook
                     </a>
@@ -127,7 +127,7 @@ const App = () => {
                     <InputMask mask="(599) 999 99 99" type="tel" placeholder="(5xx) xxx xx xx" className="input" />
                   </div>
 
-                  <div className="form-field d-flex justify-between">
+                  <div className="form-field">
                     <label>
                       <input type="checkbox" className="checkbox" name="type" />
                       <span><a href="javascript:;" data-href="uyelik-sozlesmesi">Üyelik sözleşmesi</a>ni ve <a href="javascript:;" data-href="aydinlatma-metni">aydınlatma metni</a>ni okuyup kabul ettiğinizi onaylıyorsunuz.</span>

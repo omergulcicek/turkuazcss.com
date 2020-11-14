@@ -17,8 +17,8 @@ const App = () => {
         </p>
 
         <div>
-          <Link to="/docs/overview/start" className="button is-primary is-large mr-3" id="content">
-            İndir - v1.0.0
+          <Link to="/docs" className="button is-primary is-large mr-3" id="content">
+            Dokümantasyon
           </Link>
           
           <a href="https://github.com/omergulcicek/turkuaz" target="_blank" rel="noopener noreferrer" className="button is-secondary is-large">

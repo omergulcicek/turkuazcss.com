@@ -20,7 +20,7 @@ class Header extends Component {
         <div className="container">
           <HeaderFlex>
             <Brand />
-
+            
             <nav>
               {nav}
             </nav>
