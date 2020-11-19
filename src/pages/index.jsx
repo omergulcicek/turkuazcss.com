@@ -69,6 +69,8 @@ import AboutPage from "./About"
 import TurkuazPage from "./about/Turkuaz"
 import BrandPage from "./about/Brand"
 
+import ErrPage from "./Err"
+
 /* Ana Sayfa */
 export function Home() {
   return (
@@ -419,5 +421,12 @@ export function About() {
 export function Brand() {
   return (
     <BrandPage />
+  )
+}
+
+/* Error */
+export function Err() {
+  return (
+    <ErrPage />
   )
 }

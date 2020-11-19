@@ -29,7 +29,9 @@ import {
 
   Examples, ExampleDetails,
 
-  About, Turkuaz, Brand
+  About, Turkuaz, Brand,
+
+  Err
   
 } from "./pages"
 
@@ -164,7 +166,8 @@ const App = () => {
           <Route path="/about/turkuaz" component={Turkuaz} />
 
           <Route path="/about/brand" component={Brand} />
-
+          
+          <Route component={Err} />
         </Switch>
       </Layout>
     </Router>
