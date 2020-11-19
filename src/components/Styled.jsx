@@ -245,11 +245,14 @@ export const HomeLibrarySection = styled.section`
 `;
 
 export const BaseTempStyled = styled.section`
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-gap: 16px;
+
   a {
     border-radius: 8px;
     color: inherit;
     display: inline-block;
-    max-width: 410px;
     padding: 24px 24px 24px 88px;
     position: relative;
     text-decoration: none;
@@ -261,10 +264,6 @@ export const BaseTempStyled = styled.section`
     &:focus {
       background-color: #f7f7f7;
       text-decoration: none;
-    }
-    
-    @media (min-width: 768px){
-      width: 50%;
     }
   }
 `;
