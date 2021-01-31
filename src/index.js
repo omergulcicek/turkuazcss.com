@@ -1,7 +1,12 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import "./../node_modules/turkuaz/turkuaz.min.css";
-import "./index.css";
-import App from "./App";
+import React from "react"
+import ReactDOM from "react-dom"
+import App from "./App"
+import "../node_modules/turkuaz/turkuaz.min.css"
+import "./style.css"
 
-ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById("turkuaz")
+)
