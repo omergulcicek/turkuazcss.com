@@ -227,7 +227,7 @@ const InitialVariables = () => {
                 <code>font-family</code>
               </td>
               <td>
-                <code>-apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Open Sans"</code>
+                <code>-apple-system, BlinkMacSystemFont, "Segoe UI", "Inter"</code>
               </td>
             </tr>
             <tr>
@@ -239,6 +239,17 @@ const InitialVariables = () => {
               </td>
               <td>
                 <code>16px</code>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <code>$font-size-small</code>
+              </td>
+              <td>
+                <code>font-size</code>
+              </td>
+              <td>
+                <code>14px</code>
               </td>
             </tr>
             <tr>
@@ -305,50 +316,6 @@ const InitialVariables = () => {
               </td>
               <td>
                 <code>16px</code>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <code>$title-1</code>
-              </td>
-              <td>
-                <code>size</code>
-              </td>
-              <td>
-                <code>60px</code>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <code>$title-2</code>
-              </td>
-              <td>
-                <code>size</code>
-              </td>
-              <td>
-                <code>48px</code>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <code>$title-3</code>
-              </td>
-              <td>
-                <code>size</code>
-              </td>
-              <td>
-                <code>36px</code>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <code>$title-4</code>
-              </td>
-              <td>
-                <code>size</code>
-              </td>
-              <td>
-                <code>26px</code>
               </td>
             </tr>
             <tr>
@@ -425,7 +392,7 @@ const InitialVariables = () => {
                 <code>layout</code>
               </td>
               <td>
-                <code>15px</code>
+                <code>16px</code>
               </td>
             </tr>
             <tr>
@@ -514,6 +481,116 @@ const InitialVariables = () => {
               </td>
               <td>
                 <code>320px</code>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <code>$text-opacity</code>
+              </td>
+              <td>
+                <code>generic</code>
+              </td>
+              <td>
+                <code>0.8</code>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <code>$shadow</code>
+              </td>
+              <td>
+                <code>generic</code>
+              </td>
+              <td>
+                <code>0 0 0 3px rgba(0, 209, 178, 0.25)</code>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <code>$radius</code>
+              </td>
+              <td>
+                <code>generic</code>
+              </td>
+              <td>
+                <code>4px</code>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <code>$spacer</code>
+              </td>
+              <td>
+                <code>generic</code>
+              </td>
+              <td>
+                <code>16px</code>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <code>$transition</code>
+              </td>
+              <td>
+                <code>generic</code>
+              </td>
+              <td>
+                <code>200ms ease-out</code>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <code>$disabled</code>
+              </td>
+              <td>
+                <code>generic</code>
+              </td>
+              <td>
+                <code>0.5</code>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <code>$title-1</code>
+              </td>
+              <td>
+                <code>size</code>
+              </td>
+              <td>
+                <code>60px</code>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <code>$title-2</code>
+              </td>
+              <td>
+                <code>size</code>
+              </td>
+              <td>
+                <code>48px</code>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <code>$title-3</code>
+              </td>
+              <td>
+                <code>size</code>
+              </td>
+              <td>
+                <code>36px</code>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <code>$title-4</code>
+              </td>
+              <td>
+                <code>size</code>
+              </td>
+              <td>
+                <code>26px</code>
               </td>
             </tr>
           </tbody>

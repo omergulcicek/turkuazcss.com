@@ -27,8 +27,8 @@ export const obj = {
   editlink: "documentation/components/Media",
   pagination: {
     prev: {
-      href: "list",
-      text: "List"
+      href: "dropdown",
+      text: "Dropdown"
     },
     next: {
       href: "modal",
@@ -49,25 +49,11 @@ const App = () => {
             </figure>
 
             <div className="media_content">
-              <h5 className="media_title">Başlık</h5>
+              <strong>Başlık</strong>
 
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero id dolorum quod sapiente, qui dolores inventore officia ex illum voluptatem sint.
               </p>
-              
-              <div className="media">
-                <figure class="image is-64">
-                  <img src="https://via.placeholder.com/64" alt="" />
-                </figure>
-
-                <div className="media_content">
-                  <h5 className="media_title">Alt başlık</h5>
-                  
-                  <p>
-                    İstenirse bu şekilde iç içe media'lar eklenebilir.
-                  </p>
-                </div>
-              </div>
             </div>
           </div>
           </div>
@@ -80,7 +66,7 @@ const App = () => {
   </figure>
 
   <div class="media_content">
-    <h5 class="media_title">Başlık</h5>
+    <strong>Başlık</strong>
     
     <p>
       Yorum alanı

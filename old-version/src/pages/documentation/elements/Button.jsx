@@ -43,14 +43,14 @@ const App = () => {
       <section>
         <div className="row mb-3">
           <div className="col-12">
-            <a className="button mb-1">Button</a>
-            <a className="button is-primary mb-1">primary</a>
-            <a className="button is-secondary mb-1">secondary</a>
-            <a className="button is-success mb-1">success</a>
-            <a className="button is-warning mb-1">warning</a>
-            <a className="button is-danger mb-1">danger</a>
-            <a className="button is-info mb-1">info</a>
-            <a className="button is-link mb-1">link</a>
+            <a className="button mr-1 mb-1">Button</a>
+            <a className="button is-primary mr-1 mb-1">primary</a>
+            <a className="button is-secondary mr-1 mb-1">secondary</a>
+            <a className="button is-success mr-1 mb-1">success</a>
+            <a className="button is-warning mr-1 mb-1">warning</a>
+            <a className="button is-danger mr-1 mb-1">danger</a>
+            <a className="button is-info mr-1 mb-1">info</a>
+            <a className="button is-link mr-1 mb-1">link</a>
           </div>
         </div>
 
@@ -100,13 +100,13 @@ const App = () => {
         <div className="row mb-3">
           <div className="col-12">
             <p>
-              <a className="button mb-1" disabled>button</a>
-              <a className="button is-primary mb-1" disabled>primary</a>
-              <a className="button is-secondary mb-1" disabled>secondary</a>
-              <a className="button is-success mb-1" disabled>success</a>
-              <a className="button is-warning mb-1" disabled>warning</a>
-              <a className="button is-danger mb-1" disabled>danger</a>
-              <a className="button is-info mb-1" disabled>info</a>
+              <a className="button mr-1 mb-1" disabled>button</a>
+              <a className="button is-primary mr-1 mb-1" disabled>primary</a>
+              <a className="button is-secondary mr-1 mb-1" disabled>secondary</a>
+              <a className="button is-success mr-1 mb-1" disabled>success</a>
+              <a className="button is-warning mr-1 mb-1" disabled>warning</a>
+              <a className="button is-danger mr-1 mb-1" disabled>danger</a>
+              <a className="button is-info mr-1 mb-1" disabled>info</a>
             </p>
           </div>
 
@@ -121,12 +121,12 @@ const App = () => {
 
         <div className="row mb-3">
           <div className="col-12">
-            <a className="button is-outline is-primary mb-1">primary</a>
-            <a className="button is-outline is-secondary mb-1">secondary</a>
-            <a className="button is-outline is-success mb-1">success</a>
-            <a className="button is-outline is-warning mb-1">warning</a>
-            <a className="button is-outline is-danger mb-1">danger</a>
-            <a className="button is-outline is-info mb-1">info</a>
+            <a className="button is-outline is-primary mr-1 mb-1">primary</a>
+            <a className="button is-outline is-secondary mr-1 mb-1">secondary</a>
+            <a className="button is-outline is-success mr-1 mb-1">success</a>
+            <a className="button is-outline is-warning mr-1 mb-1">warning</a>
+            <a className="button is-outline is-danger mr-1 mb-1">danger</a>
+            <a className="button is-outline is-info mr-1 mb-1">info</a>
           </div>
 
           <div className="col-12 col-md-8">
@@ -145,9 +145,9 @@ const App = () => {
 
         <div className="row mb-3">
           <div className="col-12">
-            <a className="button is-circle is-small">S</a>
-            <a className="button is-circle">N</a>
-            <a className="button is-circle is-large">L</a>
+            <a className="button is-circle is-small mr-1">S</a>
+            <a className="button is-circle mr-1">N</a>
+            <a className="button is-circle is-large mr-1">L</a>
           </div>
 
           <div className="col-12 col-md-8">
@@ -163,9 +163,9 @@ const App = () => {
 
         <div className="row mb-3">
           <div className="col-12">
-            <a className="button is-square is-small">S</a>
-            <a className="button is-square">N</a>
-            <a className="button is-square is-large">L</a>
+            <a className="button is-square is-small mr-1">S</a>
+            <a className="button is-square mr-1">N</a>
+            <a className="button is-square is-large mr-1">L</a>
           </div>
 
           <div className="col-12 col-md-8">
@@ -181,9 +181,9 @@ const App = () => {
 
         <div className="row mb-3">
           <div className="col-12 col-md-6">
-            <a className="button is-block is-small mb-1">Small</a>
-            <a className="button is-block mb-1">Normal</a>
-            <a className="button is-block is-large mb-1">Large</a>
+            <a className="button is-block is-small mr-1 mb-1">Small</a>
+            <a className="button is-block mr-1 mb-1">Normal</a>
+            <a className="button is-block is-large mr-1 mb-1">Large</a>
           </div>
 
           <div className="col-12 col-md-8">
@@ -194,33 +194,6 @@ const App = () => {
             </SyntaxHighlighter>
           </div>
         </div>
-      </section>
-
-      <section>
-        <h3>Kombinasyon</h3>
-
-        <p>
-          Button elementinin içerisinde icon kullanabilirsiniz.
-        </p>
-
-        <div className="row mb-3">
-          <div className="col-12">
-            <a className="button">
-              <span>Button</span>
-              <span className="ml-2">
-                <svg aria-hidden="true" role="img" viewBox="0 0 576 512"><path fill="currentColor" d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
-                </span>
-            </a>
-          </div>
-        </div>
-
-        {
-          // TODO: Butonlara ikon ekle
-        }
-
-        <SyntaxHighlighter language="html">
-{``}
-        </SyntaxHighlighter>
       </section>
     </BasePage>
   )

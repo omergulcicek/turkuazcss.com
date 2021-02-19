@@ -69,37 +69,37 @@ const App = () => {
 
         <div className="row mb-3">
           <div className="col-12 col-md-6 col-lg-4">
-            <div className="notification">
+            <div className="notification mb-4">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. 
             </div>
           </div>
 
           <div className="col-12 col-md-6 col-lg-4">
-            <div className="notification is-primary">
+            <div className="notification is-primary mb-4">
               <strong>is-primary</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
             </div>
           </div>
 
           <div className="col-12 col-md-6 col-lg-4">
-            <div className="notification is-success">
+            <div className="notification is-success mb-4">
               <strong>is-success</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </div>
             
           </div>
           <div className="col-12 col-md-6 col-lg-4">
-            <div className="notification is-danger">
+            <div className="notification is-danger mb-4">
               <strong>is-danger</strong>  Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </div>
           </div>
 
           <div className="col-12 col-md-6 col-lg-4">
-            <div className="notification is-warning">
+            <div className="notification is-warning mb-4">
               <strong>is-warning</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </div>
           </div>
 
           <div className="col-12 col-md-6 col-lg-4">
-            <div className="notification is-info">
+            <div className="notification is-info mb-4">
               <strong>is-info</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </div>
           </div>

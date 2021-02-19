@@ -220,7 +220,7 @@ const DerivedVariables = () => {
                 <code>$font-family</code>
               </td>
               <td>
-                <code>-apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Open Sans"</code>
+                <code>-apple-system, BlinkMacSystemFont, "Segoe UI", "Inter"</code>
               </td>
             </tr>
 

@@ -43,45 +43,25 @@ const App = () => {
       <section>
         <div className="row mb-3">
           <div className="col-12 col-md-6 col-lg-4">
-            <span className="tag">Tag</span>
+            <span className="tag mr-1">tag</span>
+            <span className="tag is-primary mr-1">primary</span>
+            <span className="tag is-success mr-1">success</span>
+            <span className="tag is-warning mr-1">warning</span>
+            <span className="tag is-danger mr-1">danger</span>
+            <span className="tag is-info mr-1">info</span>
           </div>
         </div>
 
         <p>
           <SyntaxHighlighter language="html">
-{`<span class="tag">Tag</span>`}
+{`<span class="tag">tag</span>
+<span class="tag is-primary">primary</span>
+<span class="tag is-success">success</span>
+<span class="tag is-warning">warning</span>
+<span class="tag is-danger">danger</span>
+<span class="tag is-info">info</span>`}
           </SyntaxHighlighter>
         </p>
-
-        <p>
-          Sağ yada sol yanına daha koyu bir alan ekleyebilirsin.
-        </p>
-
-        <div className="row mb-3">
-          <div className="col-12 col-md-6 col-lg-4">
-            <span className="tag">
-              <span>versiyon</span>
-              <span className="tag_detail">1.0.0</span>
-            </span>
-            
-            <span className="tag">
-              <span className="tag_detail">1.0.0</span>
-              <span>versiyon</span>
-            </span>
-          </div>
-        </div>
-
-        <SyntaxHighlighter language="html">
-{`<span class="tag">
-  <span>versiyon</span>
-  <span class="tag_detail">1.0.0</span>
-</span>
-
-<span class="tag">
-  <span class="tag_detail">1.0.0</span>
-  <span>versiyon</span>
-</span>`}
-        </SyntaxHighlighter>
       </section>
     </BasePage>
   )

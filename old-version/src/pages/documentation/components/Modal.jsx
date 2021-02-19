@@ -75,7 +75,7 @@ const App = () => {
                 </div>
               </div>
               <div className="modal_footer">
-                <a className="button is-outline">İptal</a>
+                <a className="button is-outline mr-1">İptal</a>
                 <a className="button is-danger">Üyeliğimi kalıcı olarak sil</a>
               </div>
             </dialog>
@@ -104,7 +104,7 @@ const App = () => {
     </div>
   </div>
   <div class="modal_footer">
-    <a class="button is-outline">İptal</a>
+    <a class="button is-outline mr-1">İptal</a>
     <a class="button is-danger">Üyeliğimi kalıcı olarak sil</a>
   </div>
 </dialog>`}
@@ -139,7 +139,7 @@ const App = () => {
                   </div>
                 </div>
                 <div className="modal_footer">
-                  <a className="button">Kapat</a>
+                  <a className="button mr-1">Kapat</a>
                   <a className="button is-primary">Hemen dene!</a>
                 </div>
               </dialog>
@@ -191,7 +191,7 @@ const App = () => {
                   </div>
                 </div>
                 <div className="modal_footer">
-                  <a className="button">İptal</a>
+                  <a className="button mr-1">İptal</a>
                   <a className="button is-danger">Üyeliğimi kalıcı olarak sil</a>
                 </div>
               </dialog>
@@ -209,7 +209,7 @@ const App = () => {
                   </div>
                 </div>
                 <div className="modal_footer">
-                  <a className="button">Eski temada kal</a>
+                  <a className="button mr-1">Eski temada kal</a>
                   <a className="button is-info">Yeni temaya geç</a>
                 </div>
               </dialog>

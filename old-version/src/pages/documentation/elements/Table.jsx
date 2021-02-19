@@ -52,7 +52,7 @@ const App = () => {
           </thead>
           <tbody>
             <tr>
-              <th>1</th>
+              <td>1</td>
               <td>Ömer</td>
               <td>Gülçiçek</td>
               <td>
@@ -61,7 +61,7 @@ const App = () => {
             </tr>
 
             <tr>
-              <th>2</th>
+              <td>2</td>
               <td>Taner</td>
               <td>Alkan</td>
               <td>
@@ -70,7 +70,7 @@ const App = () => {
             </tr>
 
             <tr>
-              <th>3</th>
+              <td>3</td>
               <td>Önder</td>
               <td>Bakırtaş</td>
               <td>
@@ -92,7 +92,7 @@ const App = () => {
   </thead>
   <tbody>
     <tr>
-      <th>1</th>
+      <td>1</td>
       <td>Ömer</td>
       <td>Gülçiçek</td>
       <td>
@@ -101,139 +101,6 @@ const App = () => {
     </tr>
   </tbody>
 </table>`}
-        </SyntaxHighlighter>
-      </section>
-
-      <section>
-        <h3>Boyut</h3>
-
-        <p>
-          Table elementi 3 farklı boyuta sahiptir.
-        </p>
-
-        <table class="table is-small">
-          <thead>
-            <tr>
-              <th>#</th>
-              <th>Ad</th>
-              <th>Soyad</th>
-              <th>GitHub</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th>1</th>
-              <td>Ömer</td>
-              <td>Gülçiçek</td>
-              <td>
-                <a href="https://github.com/omergulcicek" target="_blank" rel="noopener noreferrer">@omergulcicek</a>
-              </td>
-            </tr>
-
-            <tr>
-              <th>2</th>
-              <td>Taner</td>
-              <td>Alkan</td>
-              <td>
-                <a href="https://github.com/tanerakhan" target="_blank" rel="noopener noreferrer">@tanerakhan</a>
-              </td>
-            </tr>
-
-            <tr>
-              <th>3</th>
-              <td>Önder</td>
-              <td>Bakırtaş</td>
-              <td>
-                <a href="https://github.com/onderbakirtas" target="_blank" rel="noopener noreferrer">@onderbakirtas</a>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-        
-        <table class="table">
-          <thead>
-            <tr>
-              <th>#</th>
-              <th>Ad</th>
-              <th>Soyad</th>
-              <th>GitHub</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th>1</th>
-              <td>Ömer</td>
-              <td>Gülçiçek</td>
-              <td>
-                <a href="https://github.com/omergulcicek" target="_blank" rel="noopener noreferrer">@omergulcicek</a>
-              </td>
-            </tr>
-
-            <tr>
-              <th>2</th>
-              <td>Taner</td>
-              <td>Alkan</td>
-              <td>
-                <a href="https://github.com/tanerakhan" target="_blank" rel="noopener noreferrer">@tanerakhan</a>
-              </td>
-            </tr>
-
-            <tr>
-              <th>3</th>
-              <td>Önder</td>
-              <td>Bakırtaş</td>
-              <td>
-                <a href="https://github.com/onderbakirtas" target="_blank" rel="noopener noreferrer">@onderbakirtas</a>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-
-        <table class="table is-large">
-          <thead>
-            <tr>
-              <th>#</th>
-              <th>Ad</th>
-              <th>Soyad</th>
-              <th>GitHub</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th>1</th>
-              <td>Ömer</td>
-              <td>Gülçiçek</td>
-              <td>
-                <a href="https://github.com/omergulcicek" target="_blank" rel="noopener noreferrer">@omergulcicek</a>
-              </td>
-            </tr>
-
-            <tr>
-              <th>2</th>
-              <td>Taner</td>
-              <td>Alkan</td>
-              <td>
-                <a href="https://github.com/tanerakhan" target="_blank" rel="noopener noreferrer">@tanerakhan</a>
-              </td>
-            </tr>
-
-            <tr>
-              <th>3</th>
-              <td>Önder</td>
-              <td>Bakırtaş</td>
-              <td>
-                <a href="https://github.com/onderbakirtas" target="_blank" rel="noopener noreferrer">@onderbakirtas</a>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-
-        <SyntaxHighlighter language="html">
-{`<table class="table is-small"> ... </table>
-
-<table class="table"> ... </table>
-
-<table class="table is-large"> ... </table>`}
         </SyntaxHighlighter>
       </section>
 
@@ -370,7 +237,7 @@ const App = () => {
           </div>
 
           <div className="col-12 col-md-auto">
-            <table class="table is-hoverable">
+            <table class="table is-hoverable mb-5">
             <thead>
                 <tr>
                   <th>1</th>

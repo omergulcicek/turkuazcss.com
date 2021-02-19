@@ -31,8 +31,8 @@ export const obj = {
       text: "Card"
     },
     next: {
-      href: "list",
-      text: "List"
+      href: "media",
+      text: "Media"
     }
   }
 }
@@ -56,12 +56,14 @@ const App = () => {
             <div className="dropdown">
               <a href="#!" className="button dropdown-trigger" onClick={e => dropdownToggle(e)}>click</a>
               
-              <div className="dropdown_menu">
-                <a className="dropdown_item" href="#!">Action</a>
-                <a className="dropdown_item" href="#!">Another action</a>
-                <a className="dropdown_item" href="#!">Something else here</a>
-                <div className="divider"></div>
-                <a className="dropdown_item" href="#!">Separated link</a>
+              <div className="dropdown_content">
+                <div className="dropdown_items">
+                  <a className="dropdown_item" href="#!">Action</a>
+                  <a className="dropdown_item" href="#!">Another action</a>
+                  <a className="dropdown_item" href="#!">Something else here</a>
+                  <div className="divider"></div>
+                  <a className="dropdown_item" href="#!">Separated link</a>
+                </div>
               </div>
             </div>
           </div>
@@ -71,12 +73,14 @@ const App = () => {
 {`<div class="dropdown">
   <a href="#!" class="button dropdown-trigger">:hover</a>
   
-  <div class="dropdown_menu">
-    <a class="dropdown_item" href="#!">Action</a>
-    <a class="dropdown_item" href="#!">Another action</a>
-    <a class="dropdown_item" href="#!">Something else here</a>
-    <div class="divider"></div>
-    <a class="dropdown_item" href="#!">Separated link</a>
+  <div class="dropdown_content">
+    <div class="dropdown_items">
+      <a class="dropdown_item" href="#!">Action</a>
+      <a class="dropdown_item" href="#!">Another action</a>
+      <a class="dropdown_item" href="#!">Something else here</a>
+      <div class="divider"></div>
+      <a class="dropdown_item" href="#!">Separated link</a>
+    </div>
   </div>
 </div>`}
         </SyntaxHighlighter>
@@ -92,12 +96,14 @@ const App = () => {
             <div className="dropdown is-hoverable">
               <a href="#!" className="button dropdown-trigger">:hover</a>
               
-              <div className="dropdown_menu">
-                <a className="dropdown_item" href="#!">Action</a>
-                <a className="dropdown_item" href="#!">Another action</a>
-                <a className="dropdown_item" href="#!">Something else here</a>
-                <div className="divider"></div>
-                <a className="dropdown_item" href="#!">Separated link</a>
+              <div className="dropdown_content">
+                <div className="dropdown_items">
+                  <a className="dropdown_item" href="#!">Action</a>
+                  <a className="dropdown_item" href="#!">Another action</a>
+                  <a className="dropdown_item" href="#!">Something else here</a>
+                  <div className="divider"></div>
+                  <a className="dropdown_item" href="#!">Separated link</a>
+                </div>
               </div>
             </div>
           </div>
@@ -108,11 +114,13 @@ const App = () => {
   <a href="#!" class="button dropdown-trigger">:hover</a>
 
   <div class="dropdown_menu">
-    <a class="dropdown_item" href="#!">Action</a>
-    <a class="dropdown_item" href="#!">Another action</a>
-    <a class="dropdown_item" href="#!">Something else here</a>
-    <div class="divider"></div>
-    <a class="dropdown_item" href="#!">Separated link</a>
+    <div class="dropdown_items">
+      <a class="dropdown_item" href="#!">Action</a>
+      <a class="dropdown_item" href="#!">Another action</a>
+      <a class="dropdown_item" href="#!">Something else here</a>
+      <div class="divider"></div>
+      <a class="dropdown_item" href="#!">Separated link</a>
+    </div>
   </div>
 </div>`}
             </SyntaxHighlighter>

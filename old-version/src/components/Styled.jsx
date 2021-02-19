@@ -54,19 +54,6 @@ export const HeaderFlex = styled.div`
 
 
 export const Brand = styled.span`
-  color: #26a69a;
-  cursor: default;
-  font-size: 24px;
-  font-weight: 600;
-  line-height: 1;
-  user-select: none;
-
-  span {
-    color: #191919;
-    font-size: 12px;
-    margin-left: 8px;
-  }
-
   a {
     color: inherit;
     font-size: inherit;
@@ -75,6 +62,10 @@ export const Brand = styled.span`
     &:focus {
       background-color: transparent;
       text-decoration: none
+    }
+
+    svg {
+      height: 32px
     }
   }
 `;
@@ -161,7 +152,8 @@ export const HomeSection = styled.section`
   text-align: center;
 
   h1 {
-    color: #191919;
+    color: #0e3e3a;
+    display: inline-block;
     font-size: 80px;
     font-weight: 700;
     left: -3px;
@@ -169,6 +161,20 @@ export const HomeSection = styled.section`
     margin-bottom: 24px;
     margin-top: 6%;
     position: relative;
+
+    &::after {
+      content: "";
+      border-radius: 4px;
+      position: absolute;
+      display: block;
+      background-color: #6eded3;
+      height: 40%;
+      width: 110%;
+      left: -8px;
+      opacity: 0.5;
+      bottom: 0;
+      z-index: -1;
+    }
     
     @media (min-width: 1024px) {
       font-size: 96px;
@@ -176,10 +182,10 @@ export const HomeSection = styled.section`
   }
 
   p {
-    color: #808291;
+    color: #9e9e9e;
     font-size: 20px;
     line-height: 27px;
-    margin-bottom: 30px;
+    margin-bottom: 32px;
   }
 `;
 
@@ -583,7 +589,7 @@ export const ModalExample = styled.div`
   .modal {
     animation: none;
     margin: 0 0 40px 0;
-    left: revert;
+    left: 0;
     position: relative;
     transform: inherit;
     width: 90%;

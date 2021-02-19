@@ -17,11 +17,11 @@ const App = () => {
         </p>
 
         <div>
-          <Link to="/docs" className="button is-primary is-large mr-3" id="content">
+          <Link to="/docs" className="button is-primary mr-3" id="content">
             Dokümantasyon
           </Link>
           
-          <a href="https://github.com/omergulcicek/turkuaz" target="_blank" rel="noopener noreferrer" className="button is-secondary is-large">
+          <a href="https://github.com/omergulcicek/turkuaz" target="_blank" rel="noopener noreferrer" className="button is-secondary">
             Github'ta İncele
           </a>
         </div>

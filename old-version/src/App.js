@@ -17,7 +17,7 @@ import {
 
   Elements, Box, Button, Delete, Divider, Image, Notification, Progress, Table, Tag, Title, Tooltip,
 
-  Components, Breadcrumb, Card, Dropdown, Footer, List, Media, Modal, Pagination,
+  Components, Breadcrumb, Card, Dropdown, Footer, Media, Modal, Pagination,
 
   Helpers, Grid, Flex, Border, Display, Embed, Spacing, Text,
 
@@ -121,8 +121,6 @@ const App = () => {
           <Route path="/docs/components/dropdown" component={Dropdown} />
           
           <Route path="/docs/components/footer" component={Footer} />
-          
-          <Route path="/docs/components/list" component={List} />
           
           <Route path="/docs/components/media" component={Media} />
           

@@ -43,7 +43,6 @@ import BreadcrumbPage from "./documentation/components/Breadcrumb"
 import CardPage from "./documentation/components/Card"
 import DropdownPage from "./documentation/components/Dropdown"
 import FooterPage from "./documentation/components/Footer"
-import ListPage from "./documentation/components/List"
 import MediaPage from "./documentation/components/Media"
 import ModalPage from "./documentation/components/Modal"
 import PaginationPage from "./documentation/components/Pagination"
@@ -306,11 +305,6 @@ export function Footer() {
   )
 }
 
-export function List() {
-  return (
-    <ListPage />
-  )
-}
 export function Media() {
   return (
     <MediaPage />
