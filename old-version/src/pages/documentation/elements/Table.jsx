@@ -62,19 +62,19 @@ const App = () => {
 
             <tr>
               <td>2</td>
-              <td>Taner</td>
-              <td>Alkan</td>
+              <td>Addy</td>
+              <td>Osmani</td>
               <td>
-                <a href="https://github.com/tanerakhan" target="_blank" rel="noopener noreferrer">@tanerakhan</a>
+                <a href="https://github.com/addyosmani" target="_blank" rel="noopener noreferrer">@addyosmani</a>
               </td>
             </tr>
 
             <tr>
               <td>3</td>
-              <td>Önder</td>
-              <td>Bakırtaş</td>
+              <td>Sara</td>
+              <td>Soueidan</td>
               <td>
-                <a href="https://github.com/onderbakirtas" target="_blank" rel="noopener noreferrer">@onderbakirtas</a>
+                <a href="https://github.com/sarasoueidan" target="_blank" rel="noopener noreferrer">@sarasoueidan</a>
               </td>
             </tr>
           </tbody>

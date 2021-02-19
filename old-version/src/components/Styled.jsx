@@ -61,11 +61,12 @@ export const Brand = styled.span`
     &:hover,
     &:focus {
       background-color: transparent;
+      box-shadow: none;
       text-decoration: none
     }
 
     svg {
-      height: 32px
+      height: 40px
     }
   }
 `;
