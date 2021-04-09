@@ -253,8 +253,12 @@ export const HomeLibrarySection = styled.section`
 
 export const BaseTempStyled = styled.section`
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   grid-gap: 16px;
+
+  @media (min-width: 768px){
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  }
 
   a {
     border-radius: 8px;
