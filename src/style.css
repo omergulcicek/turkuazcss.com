@@ -1,9 +1,0 @@
-#turkuaz {
-  display: grid;
-  grid-template-rows: 80px 1fr;
-  grid-template-columns: 280px 1fr;
-  grid-template-areas:
-    "header header header"
-    "aside main main"
-    "aside main main";
-}
