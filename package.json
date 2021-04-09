@@ -1,6 +1,7 @@
 {
   "name": "turkuazcss.com",
   "homepage": "https://turkuazcss.com",
+  "description": "Hızlı ve kolay web sayfaları geliştirin",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
