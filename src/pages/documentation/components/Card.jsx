@@ -45,7 +45,7 @@ const App = () => {
           <div className="col-12 col-md-6 col-lg-4">
             <div className="card">
               <figure className="card_image">
-                <img src="https://via.placeholder.com/640x480" alt="Placeholder image" />
+                <img src="https://via.placeholder.com/640x480" alt="Placeholder image" loading="lazy" />
               </figure>
       
               <div className="card_content">
@@ -64,7 +64,7 @@ const App = () => {
         <SyntaxHighlighter language="html">
 {`<div class="card">
   <figure class="card_image">
-    <img src="https://via.placeholder.com/640x480" alt="Placeholder image" />
+    <img src="https://via.placeholder.com/640x480" alt="Placeholder image" loading="lazy" />
   </figure>
 
   <div class="card_content">
@@ -91,7 +91,7 @@ const App = () => {
           <div className="col-12 col-md-6 col-lg-4">
             <div className="card is-small">
               <figure className="card_image">
-                <img src="https://via.placeholder.com/640x480" alt="Placeholder image" />
+                <img src="https://via.placeholder.com/640x480" alt="Placeholder image" loading="lazy" />
               </figure>
       
               <div className="card_content">
@@ -109,7 +109,7 @@ const App = () => {
           <div className="col-12 col-md-6 col-lg-4">
             <div className="card">
               <figure className="card_image">
-                <img src="https://via.placeholder.com/640x480" alt="Placeholder image" />
+                <img src="https://via.placeholder.com/640x480" alt="Placeholder image" loading="lazy" />
               </figure>
       
               <div className="card_content">
@@ -127,7 +127,7 @@ const App = () => {
           <div className="col-12 col-md-6 col-lg-4">
             <div className="card is-large">
               <figure className="card_image">
-                <img src="https://via.placeholder.com/640x480" alt="Placeholder image" />
+                <img src="https://via.placeholder.com/640x480" alt="Placeholder image" loading="lazy" />
               </figure>
       
               <div className="card_content">

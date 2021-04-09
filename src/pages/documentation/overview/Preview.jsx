@@ -120,41 +120,41 @@ const App = () => {
           <div className="col-12">
             <article className="text-center">
               <p>
-                <a className="button">Button</a>
-                <a className="button is-primary">primary</a>
-                <a className="button is-secondary">secondary</a>
-                <a className="button is-success">success</a>
-                <a className="button is-warning">warning</a>
-                <a className="button is-danger">danger</a>
-                <a className="button is-info">info</a>
+                <a className="button mr-1 mb-1">Button</a>
+                <a className="button is-primary mr-1 mb-1">primary</a>
+                <a className="button is-secondary mr-1 mb-1">secondary</a>
+                <a className="button is-success mr-1 mb-1">success</a>
+                <a className="button is-warning mr-1 mb-1">warning</a>
+                <a className="button is-danger mr-1 mb-1">danger</a>
+                <a className="button is-info mr-1 mb-1">info</a>
                 <a className="button is-link">link</a>
               </p>
 
               <p>
-                <a className="button is-outline">Button</a>
-                <a className="button is-outline is-primary">primary</a>
-                <a className="button is-outline is-secondary">secondary</a>
-                <a className="button is-outline is-success">success</a>
-                <a className="button is-outline is-warning">warning</a>
-                <a className="button is-outline is-danger">danger</a>
-                <a className="button is-outline is-info">info</a>
+                <a className="button is-outline mr-1 mb-1">Button</a>
+                <a className="button is-outline is-primary mr-1 mb-1">primary</a>
+                <a className="button is-outline is-secondary mr-1 mb-1">secondary</a>
+                <a className="button is-outline is-success mr-1 mb-1">success</a>
+                <a className="button is-outline is-warning mr-1 mb-1">warning</a>
+                <a className="button is-outline is-danger mr-1 mb-1">danger</a>
+                <a className="button is-outline is-info mr-1 mb-1">info</a>
                 <a className="button is-outline is-link">link</a>
               </p>
 
               <p>
-                <a className="button" disabled>Button</a>
-                <a className="button is-primary" disabled>primary</a>
-                <a className="button is-secondary" disabled>secondary</a>
-                <a className="button is-success" disabled>success</a>
-                <a className="button is-warning" disabled>warning</a>
-                <a className="button is-danger" disabled>danger</a>
-                <a className="button is-info" disabled>info</a>
+                <a className="button mr-1 mb-1" disabled>Button</a>
+                <a className="button is-primary mr-1 mb-1" disabled>primary</a>
+                <a className="button is-secondary mr-1 mb-1" disabled>secondary</a>
+                <a className="button is-success mr-1 mb-1" disabled>success</a>
+                <a className="button is-warning mr-1 mb-1" disabled>warning</a>
+                <a className="button is-danger mr-1 mb-1" disabled>danger</a>
+                <a className="button is-info mr-1 mb-1" disabled>info</a>
                 <a className="button is-link" disabled>link</a>
               </p>
 
               <p>
-                <a className="button is-small">Small</a>
-                <a className="button">Normal</a>
+                <a className="button is-small mr-1 mb-1">Small</a>
+                <a className="button mr-1 mb-1">Normal</a>
                 <a className="button is-large">Large</a>
               </p>
 
@@ -166,7 +166,7 @@ const App = () => {
 
           <div className="col-12 col-md-6">
             <article>
-              <div className="notification is-success">
+              <div className="notification is-success mb-3">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum accusantium facere officiis. Deleniti officiis dolorem fuga.
               </div>
 
@@ -194,7 +194,7 @@ const App = () => {
                 </ul>
               </nav>
 
-              <nav className="pagination">
+              <nav className="pagination mb-3">
                 <a href="javascript:;">«</a>
                 <a href="javascript:;" className="is-current">1</a>
                 <a href="javascript:;">2</a>
@@ -206,12 +206,14 @@ const App = () => {
                 <div class="dropdown is-hoverable">
                   <a href="javascript:;" class="button dropdown-trigger">:hover</a>
 
-                  <div class="dropdown_menu">
-                    <a class="dropdown_item" href="javascript:;">Action</a>
-                    <a class="dropdown_item" href="javascript:;">Another action</a>
-                    <a class="dropdown_item" href="javascript:;">Something else here</a>
-                    <div class="divider"></div>
-                    <a class="dropdown_item" href="javascript:;">Separated link</a>
+                  <div className="dropdown_content">
+                    <div class="dropdown_items">
+                      <a class="dropdown_item" href="javascript:;">Action</a>
+                      <a class="dropdown_item" href="javascript:;">Another action</a>
+                      <a class="dropdown_item" href="javascript:;">Something else here</a>
+                      <div class="divider"></div>
+                      <a class="dropdown_item" href="javascript:;">Separated link</a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -228,7 +230,7 @@ const App = () => {
                 <div className="col-12 col-md-4">
                   <div className="card is-small">
                     <figure className="card_image">
-                      <img src="https://via.placeholder.com/640x480" alt="Placeholder image" />
+                      <img src="https://via.placeholder.com/640x480" alt="Placeholder image" loading="lazy" />
                     </figure>
 
                     <div className="card_content">
@@ -246,7 +248,7 @@ const App = () => {
                 <div className="col-12 col-md-4">
                   <div className="card">
                     <figure className="card_image">
-                      <img src="https://via.placeholder.com/640x480" alt="Placeholder image" />
+                      <img src="https://via.placeholder.com/640x480" alt="Placeholder image" loading="lazy" />
                     </figure>
 
                     <div className="card_content">
@@ -264,7 +266,7 @@ const App = () => {
                 <div className="col-12 col-md-4">
                   <div className="card is-large">
                     <figure className="card_image">
-                      <img src="https://via.placeholder.com/640x480" alt="Placeholder image" />
+                      <img src="https://via.placeholder.com/640x480" alt="Placeholder image" loading="lazy" />
                     </figure>
 
                     <div className="card_content">

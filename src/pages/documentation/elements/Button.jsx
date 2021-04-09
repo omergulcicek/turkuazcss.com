@@ -180,7 +180,7 @@ const App = () => {
         <h6 className="mt-5">block</h6>
 
         <div className="row mb-3">
-          <div className="col-12 col-md-6">
+          <div className="col-12 col-md-8">
             <a className="button is-block is-small mr-1 mb-1">Small</a>
             <a className="button is-block mr-1 mb-1">Normal</a>
             <a className="button is-block is-large mr-1 mb-1">Large</a>

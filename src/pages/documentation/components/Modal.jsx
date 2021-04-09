@@ -118,7 +118,7 @@ const App = () => {
           Modal elementi 5 farklı renge sahiptir.
         </p>
           
-        <div className="notification is-info">
+        <div className="notification is-info mb-3">
           Modal'a eklenen class'lar yalnızca ikonun ve ikon yuvarlağının arka plan rengini değiştirir; butonlara müdahale etmez.
         </div>
 

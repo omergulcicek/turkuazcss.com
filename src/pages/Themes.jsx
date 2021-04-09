@@ -30,7 +30,7 @@ const App = () => {
               <Theme>
                 <Link to="themes/login-page">
                   <figure>
-                    <img src="https://picsum.photos/800/400" alt="" loading="lazy" />
+                    <img src="https://picsum.photos/800/400" alt="tema görsel" loading="lazy" />
                   </figure>
 
                   <div>

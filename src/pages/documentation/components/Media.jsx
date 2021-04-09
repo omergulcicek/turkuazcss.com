@@ -45,7 +45,7 @@ const App = () => {
           <div className="col-12 col-md-8">
             <div class="media">
             <figure class="image is-64">
-              <img src="https://via.placeholder.com/64" alt="" />
+              <img src="https://via.placeholder.com/64" alt="medya görseli" loading="lazy" />
             </figure>
 
             <div className="media_content">
@@ -62,7 +62,7 @@ const App = () => {
         <SyntaxHighlighter language="html">
 {`<div class="media">
   <figure class="image is-64">
-    <img src="https://via.placeholder.com/64" alt="" />
+    <img src="https://via.placeholder.com/64" alt="medya görseli" loading="lazy" />
   </figure>
 
   <div class="media_content">
