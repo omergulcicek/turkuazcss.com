@@ -19,7 +19,11 @@ class Header extends Component {
       <HeaderStyled>
         <div className="container">
           <HeaderFlex>
-            <Brand />
+            <div>
+              <Brand />
+              
+              <span class="tag ml-3">v0.47.0</span>
+            </div>
             
             <nav>
               {nav}
