@@ -22,7 +22,7 @@ class Header extends Component {
             <div>
               <Brand />
               
-              <span class="tag ml-3">v0.47.0</span>
+              <span class="tag ml-3">v0.48.0</span>
             </div>
             
             <nav>

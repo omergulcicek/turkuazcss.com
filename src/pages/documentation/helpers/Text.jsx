@@ -63,7 +63,7 @@ const App = () => {
             <code>text-capitalize</code> Bu yazının her kelimenin baş harfleri büyültülür.
           </p>
           <p className="line-clamp-2">
-            <code>line-clamp-2</code> Bu paragraf 2 satırdan sonra taşmayacak ve sonuna ... eklenecektir. Bu paragraf 2 satırdan sonra taşmayacak ve sonuna ... eklenecektir. Bu paragraf 2 satırdan sonra taşmayacak ve sonuna ... eklenecektir.Bu paragraf 2 satırdan sonra taşmayacak ve sonuna ... eklenecektir.
+            <code>line-clamp-2</code> Bu paragraf 2 satırdan sonra taşmayacak ve sonuna ... eklenecektir. Bu paragraf 2 satırdan sonra taşmayacak ve sonuna ... eklenecektir. Bu paragraf 2 satırdan sonra taşmayacak ve sonuna ... eklenecektir. Bu paragraf 2 satırdan sonra taşmayacak ve sonuna ... eklenecektir.
           </p>
 
 <SyntaxHighlighter language="html">

@@ -113,7 +113,7 @@ const App = () => {
 {`<div class="dropdown is-hoverable">
   <a href="#!" class="button dropdown-trigger">:hover</a>
 
-  <div class="dropdown_menu">
+  <div class="dropdown_content">
     <div class="dropdown_items">
       <a class="dropdown_item" href="#!">Action</a>
       <a class="dropdown_item" href="#!">Another action</a>

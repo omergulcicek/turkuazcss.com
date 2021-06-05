@@ -28,7 +28,7 @@ const App = () => {
       </HomeSection>
 
       <HomeLibrarySection>
-        <Link to="/docs/library/react">
+        <Link to="/">
           <article class="react">
             <h5>React</h5>
             <span>omergulcicek/<b>react-turkuaz</b></span>
@@ -36,7 +36,7 @@ const App = () => {
           </article>
       </Link>
 
-        <Link to="/docs/library/vue">
+        <Link to="/">
         <article class="vue">
           <h5>Vue</h5>
           <span>omergulcicek/<b>vue-turkuaz</b></span><svg xmlns="http://www.w3.org/2000/Svg" role="img" viewBox="0 0 256 221" height="48">

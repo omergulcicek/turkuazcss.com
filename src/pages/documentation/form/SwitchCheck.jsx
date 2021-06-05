@@ -43,16 +43,14 @@ const App = () => {
         <div className="row mb-3">
           <div className="col-12 col-md-6 col-lg-4">
             <div className="form-field">
-              <input type="checkbox" className="switch" id="switch" />
-              <label for="switch"></label>
+              <input type="checkbox" className="switch" />
             </div>
           </div>
         </div>
 
         <SyntaxHighlighter language="html">
 {`<div class="form-field">
-  <input type="checkbox" class="switch" id="switch" />
-  <label for="switch"></label>
+  <input type="checkbox" className="switch" />
 </div>`}
         </SyntaxHighlighter>
 
