@@ -48,8 +48,12 @@ const App = () => {
             React ile geliştirmekte olduğun projeye <strong>react-turkuaz</strong> paketini dahil ederek, Turkuaz'ın harika bileşenlerini kullanmaya başlayabilirsin. Detaylı doküman için;
           </p>
 
+          <p className="title is-size-4" style={{color: "#f44336"}}>
+            Hazır değil.
+          </p>
+
           <p className="mt-2">
-            <a href="https://react.turkuazcss.com" className="button is-primary is-outline" target="_blank" rel="noopener noreferrer">
+            <a className="button" target="_blank" rel="noopener noreferrer" disabled>
               react.turkuazcss.com
             </a>
           </p>

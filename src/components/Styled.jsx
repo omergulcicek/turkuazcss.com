@@ -218,7 +218,15 @@ export const HomeLibrarySection = styled.section`
     }
 
     svg {
-      margin-top: 16px
+      margin-top: 16px;
+      max-height: 64px;
+    }
+
+    small {
+      color: #f44336;
+      margin-top: 8px;
+      opacity: 0;
+      transition: .3s;
     }
   }
 
@@ -246,6 +254,10 @@ export const HomeLibrarySection = styled.section`
 
       span {
         color: #202124;
+      }
+
+      small {
+        opacity: 1;
       }
     }
   }
